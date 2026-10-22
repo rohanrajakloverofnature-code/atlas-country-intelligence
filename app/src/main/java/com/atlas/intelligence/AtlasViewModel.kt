@@ -27,7 +27,11 @@ data class AtlasState(
     val newsError: String? = null,
     val query: String = "",
     val watchlist: Set<String> = setOf("IND", "USA", "CHN"),
-    val tab: String = "Overview"
+    val tab: String = "Overview",
+    val compareCountries: List<Country> = emptyList(),
+    val comparison: Map<String, CountryDashboard> = emptyMap(),
+    val comparisonLoading: Boolean = false,
+    val comparisonError: String? = null
 )
 
 class AtlasViewModel(application: Application) : AndroidViewModel(application) {
@@ -38,6 +42,8 @@ class AtlasViewModel(application: Application) : AndroidViewModel(application) {
     private var dashboardJob: Job? = null
     private var newsJob: Job? = null
     private var newsRequestedAt = 0L
+    private var comparisonJob: Job? = null
+    private var comparisonGeneration = 0L
 
     init { loadCountries() }
 
@@ -139,4 +145,34 @@ class AtlasViewModel(application: Application) : AndroidViewModel(application) {
             it.copy(watchlist = updated)
         }
     }
+
+    /** Comparison is deliberately isolated from the selected dashboard and watchlist. */
+    fun setComparisonCountries(countries: List<Country>) {
+        val selected = countries.distinctBy { it.iso3 }.take(3)
+        comparisonGeneration += 1
+        comparisonJob?.cancel()
+        _state.update { it.copy(compareCountries = selected, comparison = emptyMap(), comparisonLoading = selected.size >= 2, comparisonError = null) }
+        if (selected.size < 2) return
+        val generation = comparisonGeneration
+        comparisonJob = viewModelScope.launch {
+            try {
+                val loaded = selected.map { country -> country.iso3 to repository.dashboard(country, false) }.toMap()
+                if (generation == comparisonGeneration && _state.value.compareCountries.map { it.iso3 } == selected.map { it.iso3 }) {
+                    _state.update { it.copy(comparison = loaded, comparisonLoading = false, comparisonError = null) }
+                }
+            } catch (cancelled: CancellationException) { throw cancelled }
+            catch (_: Exception) {
+                if (generation == comparisonGeneration) _state.update { it.copy(comparisonLoading = false, comparisonError = "Comparison data could not be loaded. Try again.") }
+            }
+        }
+    }
+
+    fun addComparisonCountry(country: Country) {
+        val current = _state.value.compareCountries
+        if (current.none { it.iso3 == country.iso3 } && current.size < 3) setComparisonCountries(current + country)
+    }
+
+    fun removeComparisonCountry(country: Country) = setComparisonCountries(_state.value.compareCountries.filterNot { it.iso3 == country.iso3 })
+
+    fun clearComparison() = setComparisonCountries(emptyList())
 }

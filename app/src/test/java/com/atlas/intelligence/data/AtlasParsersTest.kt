@@ -49,6 +49,26 @@ class AtlasParsersTest {
         assertNull(AtlasParsers.parseCachedSeries(gdp, JSONObject("""{"points":[]}"""), "old"))
     }
 
+    @Test fun mismatchedCountryAndIndicatorCannotContaminateDashboard() {
+        val payload = """[{},[
+            {"indicator":{"id":"NY.GDP.MKTP.CD"},"countryiso3code":"USA","date":"2025","value":100},
+            {"indicator":{"id":"FP.CPI.TOTL.ZG"},"countryiso3code":"IND","date":"2025","value":2.4}
+        ]]"""
+        assertNull(AtlasParsers.parseSeries(gdp, payload, "now", expectedCountry = "IND"))
+    }
+
+    @Test fun verifiedWorldBankInflationRetainsObservationYearAndPrecision() {
+        val inflation = MetricCatalog.all.first { it.id == "FP.CPI.TOTL.ZG" }
+        val payload = """[{"lastupdated":"2026-10-08"},[
+            {"indicator":{"id":"FP.CPI.TOTL.ZG"},"countryiso3code":"IND","date":"2025","value":2.39884954182294},
+            {"indicator":{"id":"FP.CPI.TOTL.ZG"},"countryiso3code":"IND","date":"2026","value":null}
+        ]]"""
+        val series = AtlasParsers.parseSeries(inflation, payload, "2026-10-22T19:22:00Z", expectedCountry = "IND")!!
+        assertEquals(Observation(2025, 2.39884954182294), series.points.single())
+        assertEquals("% annual", series.definition.unit)
+        assertEquals("2026-10-08", series.lastUpdated)
+    }
+
     @Test fun currentGovernanceCodesAndSourceArePreserved() {
         val governance = MetricCatalog.all.filter { it.category == "Governance" }
         assertEquals(6, governance.size)

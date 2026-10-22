@@ -4,6 +4,20 @@
 
 Atlas brings official annual statistics, historical charts, source provenance and publisher-attributed country briefings into a dark, focused interface. No WebView. No fabricated numbers. No account or API key required.
 
+## Version 0.2.0
+
+The original World Bank catalog, country directory and all 217 bundled country histories are unchanged. India's 2025 annual CPI inflation was checked against the official WDI API: `2.39884954182294%`, displayed rounded as `2.40%` (dataset updated 2026-10-08). Metric details expose the source API, units, original precision and observation year.
+
+**Government releases:** 25 reviewed India signals, 28 United States signals and 25 United Kingdom signals are separate from World Bank Governance. These are historical release snapshots, not live national-government API adapters or global coverage. Each signal identifies its exact period, unit, publisher and source URL. Monthly changes, fiscal years, rolling periods, seasonally adjusted annual rates and England-only geography are disclosed. Other countries show a coverage gap. Refresh updates World Bank data and news, not these bundled releases. Review the evidence tables before using `python3 tools/refresh_government_data.py`; this is an offline converter, not a live fetcher. India has an additional provenance validator, `python3 tools/verify_india_government.py`.
+
+**Comparison:** select two or three countries/economies from the full directory and any World Bank catalog metric. Plots use one unit and a shared actual-value scale, common calendar-year range cutoffs, clearly dated latest values and latest-common-year values where available. Missing observations remain missing. Comparison does not change the dashboard or watchlist.
+
+**Touch charts and units:** tap or drag horizontally to inspect a year, exact value and unit. Vertical gestures remain available to the enclosing screen. Plot paths and point geometry are cached independently of touch selection. Metric detail explains K/M/B/T abbreviations and retains original-precision tables.
+
+**Ranks:** 14 selected indicators have ranks calculated from bundled World Bank observations, **not official published World Bank rankings**. Each uses one metric/year and only reporting countries/economies, including territories. Ties use competition ranking (1,1,3). The year, denominator, highest/lowest-first direction and snapshot attribution are explicit. A rank is hidden if the displayed value differs from the stored snapshot. Sort direction is not a quality score. National-government signals and WGI estimates do not receive invented ranks. Rebuild with `python3 tools/build_indicator_ranks.py` after reviewing updated World Bank snapshots.
+
+Regression coverage includes startup/navigation, freshness, source periods and units, value-aware ranks, irregular-year hit testing, Android-runtime tap/drag/scroll tests and comparison isolation. These tests are not frame-rate benchmarking on a physical phone.
+
 ## What you can do
 
 - Search 217 countries and economies in the World Bank directory, including India, and switch dashboards.

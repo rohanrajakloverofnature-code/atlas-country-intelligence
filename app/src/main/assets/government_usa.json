@@ -1,0 +1,567 @@
+{
+  "country": "USA",
+  "retrievedAt": "2026-10-23",
+  "coverageNote": "Reviewed historical government release snapshots. Exact period and geography are shown per signal. No inferred history.",
+  "series": [
+    {
+      "id": "GOV.USA.unemployment_rate",
+      "title": "Unemployment rate (February 2026)",
+      "category": "Government",
+      "unit": "% of civilian labour force",
+      "description": "Unemployment rate for the civilian labor force.",
+      "sourceName": "U.S. Bureau of Labor Statistics",
+      "sourceOrganization": "U.S. Bureau of Labor Statistics",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+      "sourceNote": "Reference period: February 2026. Frequency: monthly. Release published: 2026-03-06. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 4.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-06",
+      "evidence": "Both the unemployment rate, at 4.4 percent, and the number of unemployed people, at 7.6 million, changed little in February."
+    },
+    {
+      "id": "GOV.USA.unemployed_people",
+      "title": "Unemployed people (February 2026)",
+      "category": "Government",
+      "unit": "million people",
+      "description": "Number of unemployed people in the civilian labor force.",
+      "sourceName": "U.S. Bureau of Labor Statistics",
+      "sourceOrganization": "U.S. Bureau of Labor Statistics",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+      "sourceNote": "Reference period: February 2026. Frequency: monthly. Release published: 2026-03-06. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 7.6
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-06",
+      "evidence": "Both the unemployment rate, at 4.4 percent, and the number of unemployed people, at 7.6 million, changed little in February."
+    },
+    {
+      "id": "GOV.USA.labor_force_participation",
+      "title": "Labor force participation rate (February 2026)",
+      "category": "Government",
+      "unit": "percent",
+      "description": "Share of the civilian noninstitutional population in the labor force.",
+      "sourceName": "U.S. Bureau of Labor Statistics",
+      "sourceOrganization": "U.S. Bureau of Labor Statistics",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+      "sourceNote": "Reference period: February 2026. Frequency: monthly. Release published: 2026-03-06. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 62.0
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-06",
+      "evidence": "Both the labor force participation rate, at 62.0 percent, and the employment-population ratio, at 59.3 percent, changed little in February."
+    },
+    {
+      "id": "GOV.USA.employment_population_ratio",
+      "title": "Employment-population ratio (February 2026)",
+      "category": "Government",
+      "unit": "% of civilian population age 16+",
+      "description": "Employed people as a share of the civilian noninstitutional population.",
+      "sourceName": "U.S. Bureau of Labor Statistics",
+      "sourceOrganization": "U.S. Bureau of Labor Statistics",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+      "sourceNote": "Reference period: February 2026. Frequency: monthly. Release published: 2026-03-06. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 59.3
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-06",
+      "evidence": "Both the labor force participation rate, at 62.0 percent, and the employment-population ratio, at 59.3 percent, changed little in February."
+    },
+    {
+      "id": "GOV.USA.nonfarm_payroll_change",
+      "title": "Change in total nonfarm payroll employment (February 2026)",
+      "category": "Government",
+      "unit": "thousand jobs",
+      "description": "Seasonally adjusted month-over-month change in total nonfarm payroll employment.",
+      "sourceName": "U.S. Bureau of Labor Statistics",
+      "sourceOrganization": "U.S. Bureau of Labor Statistics",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+      "sourceNote": "Reference period: February 2026. Frequency: monthly. Release published: 2026-03-06. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": -92
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-06",
+      "evidence": "Total nonfarm payroll employment edged down by 92,000 in February, and the unemployment rate changed little at 4.4 percent."
+    },
+    {
+      "id": "GOV.USA.long_term_unemployed",
+      "title": "Long-term unemployed people (February 2026)",
+      "category": "Government",
+      "unit": "million people",
+      "description": "People jobless for 27 weeks or more.",
+      "sourceName": "U.S. Bureau of Labor Statistics",
+      "sourceOrganization": "U.S. Bureau of Labor Statistics",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+      "sourceNote": "Reference period: February 2026. Frequency: monthly. Release published: 2026-03-06. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 1.9
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-06",
+      "evidence": "The number of long-term unemployed (those jobless for 27 weeks or more) changed little at 1.9 million in February."
+    },
+    {
+      "id": "GOV.USA.long_term_unemployed_share",
+      "title": "Long-term unemployed share of unemployed (February 2026)",
+      "category": "Government",
+      "unit": "percent",
+      "description": "Long-term unemployed as a share of all unemployed people.",
+      "sourceName": "U.S. Bureau of Labor Statistics",
+      "sourceOrganization": "U.S. Bureau of Labor Statistics",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+      "sourceNote": "Reference period: February 2026. Frequency: monthly. Release published: 2026-03-06. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 25.3
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-06",
+      "evidence": "The long-term unemployed accounted for 25.3 percent of all unemployed people in February."
+    },
+    {
+      "id": "GOV.USA.part_time_economic_reasons",
+      "title": "People working part time for economic reasons (February 2026)",
+      "category": "Government",
+      "unit": "million people",
+      "description": "People who wanted full-time work but worked part time because hours were reduced or full-time work was unavailable.",
+      "sourceName": "U.S. Bureau of Labor Statistics",
+      "sourceOrganization": "U.S. Bureau of Labor Statistics",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+      "sourceNote": "Reference period: February 2026. Frequency: monthly. Release published: 2026-03-06. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 4.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-06",
+      "evidence": "The number of people employed part time for economic reasons decreased by 477,000 to 4.4 million in February."
+    },
+    {
+      "id": "GOV.USA.cpi_monthly_change",
+      "title": "Consumer Price Index, all items, monthly change (February 2026)",
+      "category": "Government",
+      "unit": "percent",
+      "description": "Seasonally adjusted monthly change in CPI-U for all items.",
+      "sourceName": "U.S. Bureau of Labor Statistics",
+      "sourceOrganization": "U.S. Bureau of Labor Statistics",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+      "sourceNote": "Reference period: February 2026. Frequency: monthly. Release published: 2026-03-11. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 0.3
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-11",
+      "evidence": "The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.3 percent on a seasonally adjusted basis in February."
+    },
+    {
+      "id": "GOV.USA.cpi_12_month_change",
+      "title": "Consumer Price Index, all items, 12-month change (12 months ending February 2026)",
+      "category": "Government",
+      "unit": "percent",
+      "description": "Unadjusted 12-month change in CPI-U for all items.",
+      "sourceName": "U.S. Bureau of Labor Statistics",
+      "sourceOrganization": "U.S. Bureau of Labor Statistics",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+      "sourceNote": "Reference period: 12 months ending February 2026. Frequency: annual. Release published: 2026-03-11. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 2.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-11",
+      "evidence": "Over the last 12 months, the all items index increased 2.4 percent before seasonal adjustment."
+    },
+    {
+      "id": "GOV.USA.core_cpi_12_month_change",
+      "title": "Consumer Price Index excluding food and energy, 12-month change (12 months ending February 2026)",
+      "category": "Government",
+      "unit": "percent",
+      "description": "12-month change in CPI-U excluding food and energy.",
+      "sourceName": "U.S. Bureau of Labor Statistics",
+      "sourceOrganization": "U.S. Bureau of Labor Statistics",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+      "sourceNote": "Reference period: 12 months ending February 2026. Frequency: annual. Release published: 2026-03-11. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 2.5
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-11",
+      "evidence": "The all items less food and energy index rose 2.5 percent over the year."
+    },
+    {
+      "id": "GOV.USA.personal_income_monthly_change",
+      "title": "Personal income (January 2026)",
+      "category": "Government",
+      "unit": "percent monthly change",
+      "description": "Current-dollar personal income monthly growth rate.",
+      "sourceName": "U.S. Bureau of Economic Analysis",
+      "sourceOrganization": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+      "sourceNote": "Reference period: January 2026. Frequency: monthly. Release published: 2026-03-12. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 0.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-12",
+      "evidence": "Personal income increased $113.8 billion (0.4 percent at a monthly rate) in January."
+    },
+    {
+      "id": "GOV.USA.disposable_personal_income_monthly_change",
+      "title": "Disposable personal income (January 2026)",
+      "category": "Government",
+      "unit": "percent monthly change",
+      "description": "Disposable personal income monthly growth rate.",
+      "sourceName": "U.S. Bureau of Economic Analysis",
+      "sourceOrganization": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+      "sourceNote": "Reference period: January 2026. Frequency: monthly. Release published: 2026-03-12. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 0.9
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-12",
+      "evidence": "Disposable personal income (DPI)—personal income less personal current taxes—increased $219.9 billion (0.9 percent)."
+    },
+    {
+      "id": "GOV.USA.pce_monthly_change",
+      "title": "Personal consumption expenditures (January 2026)",
+      "category": "Government",
+      "unit": "percent monthly change",
+      "description": "Current-dollar personal consumption expenditures monthly growth rate.",
+      "sourceName": "U.S. Bureau of Economic Analysis",
+      "sourceOrganization": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+      "sourceNote": "Reference period: January 2026. Frequency: monthly. Release published: 2026-03-12. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 0.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-12",
+      "evidence": "Personal consumption expenditures (PCE) increased $81.1 billion (0.4 percent)."
+    },
+    {
+      "id": "GOV.USA.real_pce_monthly_change",
+      "title": "Real personal consumption expenditures (January 2026)",
+      "category": "Government",
+      "unit": "percent monthly change",
+      "description": "Real PCE monthly growth rate.",
+      "sourceName": "U.S. Bureau of Economic Analysis",
+      "sourceOrganization": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+      "sourceNote": "Reference period: January 2026. Frequency: monthly. Release published: 2026-03-12. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 0.1
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-12",
+      "evidence": "Real PCE increased $17.0 billion (0.1 percent at a monthly rate) in January."
+    },
+    {
+      "id": "GOV.USA.pce_price_index_monthly_change",
+      "title": "PCE price index (January 2026)",
+      "category": "Government",
+      "unit": "percent monthly change",
+      "description": "Monthly change in the PCE price index.",
+      "sourceName": "U.S. Bureau of Economic Analysis",
+      "sourceOrganization": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+      "sourceNote": "Reference period: January 2026. Frequency: monthly. Release published: 2026-03-12. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 0.3
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-12",
+      "evidence": "From the preceding month, the PCE price index for January increased 0.3 percent."
+    },
+    {
+      "id": "GOV.USA.core_pce_12_month_change",
+      "title": "PCE price index excluding food and energy (12 months ending January 2026)",
+      "category": "Government",
+      "unit": "percent 12-month change",
+      "description": "Year-over-year change in the PCE price index excluding food and energy.",
+      "sourceName": "U.S. Bureau of Economic Analysis",
+      "sourceOrganization": "U.S. Bureau of Economic Analysis",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+      "sourceNote": "Reference period: 12 months ending January 2026. Frequency: annual. Release published: 2026-03-12. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 3.1
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-12",
+      "evidence": "Excluding food and energy, the PCE price index increased 3.1 percent from one year ago."
+    },
+    {
+      "id": "GOV.USA.trade_deficit",
+      "title": "Goods and services trade deficit (January 2026)",
+      "category": "Government",
+      "unit": "billion USD",
+      "description": "Seasonally adjusted U.S. goods and services trade deficit.",
+      "sourceName": "U.S. Bureau of Economic Analysis and Census Bureau",
+      "sourceOrganization": "U.S. Bureau of Economic Analysis and Census Bureau",
+      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
+      "sourceNote": "Reference period: January 2026. Frequency: monthly. Release published: 2026-03-12. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 54.5
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-12",
+      "evidence": "The goods and services deficit was $54.5 billion in January, down $18.4 billion from $72.9 billion in December, revised."
+    },
+    {
+      "id": "GOV.USA.exports",
+      "title": "Exports of goods and services (January 2026)",
+      "category": "Government",
+      "unit": "billion USD",
+      "description": "Seasonally adjusted exports of goods and services.",
+      "sourceName": "U.S. Bureau of Economic Analysis and Census Bureau",
+      "sourceOrganization": "U.S. Bureau of Economic Analysis and Census Bureau",
+      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
+      "sourceNote": "Reference period: January 2026. Frequency: monthly. Release published: 2026-03-12. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 302.1
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-12",
+      "evidence": "Exports: $302.1 Billion +5.5%."
+    },
+    {
+      "id": "GOV.USA.imports",
+      "title": "Imports of goods and services (January 2026)",
+      "category": "Government",
+      "unit": "billion USD",
+      "description": "Seasonally adjusted imports of goods and services.",
+      "sourceName": "U.S. Bureau of Economic Analysis and Census Bureau",
+      "sourceOrganization": "U.S. Bureau of Economic Analysis and Census Bureau",
+      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
+      "sourceNote": "Reference period: January 2026. Frequency: monthly. Release published: 2026-03-12. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 356.6
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-12",
+      "evidence": "Imports: $356.6 Billion –0.7%."
+    },
+    {
+      "id": "GOV.USA.goods_exports",
+      "title": "Exports of goods (January 2026)",
+      "category": "Government",
+      "unit": "billion USD",
+      "description": "Exports of goods on the balance-of-payments basis.",
+      "sourceName": "U.S. Bureau of Economic Analysis and Census Bureau",
+      "sourceOrganization": "U.S. Bureau of Economic Analysis and Census Bureau",
+      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
+      "sourceNote": "Reference period: January 2026. Frequency: monthly. Release published: 2026-03-12. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 195.5
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-12",
+      "evidence": "Exports of goods increased $14.6 billion to $195.5 billion in January."
+    },
+    {
+      "id": "GOV.USA.services_imports",
+      "title": "Imports of services (January 2026)",
+      "category": "Government",
+      "unit": "billion USD",
+      "description": "Imports of services on the balance-of-payments basis.",
+      "sourceName": "U.S. Bureau of Economic Analysis and Census Bureau",
+      "sourceOrganization": "U.S. Bureau of Economic Analysis and Census Bureau",
+      "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
+      "sourceNote": "Reference period: January 2026. Frequency: monthly. Release published: 2026-03-12. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 79.3
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-12",
+      "evidence": "Imports of services increased $0.2 billion to $79.3 billion in January."
+    },
+    {
+      "id": "GOV.USA.building_permits",
+      "title": "Privately-owned housing units authorized by building permits (September 2026)",
+      "category": "Government",
+      "unit": "thousand units SAAR",
+      "description": "Seasonally adjusted annual rate of privately-owned housing units authorized by permits.",
+      "sourceName": "U.S. Census Bureau",
+      "sourceOrganization": "U.S. Census Bureau",
+      "sourceUrl": "https://www.census.gov/construction/nrc/current/index.html",
+      "sourceNote": "Reference period: September 2026. Frequency: monthly. Release published: 2026-10-19. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. SAAR = seasonally adjusted annual rate; not actual homes completed during one month. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 1400
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-10-19",
+      "evidence": "Privately-owned housing units authorized by building permits in September were at a seasonally adjusted annual rate of 1,400,000."
+    },
+    {
+      "id": "GOV.USA.housing_starts",
+      "title": "Privately-owned housing starts (September 2026)",
+      "category": "Government",
+      "unit": "thousand units SAAR",
+      "description": "Seasonally adjusted annual rate of privately-owned housing starts.",
+      "sourceName": "U.S. Census Bureau",
+      "sourceOrganization": "U.S. Census Bureau",
+      "sourceUrl": "https://www.census.gov/construction/nrc/current/index.html",
+      "sourceNote": "Reference period: September 2026. Frequency: monthly. Release published: 2026-10-19. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. SAAR = seasonally adjusted annual rate; not actual homes completed during one month. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 1221
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-10-19",
+      "evidence": "Privately-owned housing starts in September were at a seasonally adjusted annual rate of 1,221,000."
+    },
+    {
+      "id": "GOV.USA.housing_completions",
+      "title": "Privately-owned housing completions (September 2026)",
+      "category": "Government",
+      "unit": "thousand units SAAR",
+      "description": "Seasonally adjusted annual rate of privately-owned housing completions.",
+      "sourceName": "U.S. Census Bureau",
+      "sourceOrganization": "U.S. Census Bureau",
+      "sourceUrl": "https://www.census.gov/construction/nrc/current/index.html",
+      "sourceNote": "Reference period: September 2026. Frequency: monthly. Release published: 2026-10-19. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. SAAR = seasonally adjusted annual rate; not actual homes completed during one month. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 1192
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-10-19",
+      "evidence": "Privately-owned housing completions in September were at a seasonally adjusted annual rate of 1,192,000."
+    },
+    {
+      "id": "GOV.USA.new_home_sales",
+      "title": "Sales of new single-family houses (August 2026)",
+      "category": "Government",
+      "unit": "thousand homes SAAR",
+      "description": "Seasonally adjusted annual rate of new single-family home sales.",
+      "sourceName": "U.S. Census Bureau and Department of Housing and Urban Development",
+      "sourceOrganization": "U.S. Census Bureau and Department of Housing and Urban Development",
+      "sourceUrl": "https://www.census.gov/construction/nrs/current/index.html",
+      "sourceNote": "Reference period: August 2026. Frequency: monthly. Release published: 2026-09-24. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. SAAR = seasonally adjusted annual rate; not actual homes completed during one month. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 684
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-09-24",
+      "evidence": "Sales of new single-family houses in August 2026 were at a seasonally-adjusted annual rate of 684,000."
+    },
+    {
+      "id": "GOV.USA.retail_food_services_sales",
+      "title": "Retail and food services sales (September 2026)",
+      "category": "Government",
+      "unit": "billion USD",
+      "description": "Advance seasonally adjusted retail and food services sales, not adjusted for price changes.",
+      "sourceName": "U.S. Census Bureau",
+      "sourceOrganization": "U.S. Census Bureau",
+      "sourceUrl": "https://www.census.gov/retail/sales.html",
+      "sourceNote": "Reference period: September 2026. Frequency: monthly. Release published: 2026-10-15. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 745.0
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-10-15",
+      "evidence": "Advance estimates of U.S. retail and food services sales for September 2026 ... were $745.0 billion, up 0.8 percent from the previous month."
+    },
+    {
+      "id": "GOV.USA.retail_food_services_sales_yoy",
+      "title": "Retail and food services sales year-over-year change (September 2026)",
+      "category": "Government",
+      "unit": "percent",
+      "description": "Year-over-year change in advance retail and food services sales.",
+      "sourceName": "U.S. Census Bureau",
+      "sourceOrganization": "U.S. Census Bureau",
+      "sourceUrl": "https://www.census.gov/retail/sales.html",
+      "sourceNote": "Reference period: September 2026. Frequency: annual. Release published: 2026-10-15. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 6.3
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-10-15",
+      "evidence": "Advance estimates of U.S. retail and food services sales for September 2026 ... were $745.0 billion, up 0.8 percent (±0.4 percent) from the previous month, and up 6.3 percent (±0.5 percent) from September 2025."
+    }
+  ]
+}

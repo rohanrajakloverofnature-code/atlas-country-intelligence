@@ -1,0 +1,507 @@
+{
+  "country": "GBR",
+  "retrievedAt": "2026-10-23",
+  "coverageNote": "Reviewed historical government release snapshots. Exact period and geography are shown per signal. No inferred history.",
+  "series": [
+    {
+      "id": "GOV.GBR.cpi_annual",
+      "title": "Consumer Prices Index annual inflation (December 2025 (12 months to December))",
+      "category": "Government",
+      "unit": "%",
+      "description": "CPI annual rate for the United Kingdom.",
+      "sourceName": "ONS Consumer price inflation, UK: December 2025",
+      "sourceOrganization": "ONS Consumer price inflation, UK: December 2025",
+      "sourceUrl": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025",
+      "sourceNote": "Reference period: December 2025 (12 months to December). Frequency: monthly. Release published: 2026-01-21. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 3.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-01-21",
+      "evidence": "The Consumer Prices Index (CPI) rose by 3.4% in the 12 months to December 2025, up from 3.2% in the 12 months to November."
+    },
+    {
+      "id": "GOV.GBR.cpi_monthly",
+      "title": "Consumer Prices Index monthly inflation (December 2025)",
+      "category": "Government",
+      "unit": "%",
+      "description": "CPI month-on-month rate for the United Kingdom.",
+      "sourceName": "ONS Consumer price inflation, UK: December 2025",
+      "sourceOrganization": "ONS Consumer price inflation, UK: December 2025",
+      "sourceUrl": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025",
+      "sourceNote": "Reference period: December 2025. Frequency: monthly. Release published: 2026-01-21. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 0.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-01-21",
+      "evidence": "On a monthly basis, CPI rose by 0.4% in December 2025, compared with a rise of 0.3% in December 2024."
+    },
+    {
+      "id": "GOV.GBR.cpih_annual",
+      "title": "Consumer Prices Index including owner occupiers' housing costs annual inflation (December 2025 (12 months to December))",
+      "category": "Government",
+      "unit": "%",
+      "description": "CPIH annual rate for the United Kingdom.",
+      "sourceName": "ONS Consumer price inflation, UK: December 2025",
+      "sourceOrganization": "ONS Consumer price inflation, UK: December 2025",
+      "sourceUrl": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025",
+      "sourceNote": "Reference period: December 2025 (12 months to December). Frequency: monthly. Release published: 2026-01-21. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 3.6
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-01-21",
+      "evidence": "The Consumer Prices Index including owner occupiers' housing costs (CPIH) rose by 3.6% in the 12 months to December 2025, up from 3.5% in the 12 months to November."
+    },
+    {
+      "id": "GOV.GBR.cpih_monthly",
+      "title": "Consumer Prices Index including owner occupiers' housing costs monthly inflation (December 2025)",
+      "category": "Government",
+      "unit": "%",
+      "description": "CPIH month-on-month rate for the United Kingdom.",
+      "sourceName": "ONS Consumer price inflation, UK: December 2025",
+      "sourceOrganization": "ONS Consumer price inflation, UK: December 2025",
+      "sourceUrl": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025",
+      "sourceNote": "Reference period: December 2025. Frequency: monthly. Release published: 2026-01-21. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 0.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-01-21",
+      "evidence": "On a monthly basis, CPIH rose by 0.4% in December 2025, compared with a rise of 0.3% in December 2024."
+    },
+    {
+      "id": "GOV.GBR.core_cpih_annual",
+      "title": "Core CPIH annual inflation (December 2025 (12 months to December))",
+      "category": "Government",
+      "unit": "%",
+      "description": "CPIH excluding energy, food, alcohol and tobacco.",
+      "sourceName": "ONS Consumer price inflation, UK: December 2025",
+      "sourceOrganization": "ONS Consumer price inflation, UK: December 2025",
+      "sourceUrl": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025",
+      "sourceNote": "Reference period: December 2025 (12 months to December). Frequency: monthly. Release published: 2026-01-21. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 3.5
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-01-21",
+      "evidence": "Core CPIH (CPIH excluding energy, food, alcohol and tobacco) rose by 3.5% in the 12 months to December 2025, the same rate as the 12 months to November."
+    },
+    {
+      "id": "GOV.GBR.rpi_annual",
+      "title": "Retail Prices Index annual inflation (December 2025 (12 months to December))",
+      "category": "Government",
+      "unit": "%",
+      "description": "RPI annual rate for the United Kingdom.",
+      "sourceName": "ONS Consumer price inflation, UK: December 2025",
+      "sourceOrganization": "ONS Consumer price inflation, UK: December 2025",
+      "sourceUrl": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025",
+      "sourceNote": "Reference period: December 2025 (12 months to December). Frequency: monthly. Release published: 2026-01-21. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 4.2
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-01-21",
+      "evidence": "The annual RPI inflation rate was 4.2% in December 2025."
+    },
+    {
+      "id": "GOV.GBR.employment_rate",
+      "title": "Employment rate, people aged 16 to 64 years (October to December 2025)",
+      "category": "Government",
+      "unit": "%",
+      "description": "Seasonally adjusted UK employment rate for people aged 16 to 64.",
+      "sourceName": "ONS Employment in the UK: February 2026",
+      "sourceOrganization": "ONS Employment in the UK: February 2026",
+      "sourceUrl": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/february2026",
+      "sourceNote": "Reference period: October to December 2025. Frequency: quarterly. Release published: 2026-02-17. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 75.0
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-02-17",
+      "evidence": "In October to December 2025, the estimated UK employment rate decreased by 0.1 percentage points to 75.0%."
+    },
+    {
+      "id": "GOV.GBR.unemployment_rate",
+      "title": "Unemployment rate, people aged 16 years and over (October to December 2025)",
+      "category": "Government",
+      "unit": "%",
+      "description": "Seasonally adjusted UK unemployment rate for people aged 16 and over.",
+      "sourceName": "ONS Employment in the UK: February 2026",
+      "sourceOrganization": "ONS Employment in the UK: February 2026",
+      "sourceUrl": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/february2026",
+      "sourceNote": "Reference period: October to December 2025. Frequency: quarterly. Release published: 2026-02-17. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 5.2
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-02-17",
+      "evidence": "In October to December 2025, the UK unemployment rate increased by 0.2 percentage points to 5.2%."
+    },
+    {
+      "id": "GOV.GBR.inactivity_rate",
+      "title": "Economic inactivity rate, people aged 16 to 64 years (October to December 2025)",
+      "category": "Government",
+      "unit": "%",
+      "description": "Seasonally adjusted UK economic inactivity rate for people aged 16 to 64.",
+      "sourceName": "ONS Employment in the UK: February 2026",
+      "sourceOrganization": "ONS Employment in the UK: February 2026",
+      "sourceUrl": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/february2026",
+      "sourceNote": "Reference period: October to December 2025. Frequency: quarterly. Release published: 2026-02-17. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 20.8
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-02-17",
+      "evidence": "In October to December 2025, the UK economic inactivity rate decreased by 0.1 percentage points to 20.8%."
+    },
+    {
+      "id": "GOV.GBR.unemployed_thousands",
+      "title": "Unemployed people aged 16 years and over (October to December 2025)",
+      "category": "Government",
+      "unit": "thousands",
+      "description": "Estimated number of unemployed people in the UK aged 16 and over.",
+      "sourceName": "ONS Employment in the UK: February 2026",
+      "sourceOrganization": "ONS Employment in the UK: February 2026",
+      "sourceUrl": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/february2026",
+      "sourceNote": "Reference period: October to December 2025. Frequency: quarterly. Release published: 2026-02-17. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 1883
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-02-17",
+      "evidence": "Unemployment (thousands, aged 16 years and over) 1,883."
+    },
+    {
+      "id": "GOV.GBR.inactive_thousands",
+      "title": "Economically inactive people aged 16 to 64 years (October to December 2025)",
+      "category": "Government",
+      "unit": "thousands",
+      "description": "Estimated economically inactive population in the UK aged 16 to 64.",
+      "sourceName": "ONS Employment in the UK: February 2026",
+      "sourceOrganization": "ONS Employment in the UK: February 2026",
+      "sourceUrl": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/february2026",
+      "sourceNote": "Reference period: October to December 2025. Frequency: quarterly. Release published: 2026-02-17. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 9042
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-02-17",
+      "evidence": "Economically inactive (thousands, aged 16 to 64 years) 9,042."
+    },
+    {
+      "id": "GOV.GBR.weekly_hours",
+      "title": "Total weekly hours worked (October to December 2025)",
+      "category": "Government",
+      "unit": "million hours",
+      "description": "Total actual weekly hours worked in the UK.",
+      "sourceName": "ONS Employment in the UK: February 2026",
+      "sourceOrganization": "ONS Employment in the UK: February 2026",
+      "sourceUrl": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/february2026",
+      "sourceNote": "Reference period: October to December 2025. Frequency: quarterly. Release published: 2026-02-17. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 1093.1
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-02-17",
+      "evidence": "Total weekly hours (millions) 1,093.1."
+    },
+    {
+      "id": "GOV.GBR.gdp_monthly",
+      "title": "Real GDP monthly growth (February 2026)",
+      "category": "Government",
+      "unit": "%",
+      "description": "Month-on-month growth in UK real GDP.",
+      "sourceName": "ONS GDP monthly estimate, UK: February 2026",
+      "sourceOrganization": "ONS GDP monthly estimate, UK: February 2026",
+      "sourceUrl": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/february2026",
+      "sourceNote": "Reference period: February 2026. Frequency: monthly. Release published: 2026-04-16. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 0.5
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-04-16",
+      "evidence": "Monthly GDP grew by 0.5% in February 2026, following a growth of 0.1% in January 2026."
+    },
+    {
+      "id": "GOV.GBR.gdp_three_month",
+      "title": "Real GDP three-month growth (Three months to February 2026 versus three months to November 2025)",
+      "category": "Government",
+      "unit": "%",
+      "description": "UK real GDP growth over the latest rolling three-month period.",
+      "sourceName": "ONS GDP monthly estimate, UK: February 2026",
+      "sourceOrganization": "ONS GDP monthly estimate, UK: February 2026",
+      "sourceUrl": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/february2026",
+      "sourceNote": "Reference period: Three months to February 2026 versus three months to November 2025. Frequency: quarterly. Release published: 2026-04-16. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 0.5
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-04-16",
+      "evidence": "In the three months to February 2026, compared with the three months to November 2025: Real gross domestic product (GDP) grew by 0.5%."
+    },
+    {
+      "id": "GOV.GBR.services_output_three_month",
+      "title": "Services output three-month growth (Three months to February 2026 versus three months to November 2025)",
+      "category": "Government",
+      "unit": "%",
+      "description": "UK services output growth over the latest rolling three-month period.",
+      "sourceName": "ONS GDP monthly estimate, UK: February 2026",
+      "sourceOrganization": "ONS GDP monthly estimate, UK: February 2026",
+      "sourceUrl": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/february2026",
+      "sourceNote": "Reference period: Three months to February 2026 versus three months to November 2025. Frequency: quarterly. Release published: 2026-04-16. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 0.5
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-04-16",
+      "evidence": "Services output grew by 0.5% in the three months to February 2026."
+    },
+    {
+      "id": "GOV.GBR.production_output_three_month",
+      "title": "Production output three-month growth (Three months to February 2026 versus three months to November 2025)",
+      "category": "Government",
+      "unit": "%",
+      "description": "UK production output growth over the latest rolling three-month period.",
+      "sourceName": "ONS GDP monthly estimate, UK: February 2026",
+      "sourceOrganization": "ONS GDP monthly estimate, UK: February 2026",
+      "sourceUrl": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/february2026",
+      "sourceNote": "Reference period: Three months to February 2026 versus three months to November 2025. Frequency: quarterly. Release published: 2026-04-16. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 1.2
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-04-16",
+      "evidence": "Production output grew by 1.2% in the three months to February 2026."
+    },
+    {
+      "id": "GOV.GBR.construction_output_monthly",
+      "title": "Construction output monthly growth (February 2026)",
+      "category": "Government",
+      "unit": "%",
+      "description": "Month-on-month growth in UK construction output.",
+      "sourceName": "ONS GDP monthly estimate, UK: February 2026",
+      "sourceOrganization": "ONS GDP monthly estimate, UK: February 2026",
+      "sourceUrl": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/february2026",
+      "sourceNote": "Reference period: February 2026. Frequency: monthly. Release published: 2026-04-16. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2026,
+          "value": 1.0
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-04-16",
+      "evidence": "Services and production both grew by 0.5%, and construction grew by 1.0% in February 2026."
+    },
+    {
+      "id": "GOV.GBR.retail_volume_monthly",
+      "title": "Retail sales volume monthly growth (September 2025)",
+      "category": "Government",
+      "unit": "%",
+      "description": "Seasonally adjusted retail sales volume growth in Great Britain.",
+      "sourceName": "ONS Retail sales, Great Britain: September 2025",
+      "sourceOrganization": "ONS Retail sales, Great Britain: September 2025",
+      "sourceUrl": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/september2025",
+      "sourceNote": "Reference period: September 2025. Frequency: monthly. Release published: 2025-10-24. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 0.5
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2025-10-24",
+      "evidence": "Retail sales volumes are estimated to have risen by 0.5% in September 2025, following an increase of 0.6% in August 2025."
+    },
+    {
+      "id": "GOV.GBR.retail_volume_three_month",
+      "title": "Retail sales volume three-month growth (Three months to September 2025 (Quarter 3) versus three months to June 2025 (Quarter 2))",
+      "category": "Government",
+      "unit": "%",
+      "description": "Seasonally adjusted retail sales volume growth in Great Britain.",
+      "sourceName": "ONS Retail sales, Great Britain: September 2025",
+      "sourceOrganization": "ONS Retail sales, Great Britain: September 2025",
+      "sourceUrl": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/september2025",
+      "sourceNote": "Reference period: Three months to September 2025 (Quarter 3) versus three months to June 2025 (Quarter 2). Frequency: quarterly. Release published: 2025-10-24. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 0.9
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2025-10-24",
+      "evidence": "Sales volumes rose by 0.9% in the three months to September 2025 (Quarter 3) compared with the three months to June 2025 (Quarter 2)."
+    },
+    {
+      "id": "GOV.GBR.online_retail_value_monthly",
+      "title": "Online retail sales value monthly growth (September 2025)",
+      "category": "Government",
+      "unit": "%",
+      "description": "Seasonally adjusted online spending value growth in Great Britain.",
+      "sourceName": "ONS Retail sales, Great Britain: September 2025",
+      "sourceOrganization": "ONS Retail sales, Great Britain: September 2025",
+      "sourceUrl": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/september2025",
+      "sourceNote": "Reference period: September 2025. Frequency: monthly. Release published: 2025-10-24. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 1.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2025-10-24",
+      "evidence": "With the monthly series, sales values rose by 1.4% over the month to September 2025."
+    },
+    {
+      "id": "GOV.GBR.trade_exports",
+      "title": "UK total trade exports (2023)",
+      "category": "Government",
+      "unit": "£ billion",
+      "description": "Total UK exports of goods and services at current prices.",
+      "sourceName": "ONS International trade in UK nations, regions and cities: 2023",
+      "sourceOrganization": "ONS International trade in UK nations, regions and cities: 2023",
+      "sourceUrl": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/internationaltradeinuknationsregionsandcities/2023",
+      "sourceNote": "Reference period: 2023. Frequency: annual. Release published: 2025-08-06. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2023,
+          "value": 867.0
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2025-08-06",
+      "evidence": "Table 1 reports UK total trade exports of £867 billion in 2023."
+    },
+    {
+      "id": "GOV.GBR.trade_imports",
+      "title": "UK total trade imports (2023)",
+      "category": "Government",
+      "unit": "£ billion",
+      "description": "Total UK imports of goods and services at current prices.",
+      "sourceName": "ONS International trade in UK nations, regions and cities: 2023",
+      "sourceOrganization": "ONS International trade in UK nations, regions and cities: 2023",
+      "sourceUrl": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/internationaltradeinuknationsregionsandcities/2023",
+      "sourceNote": "Reference period: 2023. Frequency: annual. Release published: 2025-08-06. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2023,
+          "value": 896.1
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2025-08-06",
+      "evidence": "Table 1 reports UK total trade imports of £896.1 billion in 2023."
+    },
+    {
+      "id": "GOV.GBR.trade_balance",
+      "title": "UK total trade balance (2023)",
+      "category": "Government",
+      "unit": "£ billion",
+      "description": "UK total trade balance (exports minus imports) at current prices.",
+      "sourceName": "ONS International trade in UK nations, regions and cities: 2023",
+      "sourceOrganization": "ONS International trade in UK nations, regions and cities: 2023",
+      "sourceUrl": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/internationaltradeinuknationsregionsandcities/2023",
+      "sourceNote": "Reference period: 2023. Frequency: annual. Release published: 2025-08-06. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2023,
+          "value": -29.1
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2025-08-06",
+      "evidence": "The total UK trade deficit was £29.1 billion in 2023."
+    },
+    {
+      "id": "GOV.GBR.population",
+      "title": "UK mid-year population estimate (Mid-2025)",
+      "category": "Government",
+      "unit": "people",
+      "description": "ONS provisional UK population estimate at mid-2025.",
+      "sourceName": "ONS Population estimates",
+      "sourceOrganization": "ONS Population estimates",
+      "sourceUrl": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates",
+      "sourceNote": "Reference period: Mid-2025. Frequency: annual. Release published: 2025-11-27. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 69487000
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2025-11-27",
+      "evidence": "Time series related to Population estimates: 69,487,000 2025; Release date: 27 November 2025."
+    },
+    {
+      "id": "GOV.GBR.housing_affordability_england",
+      "title": "England median house-price-to-earnings ratio (2025 (house prices year ending September 2025; earnings April 2025))",
+      "category": "Government",
+      "unit": "ratio",
+      "description": "Median workplace-based housing affordability ratio for England.",
+      "sourceName": "ONS Housing affordability in England and Wales: 2025",
+      "sourceOrganization": "ONS Housing affordability in England and Wales: 2025",
+      "sourceUrl": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/housingaffordabilityinenglandandwales/2025",
+      "sourceNote": "Reference period: 2025 (house prices year ending September 2025; earnings April 2025). Frequency: annual. Release published: 2026-03-26. Historical release snapshot; not a live or necessarily latest value. Monthly and rolling/quarterly observations are not calendar-year annual averages. Geographic scope: England only, not the whole United Kingdom. ",
+      "points": [
+        {
+          "year": 2025,
+          "value": 7.6
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "publishedAt": "2026-03-26",
+      "evidence": "In 2025, the median average home in England, at £300,000, cost 7.6 times the median annual average earnings of a full-time employee (£39,300)."
+    }
+  ]
+}

@@ -49,11 +49,16 @@ internal object AtlasParsers {
         else -> raw.toString().trim()
     }
 
-    fun parseSeries(definition: MetricDefinition, text: String, retrievedAt: String, cached: Boolean = false): MetricSeries? {
+    fun parseSeries(definition: MetricDefinition, text: String, retrievedAt: String, cached: Boolean = false, expectedCountry: String? = null): MetricSeries? {
         val root = runCatching { JSONArray(text) }.getOrNull() ?: return null
         val metadata = root.optJSONObject(0); val rows = root.optJSONArray(1) ?: return null
         val points = (0 until rows.length()).mapNotNull { i ->
             val row = rows.optJSONObject(i) ?: return@mapNotNull null
+            // Reject misrouted API responses instead of attaching another series/country.
+            val indicator = row.optJSONObject("indicator")?.optString("id").orEmpty()
+            if (indicator.isNotBlank() && indicator != definition.id) return@mapNotNull null
+            val country = row.optString("countryiso3code")
+            if (expectedCountry != null && country.isNotBlank() && country != expectedCountry) return@mapNotNull null
             val year = row.optString("date").toIntOrNull() ?: return@mapNotNull null
             val number = when (val raw = row.opt("value")) { is Number -> raw.toDouble(); is String -> raw.toDoubleOrNull(); else -> null } ?: return@mapNotNull null
             if (!number.isFinite()) null else Observation(year, number)
@@ -114,6 +119,16 @@ class AtlasRepository(private val context: Context) {
     }
 
     suspend fun dashboard(country: Country, forceRefresh: Boolean): CountryDashboard = withContext(Dispatchers.IO) {
+        val worldBank = worldBankDashboard(country, forceRefresh)
+        val government = runCatching { GovernmentData.load(context, country) }.getOrDefault(emptyList())
+        val coverage = if (government.isEmpty())
+            "National-government release coverage is not yet verified for this country. World Bank coverage is unchanged."
+        else
+            "${government.size} national-government release signals are bundled snapshots, not live feeds. Check each exact reference period; these can differ from World Bank annual measures."
+        worldBank.copy(series = worldBank.series + government, warnings = worldBank.warnings + coverage)
+    }
+
+    private suspend fun worldBankDashboard(country: Country, forceRefresh: Boolean): CountryDashboard = withContext(Dispatchers.IO) {
         val stored = readDashboard(country)
         val bundled = loadSnapshotDashboard(country)
         val fallback = stored ?: bundled
@@ -151,7 +166,7 @@ class AtlasRepository(private val context: Context) {
 
     suspend fun news(country: Country): List<NewsItem> = withContext(Dispatchers.IO) { AtlasParsers.parseNews(get("https://feeds.bbci.co.uk/news/world/rss.xml"), countryAliases(country)).take(20) }
     private fun countryAliases(c: Country): Set<String> = buildSet { add(c.name.lowercase()); add(c.iso3.lowercase()); add(c.iso2.lowercase()); when (c.iso3.uppercase()) { "USA" -> addAll(setOf("united states", "united states of america", "america")); "GBR" -> addAll(setOf("united kingdom", "great britain", "britain", "england")); "ZAF" -> add("south africa"); "KOR" -> add("south korea"); "PRK" -> add("north korea") } }.filter { it.length > 2 }.toSet()
-    private suspend fun fetchSeries(country: Country, definition: MetricDefinition): MetricSeries? { val source = if (definition.sourceName.contains("source=3")) 3 else 2; return AtlasParsers.parseSeries(definition, get(indicatorUrl(base, country.iso3, definition.id, source)), now) }
+    private suspend fun fetchSeries(country: Country, definition: MetricDefinition): MetricSeries? { val source = if (definition.sourceName.contains("source=3")) 3 else 2; return AtlasParsers.parseSeries(definition, get(indicatorUrl(base, country.iso3, definition.id, source)), now, expectedCountry = country.iso3) }
     private suspend fun get(url: String): String = kotlinx.coroutines.suspendCancellableCoroutine { continuation ->
         val call = client.newCall(Request.Builder().url(url).header("Accept", "application/json, application/rss+xml, text/xml").build())
         continuation.invokeOnCancellation { call.cancel() }

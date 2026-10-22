@@ -1,0 +1,507 @@
+{
+  "country": "IND",
+  "retrievedAt": "2026-10-23",
+  "coverageNote": "Government-source observations only; one-point series are intentional where the official release is a point-in-time or period-specific release. Missing periods are not inferred.",
+  "series": [
+    {
+      "id": "GOV.IND.gdp_growth",
+      "title": "Real GDP growth (FY 2023-24)",
+      "category": "Government",
+      "unit": "% year-on-year",
+      "description": "Annual real GDP growth reported in the Economic Survey.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), real GDP at 2011-12 prices; fiscal year is represented by its ending year.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 8.2
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24: “real GDP growth ... was 8.2 per cent in 2023-24.”",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.per_capita_income",
+      "title": "Per-capita GDP growth (FY 2023-24)",
+      "category": "Government",
+      "unit": "% year-on-year",
+      "description": "Annual real per-capita GDP growth.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), real per-capita GDP growth; fiscal year represented by ending year.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 7.6
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, per-capita income table: real per-capita GDP growth for FY 2023-24 is 7.6 per cent.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.cpi_inflation",
+      "title": "CPI inflation (FY 2023-24)",
+      "category": "Government",
+      "unit": "% average",
+      "description": "Average consumer-price inflation for the fiscal year.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), average headline CPI inflation.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 5.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24: average headline CPI inflation was 5.4 per cent in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.fiscal_deficit",
+      "title": "Central fiscal deficit (FY 2023-24)",
+      "category": "Government",
+      "unit": "% of GDP",
+      "description": "Central government fiscal deficit.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), central government fiscal deficit as share of GDP; not general government.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 5.6
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24: central government fiscal deficit was 5.6 per cent of GDP in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.trade_exports",
+      "title": "Merchandise exports (FY 2023-24)",
+      "category": "Government",
+      "unit": "US$ billion",
+      "description": "Value of merchandise exports.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), merchandise exports; excludes services.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 437.1
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, external sector table: merchandise exports were US$437.1 billion in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.trade_imports",
+      "title": "Merchandise imports (FY 2023-24)",
+      "category": "Government",
+      "unit": "US$ billion",
+      "description": "Value of merchandise imports.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), merchandise imports; excludes services.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 675.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, external sector table: merchandise imports were US$675.4 billion in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.trade_deficit",
+      "title": "Merchandise trade deficit (FY 2023-24)",
+      "category": "Government",
+      "unit": "US$ billion",
+      "description": "Merchandise trade deficit.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), merchandise imports minus merchandise exports.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 238.3
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, external sector table: merchandise trade deficit was US$238.3 billion in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.services_exports",
+      "title": "Services exports (FY 2023-24)",
+      "category": "Government",
+      "unit": "US$ billion",
+      "description": "Value of services exports.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), services exports.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 341.1
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, external sector table: services exports were US$341.1 billion in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.current_account",
+      "title": "Current-account balance (FY 2023-24)",
+      "category": "Government",
+      "unit": "% of GDP",
+      "description": "Balance on the current account.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), current-account balance as share of GDP; negative means deficit.",
+      "points": [
+        {
+          "year": 2024,
+          "value": -0.7
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, balance-of-payments discussion: FY 2023-24 current-account deficit was 0.7 per cent of GDP.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.fdi_inflows",
+      "title": "FDI inflows (FY 2023-24)",
+      "category": "Government",
+      "unit": "US$ billion",
+      "description": "Gross foreign direct investment inflows.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), gross foreign direct investment inflows.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 70.95
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, external sector table: gross FDI inflows were US$70.95 billion in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.industry_growth",
+      "title": "Industrial GVA growth (FY 2023-24)",
+      "category": "Government",
+      "unit": "% year-on-year",
+      "description": "Annual real industry gross value added growth.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), real industry GVA growth.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 9.7
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, sector table: industry GVA grew 9.7 per cent in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.manufacturing_growth",
+      "title": "Manufacturing GVA growth (FY 2023-24)",
+      "category": "Government",
+      "unit": "% year-on-year",
+      "description": "Annual real manufacturing gross value added growth.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), real manufacturing GVA growth.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 9.9
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, sector table: manufacturing GVA grew 9.9 per cent in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.agriculture_growth",
+      "title": "Agriculture GVA growth (FY 2023-24)",
+      "category": "Government",
+      "unit": "% year-on-year",
+      "description": "Annual real agriculture and allied gross value added growth.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), real agriculture and allied GVA growth.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 1.4
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, sector table: agriculture and allied GVA grew 1.4 per cent in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.services_growth",
+      "title": "Services GVA growth (FY 2023-24)",
+      "category": "Government",
+      "unit": "% year-on-year",
+      "description": "Annual real services gross value added growth.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), real services GVA growth.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 7.6
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, sector table: services GVA grew 7.6 per cent in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.capex",
+      "title": "Union government capital expenditure (FY 2023-24 PA)",
+      "category": "Government",
+      "unit": "₹ crore",
+      "description": "Union government capital expenditure budget estimate.",
+      "sourceName": "Budget at a Glance 2024-25",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/doc/Budget_at_Glance/budget_at_a_glance.pdf",
+      "sourceNote": "Provisional Actual (PA) for FY 2023-24 (April 2023–March 2024); total capital expenditure, not a budget estimate.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 948506
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Budget at a Glance 2024-25: “In PA of FY 2023-24, the total capital expenditure was at ₹9,48,506 crore.”",
+      "publicationDate": "2024-07-23"
+    },
+    {
+      "id": "GOV.IND.gst",
+      "title": "Gross GST collections (FY 2023-24)",
+      "category": "Government",
+      "unit": "₹ lakh crore",
+      "description": "Gross goods and services tax collections.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), gross GST collections.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 20.18
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24: gross GST collections were ₹20.18 lakh crore in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.plfs_ur",
+      "title": "Usual-status unemployment rate (PLFS 2023-24)",
+      "category": "Government",
+      "unit": "% of labour force",
+      "description": "Unemployment rate from the annual PLFS usual-status measure.",
+      "sourceName": "Annual Report PLFS 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Statistics and Programme Implementation",
+      "sourceUrl": "https://www.mospi.gov.in/sites/default/files/press_release/Press_note_AR_PLFS_2023_24_22092024.pdf",
+      "sourceNote": "PLFS 2023-24 (July 2023–June 2024), usual status (principal status plus subsidiary status), age 15+; annual survey, not calendar year.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 3.2
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "PLFS 2023-24 press note, usual status (ps+ss), age 15 years and above: unemployment rate 3.2 per cent.",
+      "publicationDate": "2024-09-23"
+    },
+    {
+      "id": "GOV.IND.plfs_lfpr",
+      "title": "Usual-status LFPR (PLFS 2023-24)",
+      "category": "Government",
+      "unit": "% of population",
+      "description": "Labour force participation rate.",
+      "sourceName": "Annual Report PLFS 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Statistics and Programme Implementation",
+      "sourceUrl": "https://www.mospi.gov.in/sites/default/files/press_release/Press_note_AR_PLFS_2023_24_22092024.pdf",
+      "sourceNote": "PLFS 2023-24 (July 2023–June 2024), usual status, age 15+; annual survey, not calendar year.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 60.1
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "PLFS 2023-24 press note, usual status (ps+ss), age 15 years and above: LFPR 60.1 per cent.",
+      "publicationDate": "2024-09-23"
+    },
+    {
+      "id": "GOV.IND.plfs_wpr",
+      "title": "Usual-status worker population ratio (PLFS 2023-24)",
+      "category": "Government",
+      "unit": "% of population",
+      "description": "Worker population ratio.",
+      "sourceName": "Annual Report PLFS 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Statistics and Programme Implementation",
+      "sourceUrl": "https://www.mospi.gov.in/sites/default/files/press_release/Press_note_AR_PLFS_2023_24_22092024.pdf",
+      "sourceNote": "PLFS 2023-24 (July 2023–June 2024), usual status, age 15+; annual survey, not calendar year.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 58.2
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "PLFS 2023-24 press note, usual status (ps+ss), age 15 years and above: WPR 58.2 per cent.",
+      "publicationDate": "2024-09-23"
+    },
+    {
+      "id": "GOV.IND.repo_rate",
+      "title": "Repo rate (June 2024 policy decision)",
+      "category": "Government",
+      "unit": "% per annum",
+      "description": "Policy repo rate.",
+      "sourceName": "RBI Monetary Policy Statement",
+      "sourceOrganization": "Reserve Bank of India",
+      "sourceUrl": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58069",
+      "sourceNote": "Policy rate effective after the 7 June 2024 MPC decision; point-in-time rate, not an annual average.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 6.5
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "RBI Monetary Policy Statement, June 7 2024: “Keep the policy repo rate ... unchanged at 6.50 per cent.”",
+      "publicationDate": "2024-06-07"
+    },
+    {
+      "id": "GOV.IND.sdf_rate",
+      "title": "Standing deposit facility rate (June 2024 policy decision)",
+      "category": "Government",
+      "unit": "% per annum",
+      "description": "Standing deposit facility rate.",
+      "sourceName": "RBI Monetary Policy Statement",
+      "sourceOrganization": "Reserve Bank of India",
+      "sourceUrl": "https://rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=58050",
+      "sourceNote": "Rate effective after the 7 June 2024 MPC decision; point-in-time rate, not an annual average.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 6.25
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "RBI Monetary Policy Statement, June 7 2024: “the standing deposit facility (SDF) rate remains unchanged at 6.25 per cent.” This record is relabeled SDF; it is not a CRR.",
+      "publicationDate": "2024-06-07"
+    },
+    {
+      "id": "GOV.IND.electricity",
+      "title": "Electricity generation (FY 2023-24)",
+      "category": "Government",
+      "unit": "billion kWh",
+      "description": "Total electricity generation.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), total electricity generation; fiscal year represented by ending year.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 1739.1
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, energy table: total electricity generation was 1,739.1 billion kWh in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.renewable_capacity",
+      "title": "Renewable energy capacity (March 2024)",
+      "category": "Government",
+      "unit": "GW",
+      "description": "Installed renewable energy capacity.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "Installed renewable capacity at 31 March 2024; stock, not generation during the year.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 190.57
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, energy table: installed renewable capacity at 31 March 2024 was 190.57 GW.",
+      "publicationDate": "2024-07-22"
+    },
+    {
+      "id": "GOV.IND.road_construction",
+      "title": "National highway construction (FY 2023-24)",
+      "category": "Government",
+      "unit": "km",
+      "description": "Length of national highways constructed.",
+      "sourceName": "Year End Review 2024: Ministry of Road Transport and Highways",
+      "sourceOrganization": "Government of India, Ministry of Road Transport and Highways",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2091508",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), national highways constructed; fiscal year represented by ending year.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 12349
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "MoRTH/PIB table: “2023-24 ... Construction (in km) ... 12349.”",
+      "publicationDate": "2025-01-29"
+    },
+    {
+      "id": "GOV.IND.rail_freight",
+      "title": "Railway freight loading (FY 2023-24)",
+      "category": "Government",
+      "unit": "million tonnes",
+      "description": "Indian Railways originating freight loading.",
+      "sourceName": "Economic Survey 2023-24",
+      "sourceOrganization": "Government of India, Ministry of Finance",
+      "sourceUrl": "https://www.indiabudget.gov.in/budget2024-25/economicsurvey/doc/echapter.pdf",
+      "sourceNote": "FY 2023-24 (April 2023–March 2024), originating freight loading by Indian Railways.",
+      "points": [
+        {
+          "year": 2024,
+          "value": 1591.0
+        }
+      ],
+      "retrievedAt": "2026-10-23",
+      "evidence": "Economic Survey 2023-24, transport table: Indian Railways originating freight loading was 1,591.0 million tonnes in FY 2023-24.",
+      "publicationDate": "2024-07-22"
+    }
+  ]
+}
