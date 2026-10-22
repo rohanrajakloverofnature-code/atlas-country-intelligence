@@ -2,6 +2,7 @@ package com.atlas.intelligence.ui
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -307,7 +308,19 @@ private fun MetricDetail(s: MetricSeries, country: Country?, close: () -> Unit) 
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
-@Composable private fun TrustSheet(close: () -> Unit) { ModalBottomSheet(onDismissRequest = close, containerColor = Panel) { Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) { Text("How to read ATLAS", color = Color.White, fontSize = 22.sp, fontWeight = FontWeight.Bold); Text("Official annual metrics can lag publication cycles. Missing years remain missing; ATLAS does not interpolate or forecast.", color = Muted); Text("Briefing items are reported by their publishers and are not independently verified here.", color = Muted); TextButton(onClick = close) { Text("Understood", color = Cyan) } } } }
+@Composable private fun TrustSheet(close: () -> Unit) {
+    ModalBottomSheet(onDismissRequest = close, containerColor = Panel) {
+        Column(Modifier.verticalScroll(rememberScrollState()).padding(24.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+            Text("How to read ATLAS", color = Color.White, fontSize = 22.sp, fontWeight = FontWeight.Bold)
+            Text("India and the full World Bank directory are supported. Country coverage depends on each provider's available observations.", color = Muted)
+            Text("Updates: opening a country or returning to the app checks whether cached statistics are over 24 hours old. Older data refreshes while the saved dashboard stays visible. Use Refresh to check immediately. Briefings refresh on country selection and after 15 minutes when returning to the app.", color = Muted, fontSize = 13.sp)
+            Text("This is an on-use freshness check, not a background alert service. New observations appear only after the official source publishes them; annual data can lag. Observation year is not retrieval date.", color = Muted, fontSize = 13.sp)
+            Text("Missing years stay missing. Market statistics are annual measures, not live index quotes. Governance figures are estimates, not current officeholder lists.", color = Muted, fontSize = 13.sp)
+            Text("Briefings are publisher-reported and not independently verified here.", color = Muted, fontSize = 13.sp)
+            TextButton(onClick = close) { Text("Understood", color = Cyan) }
+        }
+    }
+}
 
 @Composable private fun BottomNav(tab: String, select: (String) -> Unit) { NavigationBar(containerColor = Panel) { listOf("Overview" to Icons.Default.Home, "Indicators" to Icons.Default.Insights, "Briefing" to Icons.Default.Article, "Watchlist" to Icons.Default.Star).forEach { (name, icon) -> NavigationBarItem(selected = tab == name, onClick = { select(name) }, icon = { Icon(icon, name) }, label = { Text(name) }) } } }
 

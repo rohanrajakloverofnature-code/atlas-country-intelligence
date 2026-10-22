@@ -37,6 +37,7 @@ class AtlasViewModel(application: Application) : AndroidViewModel(application) {
     val state: StateFlow<AtlasState> = _state.asStateFlow()
     private var dashboardJob: Job? = null
     private var newsJob: Job? = null
+    private var newsRequestedAt = 0L
 
     init { loadCountries() }
 
@@ -74,12 +75,34 @@ class AtlasViewModel(application: Application) : AndroidViewModel(application) {
         loadNews(selected)
     }
 
+    /** Called on app resume; no background service or notification permission needed. */
+    fun refreshIfStale() {
+        val current = _state.value
+        val country = current.selected ?: return
+        if (!current.loading && FreshnessPolicy.shouldRefresh(current.dashboard?.series.orEmpty(), preferences.getLong("refresh_${country.iso3}", 0), System.currentTimeMillis())) {
+            refresh()
+            return
+        }
+        if (!current.newsLoading && System.currentTimeMillis() - newsRequestedAt >= FreshnessPolicy.NEWS_INTERVAL_MS) {
+            _state.update { it.copy(newsLoading = true, newsError = null) }
+            loadNews(country)
+        }
+    }
+
     private fun loadDashboard(country: Country, force: Boolean) {
         dashboardJob = viewModelScope.launch {
             try {
+                if (force) preferences.edit().putLong("refresh_${country.iso3}", System.currentTimeMillis()).apply()
                 val result = repository.dashboard(country, force)
                 if (_state.value.selected?.iso3 == country.iso3) {
                     _state.update { it.copy(dashboard = result, loading = false, error = null) }
+                    if (result.series.isEmpty()) preferences.edit().putLong("refresh_${country.iso3}", System.currentTimeMillis()).apply()
+                    if (!force && result.series.isNotEmpty() && FreshnessPolicy.shouldRefresh(result.series, preferences.getLong("refresh_${country.iso3}", 0), System.currentTimeMillis())) {
+                        preferences.edit().putLong("refresh_${country.iso3}", System.currentTimeMillis()).apply()
+                        _state.update { it.copy(loading = true) }
+                        val refreshed = repository.dashboard(country, true)
+                        if (_state.value.selected?.iso3 == country.iso3) _state.update { it.copy(dashboard = refreshed, loading = false) }
+                    }
                 }
             } catch (cancelled: CancellationException) { throw cancelled }
             catch (_: Exception) {
@@ -91,6 +114,7 @@ class AtlasViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     private fun loadNews(country: Country) {
+        newsRequestedAt = System.currentTimeMillis()
         newsJob = viewModelScope.launch {
             try {
                 val items = repository.news(country)

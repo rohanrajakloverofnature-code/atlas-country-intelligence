@@ -6,7 +6,7 @@ Atlas brings official annual statistics, historical charts, source provenance an
 
 ## What you can do
 
-- Search the World Bank’s country/economy directory and switch dashboards.
+- Search 217 countries and economies in the World Bank directory, including India, and switch dashboards.
 - Explore growth, GDP, prices, employment, public finances, debt, investment, trade, annual market statistics, governance, technology, people and environment indicators where the provider has observations.
 - Open a metric to see its definition, units, observation years, source link, retrieval metadata and annual values.
 - Filter history to 5 years, 10 years or all available observations. Missing years are not invented.
@@ -39,6 +39,14 @@ The app calls the [World Bank Indicators API v2](https://datahelpdesk.worldbank.
 **Observation year**, **dataset update date**, and **retrieval time** describe different things. The latest available observation can be several years old. Cross-country figures can refer to different years. A missing observation means unavailable, not zero. The included snapshots are real API observations, not demonstration data.
 
 See [third-party notices](THIRD_PARTY_NOTICES.md) for attribution and dataset licensing, and [privacy](PRIVACY.md) for network and local-storage behavior.
+
+## How updates work
+
+Opening a country or returning to the app checks its cached statistics. If observations were retrieved more than 24 hours ago, Atlas requests newer annual data directly from the official API while keeping the saved dashboard visible. Manual **Refresh** bypasses that interval. An unsuccessful automatic attempt is throttled for one day to avoid repeatedly hammering an unavailable source; manual refresh is always available.
+
+New official observations do **not** require an app-store update while the provider’s indicator/API schema remains compatible. Each metric shows its actual observation year, dataset update date and retrieval timestamp. A newly retrieved dataset can still contain older annual observations. Failed requests preserve valid cached history, with a visible note. Missing values remain missing.
+
+Publisher briefings load on country selection and can refresh on app resume after 15 minutes, or immediately through Refresh. This is on-use updating, not continuous background monitoring or a push-alert service. The app cannot show data before its source publishes it; source corrections and revised estimates can change historical values.
 
 ## This is a first release, not an exhaustive intelligence terminal
 

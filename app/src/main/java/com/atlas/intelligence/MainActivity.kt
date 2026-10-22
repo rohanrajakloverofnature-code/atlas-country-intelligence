@@ -15,4 +15,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent { AtlasApp(viewModel) }
     }
+
+    override fun onResume() {
+        super.onResume()
+        viewModel.refreshIfStale()
+    }
 }
