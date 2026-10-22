@@ -30,6 +30,9 @@ android {
     testOptions {
         unitTests.isReturnDefaultValues = true
         unitTests.isIncludeAndroidResources = true
+        unitTests.all {
+            it.systemProperty("robolectric.dependency.repo.url", "https://repo.maven.apache.org/maven2")
+        }
     }
     packaging { resources.excludes += "/META-INF/{AL2.0,LGPL2.1}" }
 }

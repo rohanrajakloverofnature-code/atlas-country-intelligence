@@ -20,7 +20,58 @@
       "WDI": 2,
       "WGI": 3
     },
-    "note": "Null API values and failed requests omitted; no interpolation or forecasts. Series are annual and may have different publication years."
+    "note": "Null API values and failed requests omitted; no interpolation or forecasts. Series are annual and may have different publication years.",
+    "governanceFetchedAt": "2026-10-22T18:45:32.920617Z",
+    "governanceRequestUrls": [
+      "https://api.worldbank.org/v2/country/IND/indicator/GOV_WGI_VA.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/IND/indicator/GOV_WGI_PV.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/IND/indicator/GOV_WGI_GE.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/IND/indicator/GOV_WGI_RL.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/IND/indicator/GOV_WGI_CC.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/IND/indicator/GOV_WGI_RQ.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/USA/indicator/GOV_WGI_VA.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/USA/indicator/GOV_WGI_PV.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/USA/indicator/GOV_WGI_GE.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/USA/indicator/GOV_WGI_RL.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/USA/indicator/GOV_WGI_CC.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/USA/indicator/GOV_WGI_RQ.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/CHN/indicator/GOV_WGI_VA.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/CHN/indicator/GOV_WGI_PV.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/CHN/indicator/GOV_WGI_GE.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/CHN/indicator/GOV_WGI_RL.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/CHN/indicator/GOV_WGI_CC.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/CHN/indicator/GOV_WGI_RQ.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/DEU/indicator/GOV_WGI_VA.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/DEU/indicator/GOV_WGI_PV.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/DEU/indicator/GOV_WGI_GE.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/DEU/indicator/GOV_WGI_RL.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/DEU/indicator/GOV_WGI_CC.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/DEU/indicator/GOV_WGI_RQ.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/BRA/indicator/GOV_WGI_VA.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/BRA/indicator/GOV_WGI_PV.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/BRA/indicator/GOV_WGI_GE.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/BRA/indicator/GOV_WGI_RL.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/BRA/indicator/GOV_WGI_CC.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/BRA/indicator/GOV_WGI_RQ.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/JPN/indicator/GOV_WGI_VA.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/JPN/indicator/GOV_WGI_PV.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/JPN/indicator/GOV_WGI_GE.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/JPN/indicator/GOV_WGI_RL.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/JPN/indicator/GOV_WGI_CC.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/JPN/indicator/GOV_WGI_RQ.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/GBR/indicator/GOV_WGI_VA.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/GBR/indicator/GOV_WGI_PV.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/GBR/indicator/GOV_WGI_GE.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/GBR/indicator/GOV_WGI_RL.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/GBR/indicator/GOV_WGI_CC.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/GBR/indicator/GOV_WGI_RQ.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/ZAF/indicator/GOV_WGI_VA.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/ZAF/indicator/GOV_WGI_PV.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/ZAF/indicator/GOV_WGI_GE.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/ZAF/indicator/GOV_WGI_RL.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/ZAF/indicator/GOV_WGI_CC.EST?date=2000%3A2026&format=json&per_page=100&source=3",
+      "https://api.worldbank.org/v2/country/ZAF/indicator/GOV_WGI_RQ.EST?date=2000%3A2026&format=json&per_page=100&source=3"
+    ]
   },
   "series": {
     "IND": {
@@ -136,7 +187,8 @@
             "year": 2025,
             "value": 7.56666179284244
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.MKTP.CD": {
         "indicator": {
@@ -250,7 +302,8 @@
             "year": 2025,
             "value": 3956067115771.63
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.PCAP.CD": {
         "indicator": {
@@ -364,7 +417,8 @@
             "year": 2025,
             "value": 2702.47987141553
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "FP.CPI.TOTL.ZG": {
         "indicator": {
@@ -478,7 +532,8 @@
             "year": 2025,
             "value": 2.39884954182294
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.TOTL.ZS": {
         "indicator": {
@@ -592,7 +647,8 @@
             "year": 2025,
             "value": 4.219
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.1524.ZS": {
         "indicator": {
@@ -706,7 +762,8 @@
             "year": 2025,
             "value": 16.022
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.EXP.GNFS.ZS": {
         "indicator": {
@@ -820,7 +877,8 @@
             "year": 2025,
             "value": 22.2630410669804
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.IMP.GNFS.ZS": {
         "indicator": {
@@ -934,7 +992,8 @@
             "year": 2025,
             "value": 24.0051596190103
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "BX.KLT.DINV.WD.GD.ZS": {
         "indicator": {
@@ -1048,7 +1107,8 @@
             "year": 2025,
             "value": 1.03111732367627
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GC.DOD.TOTL.GD.ZS": {
         "indicator": {
@@ -1134,7 +1194,8 @@
             "year": 2018,
             "value": 46.5224986659322
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "DT.DOD.DECT.CD": {
         "indicator": {
@@ -1244,7 +1305,8 @@
             "year": 2024,
             "value": 716456023890.4
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "CM.MKT.LCAP.GD.ZS": {
         "indicator": {
@@ -1358,7 +1420,8 @@
             "year": 2025,
             "value": 266.92119852826
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.NET.USER.ZS": {
         "indicator": {
@@ -1472,7 +1535,8 @@
             "year": 2025,
             "value": 70.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.CEL.SETS.P2": {
         "indicator": {
@@ -1582,7 +1646,8 @@
             "year": 2024,
             "value": 79.3526921826412
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GB.XPD.RSDV.GD.ZS": {
         "indicator": {
@@ -1676,7 +1741,8 @@
             "year": 2020,
             "value": 0.64558
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IP.PAT.RESD": {
         "indicator": {
@@ -1786,7 +1852,8 @@
             "year": 2024,
             "value": 63217.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.POP.TOTL": {
         "indicator": {
@@ -1900,7 +1967,8 @@
             "year": 2025,
             "value": 1463865525.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.DYN.LE00.IN": {
         "indicator": {
@@ -2010,7 +2078,8 @@
             "year": 2024,
             "value": 72.235
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.DYN.MORT": {
         "indicator": {
@@ -2120,7 +2189,8 @@
             "year": 2024,
             "value": 26.6
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.XPD.CHEX.GD.ZS": {
         "indicator": {
@@ -2226,7 +2296,8 @@
             "year": 2023,
             "value": 3.33944035
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.USE.PCAP.KG.OE": {
         "indicator": {
@@ -2336,7 +2407,8 @@
             "year": 2024,
             "value": 776.537171149878
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.FEC.RNEW.ZS": {
         "indicator": {
@@ -2434,7 +2506,8 @@
             "year": 2021,
             "value": 34.9
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.ELC.ACCS.ZS": {
         "indicator": {
@@ -2544,7 +2617,8 @@
             "year": 2024,
             "value": 99.9
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.IND.TOTL.ZS": {
         "indicator": {
@@ -2658,7 +2732,8 @@
             "year": 2025,
             "value": 25.2049600095376
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.AGR.TOTL.ZS": {
         "indicator": {
@@ -2772,7 +2847,8 @@
             "year": 2025,
             "value": 16.2342483910129
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GNS.ICTR.ZS": {
         "indicator": {
@@ -2886,7 +2962,674 @@
             "year": 2025,
             "value": 34.6967494989384
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
+      },
+      "GOV_WGI_VA.EST": {
+        "indicator": {
+          "id": "GOV_WGI_VA.EST",
+          "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.0053305
+          },
+          {
+            "year": 2002,
+            "value": 0.4240996
+          },
+          {
+            "year": 2003,
+            "value": 0.4483495
+          },
+          {
+            "year": 2004,
+            "value": 0.4486174
+          },
+          {
+            "year": 2005,
+            "value": 0.5282891
+          },
+          {
+            "year": 2006,
+            "value": 0.5874371
+          },
+          {
+            "year": 2007,
+            "value": 0.5794542
+          },
+          {
+            "year": 2008,
+            "value": 0.6075154
+          },
+          {
+            "year": 2009,
+            "value": 0.5771991
+          },
+          {
+            "year": 2010,
+            "value": 0.5118059
+          },
+          {
+            "year": 2011,
+            "value": 0.4873632
+          },
+          {
+            "year": 2012,
+            "value": 0.4237141
+          },
+          {
+            "year": 2013,
+            "value": 0.4681943
+          },
+          {
+            "year": 2014,
+            "value": 0.4320588
+          },
+          {
+            "year": 2015,
+            "value": 0.4431353
+          },
+          {
+            "year": 2016,
+            "value": 0.4286908
+          },
+          {
+            "year": 2017,
+            "value": 0.3721068
+          },
+          {
+            "year": 2018,
+            "value": 0.3504682
+          },
+          {
+            "year": 2019,
+            "value": 0.2341296
+          },
+          {
+            "year": 2020,
+            "value": 0.1363866
+          },
+          {
+            "year": 2021,
+            "value": -0.0423847
+          },
+          {
+            "year": 2022,
+            "value": -0.0605575
+          },
+          {
+            "year": 2023,
+            "value": -0.0948422
+          },
+          {
+            "year": 2024,
+            "value": -0.0572383
+          },
+          {
+            "year": 2025,
+            "value": -0.1522429
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_PV.EST": {
+        "indicator": {
+          "id": "GOV_WGI_PV.EST",
+          "value": "Political Stability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.9504335
+          },
+          {
+            "year": 2002,
+            "value": -1.2732514
+          },
+          {
+            "year": 2003,
+            "value": -1.4047197
+          },
+          {
+            "year": 2004,
+            "value": -1.0112558
+          },
+          {
+            "year": 2005,
+            "value": -0.8352741
+          },
+          {
+            "year": 2006,
+            "value": -0.796884
+          },
+          {
+            "year": 2007,
+            "value": -0.7903522
+          },
+          {
+            "year": 2008,
+            "value": -0.7390537
+          },
+          {
+            "year": 2009,
+            "value": -0.8884286
+          },
+          {
+            "year": 2010,
+            "value": -0.9126338
+          },
+          {
+            "year": 2011,
+            "value": -1.1277343
+          },
+          {
+            "year": 2012,
+            "value": -1.1136064
+          },
+          {
+            "year": 2013,
+            "value": -1.1388815
+          },
+          {
+            "year": 2014,
+            "value": -0.8130683
+          },
+          {
+            "year": 2015,
+            "value": -0.7545551
+          },
+          {
+            "year": 2016,
+            "value": -0.7241407
+          },
+          {
+            "year": 2017,
+            "value": -0.5630854
+          },
+          {
+            "year": 2018,
+            "value": -0.6652231
+          },
+          {
+            "year": 2019,
+            "value": -0.5876129
+          },
+          {
+            "year": 2020,
+            "value": -0.7238341
+          },
+          {
+            "year": 2021,
+            "value": -0.6159965
+          },
+          {
+            "year": 2022,
+            "value": -0.7656103
+          },
+          {
+            "year": 2023,
+            "value": -0.8208437
+          },
+          {
+            "year": 2024,
+            "value": -0.7058887
+          },
+          {
+            "year": 2025,
+            "value": -0.6078803
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_GE.EST": {
+        "indicator": {
+          "id": "GOV_WGI_GE.EST",
+          "value": "Government Effectiveness - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.5612684
+          },
+          {
+            "year": 2002,
+            "value": -0.4808351
+          },
+          {
+            "year": 2003,
+            "value": -0.4324629
+          },
+          {
+            "year": 2004,
+            "value": -0.2084711
+          },
+          {
+            "year": 2005,
+            "value": -0.1798263
+          },
+          {
+            "year": 2006,
+            "value": -0.1318297
+          },
+          {
+            "year": 2007,
+            "value": -0.034231
+          },
+          {
+            "year": 2008,
+            "value": 0.0630231
+          },
+          {
+            "year": 2009,
+            "value": 0.1217249
+          },
+          {
+            "year": 2010,
+            "value": 0.1129474
+          },
+          {
+            "year": 2011,
+            "value": 0.1075143
+          },
+          {
+            "year": 2012,
+            "value": 0.0933062
+          },
+          {
+            "year": 2013,
+            "value": 0.1071809
+          },
+          {
+            "year": 2014,
+            "value": 0.1523091
+          },
+          {
+            "year": 2015,
+            "value": 0.480403
+          },
+          {
+            "year": 2016,
+            "value": 0.4723672
+          },
+          {
+            "year": 2017,
+            "value": 0.4244099
+          },
+          {
+            "year": 2018,
+            "value": 0.5521016
+          },
+          {
+            "year": 2019,
+            "value": 0.5551333
+          },
+          {
+            "year": 2020,
+            "value": 0.4546407
+          },
+          {
+            "year": 2021,
+            "value": 0.358756
+          },
+          {
+            "year": 2022,
+            "value": 0.4390193
+          },
+          {
+            "year": 2023,
+            "value": 0.5084481
+          },
+          {
+            "year": 2024,
+            "value": 0.5080583
+          },
+          {
+            "year": 2025,
+            "value": 0.5021381
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RL.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RL.EST",
+          "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.2329892
+          },
+          {
+            "year": 2002,
+            "value": -0.0738596
+          },
+          {
+            "year": 2003,
+            "value": 0.0055297
+          },
+          {
+            "year": 2004,
+            "value": 0.0277498
+          },
+          {
+            "year": 2005,
+            "value": 0.1546403
+          },
+          {
+            "year": 2006,
+            "value": 0.207721
+          },
+          {
+            "year": 2007,
+            "value": 0.1870018
+          },
+          {
+            "year": 2008,
+            "value": 0.1531775
+          },
+          {
+            "year": 2009,
+            "value": 0.1413802
+          },
+          {
+            "year": 2010,
+            "value": 0.0593161
+          },
+          {
+            "year": 2011,
+            "value": -0.0006039
+          },
+          {
+            "year": 2012,
+            "value": -0.1172949
+          },
+          {
+            "year": 2013,
+            "value": -0.1044717
+          },
+          {
+            "year": 2014,
+            "value": -0.1778943
+          },
+          {
+            "year": 2015,
+            "value": -0.1374266
+          },
+          {
+            "year": 2016,
+            "value": -0.0815395
+          },
+          {
+            "year": 2017,
+            "value": -0.0318935
+          },
+          {
+            "year": 2018,
+            "value": 0.0205359
+          },
+          {
+            "year": 2019,
+            "value": -0.0157278
+          },
+          {
+            "year": 2020,
+            "value": -0.0776172
+          },
+          {
+            "year": 2021,
+            "value": -0.1609352
+          },
+          {
+            "year": 2022,
+            "value": -0.0619553
+          },
+          {
+            "year": 2023,
+            "value": -0.0665941
+          },
+          {
+            "year": 2024,
+            "value": -0.012521
+          },
+          {
+            "year": 2025,
+            "value": -0.1286599
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_CC.EST": {
+        "indicator": {
+          "id": "GOV_WGI_CC.EST",
+          "value": "Control of Corruption - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.2129263
+          },
+          {
+            "year": 2002,
+            "value": -0.5618875
+          },
+          {
+            "year": 2003,
+            "value": -0.553052
+          },
+          {
+            "year": 2004,
+            "value": -0.3902731
+          },
+          {
+            "year": 2005,
+            "value": -0.4107227
+          },
+          {
+            "year": 2006,
+            "value": -0.2312051
+          },
+          {
+            "year": 2007,
+            "value": -0.3273389
+          },
+          {
+            "year": 2008,
+            "value": -0.2955149
+          },
+          {
+            "year": 2009,
+            "value": -0.3456043
+          },
+          {
+            "year": 2010,
+            "value": -0.3618983
+          },
+          {
+            "year": 2011,
+            "value": -0.4898141
+          },
+          {
+            "year": 2012,
+            "value": -0.5033606
+          },
+          {
+            "year": 2013,
+            "value": -0.4705032
+          },
+          {
+            "year": 2014,
+            "value": -0.4143125
+          },
+          {
+            "year": 2015,
+            "value": -0.3457352
+          },
+          {
+            "year": 2016,
+            "value": -0.2868347
+          },
+          {
+            "year": 2017,
+            "value": -0.2253804
+          },
+          {
+            "year": 2018,
+            "value": -0.2108371
+          },
+          {
+            "year": 2019,
+            "value": -0.2210026
+          },
+          {
+            "year": 2020,
+            "value": -0.2569922
+          },
+          {
+            "year": 2021,
+            "value": -0.3031751
+          },
+          {
+            "year": 2022,
+            "value": -0.3266917
+          },
+          {
+            "year": 2023,
+            "value": -0.3354592
+          },
+          {
+            "year": 2024,
+            "value": -0.2980376
+          },
+          {
+            "year": 2025,
+            "value": -0.2791735
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RQ.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RQ.EST",
+          "value": "Regulatory Quality - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.3716782
+          },
+          {
+            "year": 2002,
+            "value": -0.4240865
+          },
+          {
+            "year": 2003,
+            "value": -0.4814684
+          },
+          {
+            "year": 2004,
+            "value": -0.2775953
+          },
+          {
+            "year": 2005,
+            "value": -0.2284413
+          },
+          {
+            "year": 2006,
+            "value": -0.2523854
+          },
+          {
+            "year": 2007,
+            "value": -0.2698383
+          },
+          {
+            "year": 2008,
+            "value": -0.3301078
+          },
+          {
+            "year": 2009,
+            "value": -0.2938639
+          },
+          {
+            "year": 2010,
+            "value": -0.3273411
+          },
+          {
+            "year": 2011,
+            "value": -0.382809
+          },
+          {
+            "year": 2012,
+            "value": -0.4047703
+          },
+          {
+            "year": 2013,
+            "value": -0.391657
+          },
+          {
+            "year": 2014,
+            "value": -0.3982983
+          },
+          {
+            "year": 2015,
+            "value": -0.3523424
+          },
+          {
+            "year": 2016,
+            "value": -0.2732856
+          },
+          {
+            "year": 2017,
+            "value": -0.2318736
+          },
+          {
+            "year": 2018,
+            "value": -0.1880736
+          },
+          {
+            "year": 2019,
+            "value": -0.1324994
+          },
+          {
+            "year": 2020,
+            "value": -0.1650984
+          },
+          {
+            "year": 2021,
+            "value": -0.1879253
+          },
+          {
+            "year": 2022,
+            "value": -0.092447
+          },
+          {
+            "year": 2023,
+            "value": -0.1303438
+          },
+          {
+            "year": 2024,
+            "value": -0.0898112
+          },
+          {
+            "year": 2025,
+            "value": -0.1695733
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
       }
     },
     "USA": {
@@ -3002,7 +3745,8 @@
             "year": 2025,
             "value": 2.16138195623856
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.MKTP.CD": {
         "indicator": {
@@ -3116,7 +3860,8 @@
             "year": 2025,
             "value": 30769700000000.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.PCAP.CD": {
         "indicator": {
@@ -3230,7 +3975,8 @@
             "year": 2025,
             "value": 90026.5163005744
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "FP.CPI.TOTL.ZG": {
         "indicator": {
@@ -3340,7 +4086,8 @@
             "year": 2024,
             "value": 2.94952520485207
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.TOTL.ZS": {
         "indicator": {
@@ -3454,7 +4201,8 @@
             "year": 2025,
             "value": 4.198
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.1524.ZS": {
         "indicator": {
@@ -3568,7 +4316,8 @@
             "year": 2025,
             "value": 9.34
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.EXP.GNFS.ZS": {
         "indicator": {
@@ -3678,7 +4427,8 @@
             "year": 2024,
             "value": 10.97469647515
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.IMP.GNFS.ZS": {
         "indicator": {
@@ -3788,7 +4538,8 @@
             "year": 2024,
             "value": 14.0413208226783
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "BX.KLT.DINV.WD.GD.ZS": {
         "indicator": {
@@ -3902,7 +4653,8 @@
             "year": 2025,
             "value": 0.997793283652424
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GC.DOD.TOTL.GD.ZS": {
         "indicator": {
@@ -4012,7 +4764,8 @@
             "year": 2024,
             "value": 115.788609964778
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "CM.MKT.LCAP.GD.ZS": {
         "indicator": {
@@ -4126,7 +4879,8 @@
             "year": 2025,
             "value": 224.04464850161
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.NET.USER.ZS": {
         "indicator": {
@@ -4236,7 +4990,8 @@
             "year": 2024,
             "value": 94.69380188
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.CEL.SETS.P2": {
         "indicator": {
@@ -4346,7 +5101,8 @@
             "year": 2024,
             "value": 113.190481805755
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GB.XPD.RSDV.GD.ZS": {
         "indicator": {
@@ -4452,7 +5208,8 @@
             "year": 2023,
             "value": 3.44716
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IP.PAT.RESD": {
         "indicator": {
@@ -4562,7 +5319,8 @@
             "year": 2024,
             "value": 270295.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.POP.TOTL": {
         "indicator": {
@@ -4676,7 +5434,8 @@
             "year": 2025,
             "value": 341784857.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.DYN.LE00.IN": {
         "indicator": {
@@ -4786,7 +5545,8 @@
             "year": 2024,
             "value": 78.890243902439
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.DYN.MORT": {
         "indicator": {
@@ -4896,7 +5656,8 @@
             "year": 2024,
             "value": 6.5
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.XPD.CHEX.GD.ZS": {
         "indicator": {
@@ -5002,7 +5763,8 @@
             "year": 2023,
             "value": 16.69414902
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.USE.PCAP.KG.OE": {
         "indicator": {
@@ -5112,7 +5874,8 @@
             "year": 2024,
             "value": 6453.63383292778
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.FEC.RNEW.ZS": {
         "indicator": {
@@ -5210,7 +5973,8 @@
             "year": 2021,
             "value": 10.9
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.ELC.ACCS.ZS": {
         "indicator": {
@@ -5320,7 +6084,8 @@
             "year": 2024,
             "value": 100.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.IND.TOTL.ZS": {
         "indicator": {
@@ -5418,7 +6183,8 @@
             "year": 2021,
             "value": 17.5751653495616
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.AGR.TOTL.ZS": {
         "indicator": {
@@ -5516,7 +6282,8 @@
             "year": 2021,
             "value": 0.942961672907101
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GNS.ICTR.ZS": {
         "indicator": {
@@ -5626,7 +6393,674 @@
             "year": 2024,
             "value": 16.5919955049511
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
+      },
+      "GOV_WGI_VA.EST": {
+        "indicator": {
+          "id": "GOV_WGI_VA.EST",
+          "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.0930063
+          },
+          {
+            "year": 2002,
+            "value": 1.2722338
+          },
+          {
+            "year": 2003,
+            "value": 1.2226906
+          },
+          {
+            "year": 2004,
+            "value": 1.1502023
+          },
+          {
+            "year": 2005,
+            "value": 1.224789
+          },
+          {
+            "year": 2006,
+            "value": 1.1894761
+          },
+          {
+            "year": 2007,
+            "value": 1.2099906
+          },
+          {
+            "year": 2008,
+            "value": 1.2592852
+          },
+          {
+            "year": 2009,
+            "value": 1.2337772
+          },
+          {
+            "year": 2010,
+            "value": 1.2380506
+          },
+          {
+            "year": 2011,
+            "value": 1.1880745
+          },
+          {
+            "year": 2012,
+            "value": 1.2202102
+          },
+          {
+            "year": 2013,
+            "value": 1.1370245
+          },
+          {
+            "year": 2014,
+            "value": 1.1617709
+          },
+          {
+            "year": 2015,
+            "value": 1.229956
+          },
+          {
+            "year": 2016,
+            "value": 1.1754114
+          },
+          {
+            "year": 2017,
+            "value": 1.0756924
+          },
+          {
+            "year": 2018,
+            "value": 1.0418532
+          },
+          {
+            "year": 2019,
+            "value": 1.0154058
+          },
+          {
+            "year": 2020,
+            "value": 0.9441279
+          },
+          {
+            "year": 2021,
+            "value": 0.9125569
+          },
+          {
+            "year": 2022,
+            "value": 0.933183
+          },
+          {
+            "year": 2023,
+            "value": 0.8975826
+          },
+          {
+            "year": 2024,
+            "value": 0.9093275
+          },
+          {
+            "year": 2025,
+            "value": 0.6447555
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_PV.EST": {
+        "indicator": {
+          "id": "GOV_WGI_PV.EST",
+          "value": "Political Stability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.0319579
+          },
+          {
+            "year": 2002,
+            "value": 0.3490488
+          },
+          {
+            "year": 2003,
+            "value": 0.2485374
+          },
+          {
+            "year": 2004,
+            "value": 0.0770322
+          },
+          {
+            "year": 2005,
+            "value": 0.1910556
+          },
+          {
+            "year": 2006,
+            "value": 0.4135104
+          },
+          {
+            "year": 2007,
+            "value": 0.4556059
+          },
+          {
+            "year": 2008,
+            "value": 0.6165528
+          },
+          {
+            "year": 2009,
+            "value": 0.6297476
+          },
+          {
+            "year": 2010,
+            "value": 0.6111073
+          },
+          {
+            "year": 2011,
+            "value": 0.6160776
+          },
+          {
+            "year": 2012,
+            "value": 0.6146099
+          },
+          {
+            "year": 2013,
+            "value": 0.5713369
+          },
+          {
+            "year": 2014,
+            "value": 0.6596148
+          },
+          {
+            "year": 2015,
+            "value": 0.655662
+          },
+          {
+            "year": 2016,
+            "value": 0.3377341
+          },
+          {
+            "year": 2017,
+            "value": 0.1322814
+          },
+          {
+            "year": 2018,
+            "value": 0.2995229
+          },
+          {
+            "year": 2019,
+            "value": 0.0687274
+          },
+          {
+            "year": 2020,
+            "value": -0.1281347
+          },
+          {
+            "year": 2021,
+            "value": -0.1135053
+          },
+          {
+            "year": 2022,
+            "value": -0.1533111
+          },
+          {
+            "year": 2023,
+            "value": -0.1453812
+          },
+          {
+            "year": 2024,
+            "value": -0.1134229
+          },
+          {
+            "year": 2025,
+            "value": -0.3020818
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_GE.EST": {
+        "indicator": {
+          "id": "GOV_WGI_GE.EST",
+          "value": "Government Effectiveness - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.9070113
+          },
+          {
+            "year": 2002,
+            "value": 1.9423279
+          },
+          {
+            "year": 2003,
+            "value": 1.6178587
+          },
+          {
+            "year": 2004,
+            "value": 1.5917469
+          },
+          {
+            "year": 2005,
+            "value": 1.5837423
+          },
+          {
+            "year": 2006,
+            "value": 1.5225232
+          },
+          {
+            "year": 2007,
+            "value": 1.5213345
+          },
+          {
+            "year": 2008,
+            "value": 1.5170629
+          },
+          {
+            "year": 2009,
+            "value": 1.4415031
+          },
+          {
+            "year": 2010,
+            "value": 1.442564
+          },
+          {
+            "year": 2011,
+            "value": 1.4444846
+          },
+          {
+            "year": 2012,
+            "value": 1.5062075
+          },
+          {
+            "year": 2013,
+            "value": 1.5261876
+          },
+          {
+            "year": 2014,
+            "value": 1.5727203
+          },
+          {
+            "year": 2015,
+            "value": 1.5507423
+          },
+          {
+            "year": 2016,
+            "value": 1.5477767
+          },
+          {
+            "year": 2017,
+            "value": 1.5489727
+          },
+          {
+            "year": 2018,
+            "value": 1.5838527
+          },
+          {
+            "year": 2019,
+            "value": 1.5019207
+          },
+          {
+            "year": 2020,
+            "value": 1.341265
+          },
+          {
+            "year": 2021,
+            "value": 1.345482
+          },
+          {
+            "year": 2022,
+            "value": 1.387141
+          },
+          {
+            "year": 2023,
+            "value": 1.2911161
+          },
+          {
+            "year": 2024,
+            "value": 1.3020638
+          },
+          {
+            "year": 2025,
+            "value": 1.1909909
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RL.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RL.EST",
+          "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.6411901
+          },
+          {
+            "year": 2002,
+            "value": 1.6065064
+          },
+          {
+            "year": 2003,
+            "value": 1.553981
+          },
+          {
+            "year": 2004,
+            "value": 1.460446
+          },
+          {
+            "year": 2005,
+            "value": 1.544852
+          },
+          {
+            "year": 2006,
+            "value": 1.5707963
+          },
+          {
+            "year": 2007,
+            "value": 1.5558123
+          },
+          {
+            "year": 2008,
+            "value": 1.5652341
+          },
+          {
+            "year": 2009,
+            "value": 1.4941158
+          },
+          {
+            "year": 2010,
+            "value": 1.5156259
+          },
+          {
+            "year": 2011,
+            "value": 1.3975286
+          },
+          {
+            "year": 2012,
+            "value": 1.4125605
+          },
+          {
+            "year": 2013,
+            "value": 1.3395047
+          },
+          {
+            "year": 2014,
+            "value": 1.3774745
+          },
+          {
+            "year": 2015,
+            "value": 1.4049371
+          },
+          {
+            "year": 2016,
+            "value": 1.4039729
+          },
+          {
+            "year": 2017,
+            "value": 1.3334397
+          },
+          {
+            "year": 2018,
+            "value": 1.1605612
+          },
+          {
+            "year": 2019,
+            "value": 1.1332344
+          },
+          {
+            "year": 2020,
+            "value": 1.0290946
+          },
+          {
+            "year": 2021,
+            "value": 1.0727276
+          },
+          {
+            "year": 2022,
+            "value": 1.0943336
+          },
+          {
+            "year": 2023,
+            "value": 1.0209621
+          },
+          {
+            "year": 2024,
+            "value": 0.9971818
+          },
+          {
+            "year": 2025,
+            "value": 0.7914024
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_CC.EST": {
+        "indicator": {
+          "id": "GOV_WGI_CC.EST",
+          "value": "Control of Corruption - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.565072
+          },
+          {
+            "year": 2002,
+            "value": 1.823314
+          },
+          {
+            "year": 2003,
+            "value": 1.5258481
+          },
+          {
+            "year": 2004,
+            "value": 1.6159449
+          },
+          {
+            "year": 2005,
+            "value": 1.4888957
+          },
+          {
+            "year": 2006,
+            "value": 1.2954811
+          },
+          {
+            "year": 2007,
+            "value": 1.2362069
+          },
+          {
+            "year": 2008,
+            "value": 1.3236329
+          },
+          {
+            "year": 2009,
+            "value": 1.1509279
+          },
+          {
+            "year": 2010,
+            "value": 1.1591288
+          },
+          {
+            "year": 2011,
+            "value": 1.2714401
+          },
+          {
+            "year": 2012,
+            "value": 1.2641547
+          },
+          {
+            "year": 2013,
+            "value": 1.1802233
+          },
+          {
+            "year": 2014,
+            "value": 1.2400591
+          },
+          {
+            "year": 2015,
+            "value": 1.2371186
+          },
+          {
+            "year": 2016,
+            "value": 1.2343216
+          },
+          {
+            "year": 2017,
+            "value": 1.3055781
+          },
+          {
+            "year": 2018,
+            "value": 1.2630214
+          },
+          {
+            "year": 2019,
+            "value": 1.17362
+          },
+          {
+            "year": 2020,
+            "value": 1.1253726
+          },
+          {
+            "year": 2021,
+            "value": 1.1264247
+          },
+          {
+            "year": 2022,
+            "value": 1.2017362
+          },
+          {
+            "year": 2023,
+            "value": 1.1902343
+          },
+          {
+            "year": 2024,
+            "value": 1.0793605
+          },
+          {
+            "year": 2025,
+            "value": 0.8652136
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RQ.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RQ.EST",
+          "value": "Regulatory Quality - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.8384197
+          },
+          {
+            "year": 2002,
+            "value": 1.7163028
+          },
+          {
+            "year": 2003,
+            "value": 1.6669771
+          },
+          {
+            "year": 2004,
+            "value": 1.6405746
+          },
+          {
+            "year": 2005,
+            "value": 1.7145616
+          },
+          {
+            "year": 2006,
+            "value": 1.6320614
+          },
+          {
+            "year": 2007,
+            "value": 1.4966516
+          },
+          {
+            "year": 2008,
+            "value": 1.4990022
+          },
+          {
+            "year": 2009,
+            "value": 1.3159345
+          },
+          {
+            "year": 2010,
+            "value": 1.3524291
+          },
+          {
+            "year": 2011,
+            "value": 1.3884521
+          },
+          {
+            "year": 2012,
+            "value": 1.4227467
+          },
+          {
+            "year": 2013,
+            "value": 1.377948
+          },
+          {
+            "year": 2014,
+            "value": 1.2726281
+          },
+          {
+            "year": 2015,
+            "value": 1.2774618
+          },
+          {
+            "year": 2016,
+            "value": 1.3824367
+          },
+          {
+            "year": 2017,
+            "value": 1.4812831
+          },
+          {
+            "year": 2018,
+            "value": 1.4433717
+          },
+          {
+            "year": 2019,
+            "value": 1.3411877
+          },
+          {
+            "year": 2020,
+            "value": 1.2601752
+          },
+          {
+            "year": 2021,
+            "value": 1.4663447
+          },
+          {
+            "year": 2022,
+            "value": 1.4618304
+          },
+          {
+            "year": 2023,
+            "value": 1.4161692
+          },
+          {
+            "year": 2024,
+            "value": 1.3253728
+          },
+          {
+            "year": 2025,
+            "value": 1.0060452
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
       }
     },
     "CHN": {
@@ -5742,7 +7176,8 @@
             "year": 2025,
             "value": 4.95994886240992
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.MKTP.CD": {
         "indicator": {
@@ -5856,7 +7291,8 @@
             "year": 2025,
             "value": 19498039388042.6
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.PCAP.CD": {
         "indicator": {
@@ -5970,7 +7406,8 @@
             "year": 2025,
             "value": 13861.970224368
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "FP.CPI.TOTL.ZG": {
         "indicator": {
@@ -6084,7 +7521,8 @@
             "year": 2025,
             "value": 0.0595646916565402
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.TOTL.ZS": {
         "indicator": {
@@ -6198,7 +7636,8 @@
             "year": 2025,
             "value": 4.615
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.1524.ZS": {
         "indicator": {
@@ -6312,7 +7751,8 @@
             "year": 2025,
             "value": 15.795
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.EXP.GNFS.ZS": {
         "indicator": {
@@ -6426,7 +7866,8 @@
             "year": 2025,
             "value": 21.0711983566772
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "BX.KLT.DINV.WD.GD.ZS": {
         "indicator": {
@@ -6540,7 +7981,8 @@
             "year": 2025,
             "value": 0.410194399848574
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "DT.DOD.DECT.CD": {
         "indicator": {
@@ -6650,7 +8092,8 @@
             "year": 2024,
             "value": 2419835436491.8
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "CM.MKT.LCAP.GD.ZS": {
         "indicator": {
@@ -6752,7 +8195,8 @@
             "year": 2025,
             "value": 79.540605039043
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.NET.USER.ZS": {
         "indicator": {
@@ -6866,7 +8310,8 @@
             "year": 2025,
             "value": 91.6
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.CEL.SETS.P2": {
         "indicator": {
@@ -6976,7 +8421,8 @@
             "year": 2024,
             "value": 131.753932036803
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GB.XPD.RSDV.GD.ZS": {
         "indicator": {
@@ -7082,7 +8528,8 @@
             "year": 2023,
             "value": 2.57729
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IP.PAT.RESD": {
         "indicator": {
@@ -7192,7 +8639,8 @@
             "year": 2024,
             "value": 1672001.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.POP.TOTL": {
         "indicator": {
@@ -7306,7 +8754,8 @@
             "year": 2025,
             "value": 1406585000.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.DYN.LE00.IN": {
         "indicator": {
@@ -7416,7 +8865,8 @@
             "year": 2024,
             "value": 78.017
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.DYN.MORT": {
         "indicator": {
@@ -7526,7 +8976,8 @@
             "year": 2024,
             "value": 5.7
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.XPD.CHEX.GD.ZS": {
         "indicator": {
@@ -7632,7 +9083,8 @@
             "year": 2023,
             "value": 5.94388866
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.USE.PCAP.KG.OE": {
         "indicator": {
@@ -7742,7 +9194,8 @@
             "year": 2024,
             "value": 2946.80707657454
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.FEC.RNEW.ZS": {
         "indicator": {
@@ -7840,7 +9293,8 @@
             "year": 2021,
             "value": 15.2
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.ELC.ACCS.ZS": {
         "indicator": {
@@ -7950,7 +9404,8 @@
             "year": 2024,
             "value": 100.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.IND.TOTL.ZS": {
         "indicator": {
@@ -8064,7 +9519,8 @@
             "year": 2025,
             "value": 35.6416587106792
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.AGR.TOTL.ZS": {
         "indicator": {
@@ -8178,7 +9634,8 @@
             "year": 2025,
             "value": 6.65869070601804
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GNS.ICTR.ZS": {
         "indicator": {
@@ -8288,7 +9745,674 @@
             "year": 2024,
             "value": 42.7150109198495
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
+      },
+      "GOV_WGI_VA.EST": {
+        "indicator": {
+          "id": "GOV_WGI_VA.EST",
+          "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -1.8107226
+          },
+          {
+            "year": 2002,
+            "value": -1.851035
+          },
+          {
+            "year": 2003,
+            "value": -1.8111728
+          },
+          {
+            "year": 2004,
+            "value": -1.7085235
+          },
+          {
+            "year": 2005,
+            "value": -1.6346226
+          },
+          {
+            "year": 2006,
+            "value": -1.591566
+          },
+          {
+            "year": 2007,
+            "value": -1.5973475
+          },
+          {
+            "year": 2008,
+            "value": -1.6324699
+          },
+          {
+            "year": 2009,
+            "value": -1.6172202
+          },
+          {
+            "year": 2010,
+            "value": -1.6198168
+          },
+          {
+            "year": 2011,
+            "value": -1.5239675
+          },
+          {
+            "year": 2012,
+            "value": -1.5724302
+          },
+          {
+            "year": 2013,
+            "value": -1.5998789
+          },
+          {
+            "year": 2014,
+            "value": -1.51968
+          },
+          {
+            "year": 2015,
+            "value": -1.5540849
+          },
+          {
+            "year": 2016,
+            "value": -1.551003
+          },
+          {
+            "year": 2017,
+            "value": -1.5225011
+          },
+          {
+            "year": 2018,
+            "value": -1.5750669
+          },
+          {
+            "year": 2019,
+            "value": -1.607176
+          },
+          {
+            "year": 2020,
+            "value": -1.6492423
+          },
+          {
+            "year": 2021,
+            "value": -1.7088924
+          },
+          {
+            "year": 2022,
+            "value": -1.7129521
+          },
+          {
+            "year": 2023,
+            "value": -1.7379244
+          },
+          {
+            "year": 2024,
+            "value": -1.7407729
+          },
+          {
+            "year": 2025,
+            "value": -1.7207236
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_PV.EST": {
+        "indicator": {
+          "id": "GOV_WGI_PV.EST",
+          "value": "Political Stability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.2926298
+          },
+          {
+            "year": 2002,
+            "value": -0.4735395
+          },
+          {
+            "year": 2003,
+            "value": -0.5842512
+          },
+          {
+            "year": 2004,
+            "value": -0.4598983
+          },
+          {
+            "year": 2005,
+            "value": -0.5740407
+          },
+          {
+            "year": 2006,
+            "value": -0.5558091
+          },
+          {
+            "year": 2007,
+            "value": -0.5073458
+          },
+          {
+            "year": 2008,
+            "value": -0.5489727
+          },
+          {
+            "year": 2009,
+            "value": -0.3074641
+          },
+          {
+            "year": 2010,
+            "value": -0.6236061
+          },
+          {
+            "year": 2011,
+            "value": -0.6376785
+          },
+          {
+            "year": 2012,
+            "value": -0.6264594
+          },
+          {
+            "year": 2013,
+            "value": -0.5690208
+          },
+          {
+            "year": 2014,
+            "value": -0.5330071
+          },
+          {
+            "year": 2015,
+            "value": -0.5519697
+          },
+          {
+            "year": 2016,
+            "value": -0.5160209
+          },
+          {
+            "year": 2017,
+            "value": -0.2246607
+          },
+          {
+            "year": 2018,
+            "value": -0.2586305
+          },
+          {
+            "year": 2019,
+            "value": -0.1573357
+          },
+          {
+            "year": 2020,
+            "value": -0.3106264
+          },
+          {
+            "year": 2021,
+            "value": -0.2746899
+          },
+          {
+            "year": 2022,
+            "value": -0.2543528
+          },
+          {
+            "year": 2023,
+            "value": -0.1890204
+          },
+          {
+            "year": 2024,
+            "value": -0.0668337
+          },
+          {
+            "year": 2025,
+            "value": 0.022475
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_GE.EST": {
+        "indicator": {
+          "id": "GOV_WGI_GE.EST",
+          "value": "Government Effectiveness - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.5444546
+          },
+          {
+            "year": 2002,
+            "value": -0.570517
+          },
+          {
+            "year": 2003,
+            "value": -0.5575389
+          },
+          {
+            "year": 2004,
+            "value": -0.3865675
+          },
+          {
+            "year": 2005,
+            "value": -0.4877009
+          },
+          {
+            "year": 2006,
+            "value": -0.4300437
+          },
+          {
+            "year": 2007,
+            "value": -0.299072
+          },
+          {
+            "year": 2008,
+            "value": -0.0939853
+          },
+          {
+            "year": 2009,
+            "value": -0.1016401
+          },
+          {
+            "year": 2010,
+            "value": -0.0825592
+          },
+          {
+            "year": 2011,
+            "value": -0.0653687
+          },
+          {
+            "year": 2012,
+            "value": -0.1000794
+          },
+          {
+            "year": 2013,
+            "value": -0.109095
+          },
+          {
+            "year": 2014,
+            "value": 0.4169799
+          },
+          {
+            "year": 2015,
+            "value": 0.460374
+          },
+          {
+            "year": 2016,
+            "value": 0.4704074
+          },
+          {
+            "year": 2017,
+            "value": 0.5146291
+          },
+          {
+            "year": 2018,
+            "value": 0.4541329
+          },
+          {
+            "year": 2019,
+            "value": 0.5488249
+          },
+          {
+            "year": 2020,
+            "value": 0.6071299
+          },
+          {
+            "year": 2021,
+            "value": 0.5479568
+          },
+          {
+            "year": 2022,
+            "value": 0.4336482
+          },
+          {
+            "year": 2023,
+            "value": 0.6099285
+          },
+          {
+            "year": 2024,
+            "value": 0.7040988
+          },
+          {
+            "year": 2025,
+            "value": 0.623841
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RL.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RL.EST",
+          "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.6101927
+          },
+          {
+            "year": 2002,
+            "value": -0.6491682
+          },
+          {
+            "year": 2003,
+            "value": -0.7419944
+          },
+          {
+            "year": 2004,
+            "value": -0.7016146
+          },
+          {
+            "year": 2005,
+            "value": -0.8192986
+          },
+          {
+            "year": 2006,
+            "value": -0.8102527
+          },
+          {
+            "year": 2007,
+            "value": -0.6775633
+          },
+          {
+            "year": 2008,
+            "value": -0.6485404
+          },
+          {
+            "year": 2009,
+            "value": -0.6523626
+          },
+          {
+            "year": 2010,
+            "value": -0.6561912
+          },
+          {
+            "year": 2011,
+            "value": -0.5795634
+          },
+          {
+            "year": 2012,
+            "value": -0.6588392
+          },
+          {
+            "year": 2013,
+            "value": -0.753385
+          },
+          {
+            "year": 2014,
+            "value": -0.6489398
+          },
+          {
+            "year": 2015,
+            "value": -0.6204938
+          },
+          {
+            "year": 2016,
+            "value": -0.581916
+          },
+          {
+            "year": 2017,
+            "value": -0.4890928
+          },
+          {
+            "year": 2018,
+            "value": -0.4709236
+          },
+          {
+            "year": 2019,
+            "value": -0.5021306
+          },
+          {
+            "year": 2020,
+            "value": -0.4459598
+          },
+          {
+            "year": 2021,
+            "value": -0.5058946
+          },
+          {
+            "year": 2022,
+            "value": -0.5329154
+          },
+          {
+            "year": 2023,
+            "value": -0.5250814
+          },
+          {
+            "year": 2024,
+            "value": -0.5286088
+          },
+          {
+            "year": 2025,
+            "value": -0.4292116
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_CC.EST": {
+        "indicator": {
+          "id": "GOV_WGI_CC.EST",
+          "value": "Control of Corruption - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.5189235
+          },
+          {
+            "year": 2002,
+            "value": -0.5953297
+          },
+          {
+            "year": 2003,
+            "value": -0.5281963
+          },
+          {
+            "year": 2004,
+            "value": -0.6414881
+          },
+          {
+            "year": 2005,
+            "value": -0.6699424
+          },
+          {
+            "year": 2006,
+            "value": -0.6899413
+          },
+          {
+            "year": 2007,
+            "value": -0.6150392
+          },
+          {
+            "year": 2008,
+            "value": -0.5089573
+          },
+          {
+            "year": 2009,
+            "value": -0.5804213
+          },
+          {
+            "year": 2010,
+            "value": -0.5913334
+          },
+          {
+            "year": 2011,
+            "value": -0.437661
+          },
+          {
+            "year": 2012,
+            "value": -0.5062389
+          },
+          {
+            "year": 2013,
+            "value": -0.4587685
+          },
+          {
+            "year": 2014,
+            "value": -0.3020196
+          },
+          {
+            "year": 2015,
+            "value": -0.1759494
+          },
+          {
+            "year": 2016,
+            "value": -0.0946683
+          },
+          {
+            "year": 2017,
+            "value": -0.0508575
+          },
+          {
+            "year": 2018,
+            "value": -0.0728427
+          },
+          {
+            "year": 2019,
+            "value": -0.0531885
+          },
+          {
+            "year": 2020,
+            "value": 0.0729014
+          },
+          {
+            "year": 2021,
+            "value": 0.0519623
+          },
+          {
+            "year": 2022,
+            "value": 0.0390354
+          },
+          {
+            "year": 2023,
+            "value": 0.1016688
+          },
+          {
+            "year": 2024,
+            "value": 0.0800733
+          },
+          {
+            "year": 2025,
+            "value": 0.0709491
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RQ.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RQ.EST",
+          "value": "Regulatory Quality - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.3165944
+          },
+          {
+            "year": 2002,
+            "value": -0.6661802
+          },
+          {
+            "year": 2003,
+            "value": -0.6163634
+          },
+          {
+            "year": 2004,
+            "value": -0.369754
+          },
+          {
+            "year": 2005,
+            "value": -0.3022046
+          },
+          {
+            "year": 2006,
+            "value": -0.1909751
+          },
+          {
+            "year": 2007,
+            "value": -0.1812525
+          },
+          {
+            "year": 2008,
+            "value": -0.1073693
+          },
+          {
+            "year": 2009,
+            "value": -0.169131
+          },
+          {
+            "year": 2010,
+            "value": -0.1485768
+          },
+          {
+            "year": 2011,
+            "value": -0.122465
+          },
+          {
+            "year": 2012,
+            "value": -0.2416719
+          },
+          {
+            "year": 2013,
+            "value": -0.2672476
+          },
+          {
+            "year": 2014,
+            "value": -0.1466444
+          },
+          {
+            "year": 2015,
+            "value": -0.1538784
+          },
+          {
+            "year": 2016,
+            "value": -0.1251972
+          },
+          {
+            "year": 2017,
+            "value": -0.0648382
+          },
+          {
+            "year": 2018,
+            "value": -0.0947023
+          },
+          {
+            "year": 2019,
+            "value": -0.0734139
+          },
+          {
+            "year": 2020,
+            "value": -0.0241071
+          },
+          {
+            "year": 2021,
+            "value": -0.0357933
+          },
+          {
+            "year": 2022,
+            "value": -0.1056336
+          },
+          {
+            "year": 2023,
+            "value": -0.1067498
+          },
+          {
+            "year": 2024,
+            "value": -0.0976131
+          },
+          {
+            "year": 2025,
+            "value": -0.1107931
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
       }
     },
     "DEU": {
@@ -8404,7 +10528,8 @@
             "year": 2025,
             "value": 0.239578342117881
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.MKTP.CD": {
         "indicator": {
@@ -8518,7 +10643,8 @@
             "year": 2025,
             "value": 5050922925047.05
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.PCAP.CD": {
         "indicator": {
@@ -8632,7 +10758,8 @@
             "year": 2025,
             "value": 60496.4350820414
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "FP.CPI.TOTL.ZG": {
         "indicator": {
@@ -8746,7 +10873,8 @@
             "year": 2025,
             "value": 2.17178770949721
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.TOTL.ZS": {
         "indicator": {
@@ -8860,7 +10988,8 @@
             "year": 2025,
             "value": 3.711
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.1524.ZS": {
         "indicator": {
@@ -8974,7 +11103,8 @@
             "year": 2025,
             "value": 6.862
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.EXP.GNFS.ZS": {
         "indicator": {
@@ -9088,7 +11218,8 @@
             "year": 2025,
             "value": 40.4347738545071
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.IMP.GNFS.ZS": {
         "indicator": {
@@ -9202,7 +11333,8 @@
             "year": 2025,
             "value": 38.0780373654056
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "BX.KLT.DINV.WD.GD.ZS": {
         "indicator": {
@@ -9316,7 +11448,8 @@
             "year": 2025,
             "value": 1.88462297077009
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "CM.MKT.LCAP.GD.ZS": {
         "indicator": {
@@ -9430,7 +11563,8 @@
             "year": 2025,
             "value": 57.3881572341157
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.NET.USER.ZS": {
         "indicator": {
@@ -9540,7 +11674,8 @@
             "year": 2024,
             "value": 93.49999579
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.CEL.SETS.P2": {
         "indicator": {
@@ -9650,7 +11785,8 @@
             "year": 2024,
             "value": 129.150921864378
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GB.XPD.RSDV.GD.ZS": {
         "indicator": {
@@ -9756,7 +11892,8 @@
             "year": 2023,
             "value": 3.1539
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IP.PAT.RESD": {
         "indicator": {
@@ -9866,7 +12003,8 @@
             "year": 2024,
             "value": 40085.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.POP.TOTL": {
         "indicator": {
@@ -9980,7 +12118,8 @@
             "year": 2025,
             "value": 83491249.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.DYN.LE00.IN": {
         "indicator": {
@@ -10090,7 +12229,8 @@
             "year": 2024,
             "value": 80.7926829268293
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.DYN.MORT": {
         "indicator": {
@@ -10200,7 +12340,8 @@
             "year": 2024,
             "value": 3.7
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.XPD.CHEX.GD.ZS": {
         "indicator": {
@@ -10310,7 +12451,8 @@
             "year": 2024,
             "value": 12.26655293
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.USE.PCAP.KG.OE": {
         "indicator": {
@@ -10420,7 +12562,8 @@
             "year": 2024,
             "value": 2874.38339733752
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.FEC.RNEW.ZS": {
         "indicator": {
@@ -10518,7 +12661,8 @@
             "year": 2021,
             "value": 17.6
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.ELC.ACCS.ZS": {
         "indicator": {
@@ -10628,7 +12772,8 @@
             "year": 2024,
             "value": 100.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.IND.TOTL.ZS": {
         "indicator": {
@@ -10742,7 +12887,8 @@
             "year": 2025,
             "value": 25.1588063294339
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.AGR.TOTL.ZS": {
         "indicator": {
@@ -10856,7 +13002,8 @@
             "year": 2025,
             "value": 0.871426941482043
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GNS.ICTR.ZS": {
         "indicator": {
@@ -10970,7 +13117,674 @@
             "year": 2025,
             "value": 26.3281394613557
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
+      },
+      "GOV_WGI_VA.EST": {
+        "indicator": {
+          "id": "GOV_WGI_VA.EST",
+          "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.2382982
+          },
+          {
+            "year": 2002,
+            "value": 1.477717
+          },
+          {
+            "year": 2003,
+            "value": 1.4310704
+          },
+          {
+            "year": 2004,
+            "value": 1.4318668
+          },
+          {
+            "year": 2005,
+            "value": 1.5140559
+          },
+          {
+            "year": 2006,
+            "value": 1.5156335
+          },
+          {
+            "year": 2007,
+            "value": 1.5102944
+          },
+          {
+            "year": 2008,
+            "value": 1.4842636
+          },
+          {
+            "year": 2009,
+            "value": 1.5213343
+          },
+          {
+            "year": 2010,
+            "value": 1.4470088
+          },
+          {
+            "year": 2011,
+            "value": 1.458894
+          },
+          {
+            "year": 2012,
+            "value": 1.4680281
+          },
+          {
+            "year": 2013,
+            "value": 1.4813801
+          },
+          {
+            "year": 2014,
+            "value": 1.4989629
+          },
+          {
+            "year": 2015,
+            "value": 1.5275306
+          },
+          {
+            "year": 2016,
+            "value": 1.479124
+          },
+          {
+            "year": 2017,
+            "value": 1.4892491
+          },
+          {
+            "year": 2018,
+            "value": 1.5140915
+          },
+          {
+            "year": 2019,
+            "value": 1.5031809
+          },
+          {
+            "year": 2020,
+            "value": 1.4913196
+          },
+          {
+            "year": 2021,
+            "value": 1.5487135
+          },
+          {
+            "year": 2022,
+            "value": 1.5355656
+          },
+          {
+            "year": 2023,
+            "value": 1.5542349
+          },
+          {
+            "year": 2024,
+            "value": 1.5359631
+          },
+          {
+            "year": 2025,
+            "value": 1.5424524
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_PV.EST": {
+        "indicator": {
+          "id": "GOV_WGI_PV.EST",
+          "value": "Political Stability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.3728549
+          },
+          {
+            "year": 2002,
+            "value": 0.995452
+          },
+          {
+            "year": 2003,
+            "value": 0.7078527
+          },
+          {
+            "year": 2004,
+            "value": 0.7150155
+          },
+          {
+            "year": 2005,
+            "value": 0.9885121
+          },
+          {
+            "year": 2006,
+            "value": 1.0400231
+          },
+          {
+            "year": 2007,
+            "value": 1.061317
+          },
+          {
+            "year": 2008,
+            "value": 1.0118276
+          },
+          {
+            "year": 2009,
+            "value": 1.0348174
+          },
+          {
+            "year": 2010,
+            "value": 0.941184
+          },
+          {
+            "year": 2011,
+            "value": 0.902906
+          },
+          {
+            "year": 2012,
+            "value": 0.9707093
+          },
+          {
+            "year": 2013,
+            "value": 0.9581
+          },
+          {
+            "year": 2014,
+            "value": 1.0566419
+          },
+          {
+            "year": 2015,
+            "value": 0.8302251
+          },
+          {
+            "year": 2016,
+            "value": 0.7937676
+          },
+          {
+            "year": 2017,
+            "value": 0.7172791
+          },
+          {
+            "year": 2018,
+            "value": 0.8298659
+          },
+          {
+            "year": 2019,
+            "value": 0.7398556
+          },
+          {
+            "year": 2020,
+            "value": 0.6997475
+          },
+          {
+            "year": 2021,
+            "value": 0.6949652
+          },
+          {
+            "year": 2022,
+            "value": 0.5625259
+          },
+          {
+            "year": 2023,
+            "value": 0.5343453
+          },
+          {
+            "year": 2024,
+            "value": 0.195136
+          },
+          {
+            "year": 2025,
+            "value": 0.2082813
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_GE.EST": {
+        "indicator": {
+          "id": "GOV_WGI_GE.EST",
+          "value": "Government Effectiveness - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.7783876
+          },
+          {
+            "year": 2002,
+            "value": 1.7778918
+          },
+          {
+            "year": 2003,
+            "value": 1.6227802
+          },
+          {
+            "year": 2004,
+            "value": 1.5973383
+          },
+          {
+            "year": 2005,
+            "value": 1.6885851
+          },
+          {
+            "year": 2006,
+            "value": 1.7370785
+          },
+          {
+            "year": 2007,
+            "value": 1.7919586
+          },
+          {
+            "year": 2008,
+            "value": 1.7105618
+          },
+          {
+            "year": 2009,
+            "value": 1.7359462
+          },
+          {
+            "year": 2010,
+            "value": 1.465686
+          },
+          {
+            "year": 2011,
+            "value": 1.5776088
+          },
+          {
+            "year": 2012,
+            "value": 1.6719575
+          },
+          {
+            "year": 2013,
+            "value": 1.7013549
+          },
+          {
+            "year": 2014,
+            "value": 1.8924636
+          },
+          {
+            "year": 2015,
+            "value": 1.8940052
+          },
+          {
+            "year": 2016,
+            "value": 1.8416495
+          },
+          {
+            "year": 2017,
+            "value": 1.8097995
+          },
+          {
+            "year": 2018,
+            "value": 1.7437919
+          },
+          {
+            "year": 2019,
+            "value": 1.826047
+          },
+          {
+            "year": 2020,
+            "value": 1.6549806
+          },
+          {
+            "year": 2021,
+            "value": 1.7476581
+          },
+          {
+            "year": 2022,
+            "value": 1.7126055
+          },
+          {
+            "year": 2023,
+            "value": 1.5733794
+          },
+          {
+            "year": 2024,
+            "value": 1.506231
+          },
+          {
+            "year": 2025,
+            "value": 1.4897351
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RL.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RL.EST",
+          "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.6351218
+          },
+          {
+            "year": 2002,
+            "value": 1.6531072
+          },
+          {
+            "year": 2003,
+            "value": 1.6540241
+          },
+          {
+            "year": 2004,
+            "value": 1.622117
+          },
+          {
+            "year": 2005,
+            "value": 1.6254224
+          },
+          {
+            "year": 2006,
+            "value": 1.6260134
+          },
+          {
+            "year": 2007,
+            "value": 1.694086
+          },
+          {
+            "year": 2008,
+            "value": 1.5925505
+          },
+          {
+            "year": 2009,
+            "value": 1.578259
+          },
+          {
+            "year": 2010,
+            "value": 1.5800502
+          },
+          {
+            "year": 2011,
+            "value": 1.5739877
+          },
+          {
+            "year": 2012,
+            "value": 1.5989074
+          },
+          {
+            "year": 2013,
+            "value": 1.6088654
+          },
+          {
+            "year": 2014,
+            "value": 1.7194766
+          },
+          {
+            "year": 2015,
+            "value": 1.7190498
+          },
+          {
+            "year": 2016,
+            "value": 1.6653973
+          },
+          {
+            "year": 2017,
+            "value": 1.676644
+          },
+          {
+            "year": 2018,
+            "value": 1.6967985
+          },
+          {
+            "year": 2019,
+            "value": 1.6940828
+          },
+          {
+            "year": 2020,
+            "value": 1.6097442
+          },
+          {
+            "year": 2021,
+            "value": 1.6304817
+          },
+          {
+            "year": 2022,
+            "value": 1.576423
+          },
+          {
+            "year": 2023,
+            "value": 1.5862983
+          },
+          {
+            "year": 2024,
+            "value": 1.6084567
+          },
+          {
+            "year": 2025,
+            "value": 1.604343
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_CC.EST": {
+        "indicator": {
+          "id": "GOV_WGI_CC.EST",
+          "value": "Control of Corruption - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.7269456
+          },
+          {
+            "year": 2002,
+            "value": 1.8106572
+          },
+          {
+            "year": 2003,
+            "value": 1.8898098
+          },
+          {
+            "year": 2004,
+            "value": 1.7943278
+          },
+          {
+            "year": 2005,
+            "value": 1.9313004
+          },
+          {
+            "year": 2006,
+            "value": 1.730151
+          },
+          {
+            "year": 2007,
+            "value": 1.6569485
+          },
+          {
+            "year": 2008,
+            "value": 1.6895598
+          },
+          {
+            "year": 2009,
+            "value": 1.6841678
+          },
+          {
+            "year": 2010,
+            "value": 1.6578235
+          },
+          {
+            "year": 2011,
+            "value": 1.670005
+          },
+          {
+            "year": 2012,
+            "value": 1.6615818
+          },
+          {
+            "year": 2013,
+            "value": 1.6274436
+          },
+          {
+            "year": 2014,
+            "value": 1.707893
+          },
+          {
+            "year": 2015,
+            "value": 1.7231126
+          },
+          {
+            "year": 2016,
+            "value": 1.7621904
+          },
+          {
+            "year": 2017,
+            "value": 1.8252854
+          },
+          {
+            "year": 2018,
+            "value": 1.918572
+          },
+          {
+            "year": 2019,
+            "value": 1.8793114
+          },
+          {
+            "year": 2020,
+            "value": 1.850218
+          },
+          {
+            "year": 2021,
+            "value": 1.8235437
+          },
+          {
+            "year": 2022,
+            "value": 1.8207548
+          },
+          {
+            "year": 2023,
+            "value": 1.7099461
+          },
+          {
+            "year": 2024,
+            "value": 1.7640033
+          },
+          {
+            "year": 2025,
+            "value": 1.6760641
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RQ.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RQ.EST",
+          "value": "Regulatory Quality - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.6259917
+          },
+          {
+            "year": 2002,
+            "value": 1.7231093
+          },
+          {
+            "year": 2003,
+            "value": 1.554141
+          },
+          {
+            "year": 2004,
+            "value": 1.483483
+          },
+          {
+            "year": 2005,
+            "value": 1.5310752
+          },
+          {
+            "year": 2006,
+            "value": 1.5287522
+          },
+          {
+            "year": 2007,
+            "value": 1.5424028
+          },
+          {
+            "year": 2008,
+            "value": 1.3911437
+          },
+          {
+            "year": 2009,
+            "value": 1.4337663
+          },
+          {
+            "year": 2010,
+            "value": 1.4479305
+          },
+          {
+            "year": 2011,
+            "value": 1.4845258
+          },
+          {
+            "year": 2012,
+            "value": 1.4903188
+          },
+          {
+            "year": 2013,
+            "value": 1.4703219
+          },
+          {
+            "year": 2014,
+            "value": 1.5423873
+          },
+          {
+            "year": 2015,
+            "value": 1.6168933
+          },
+          {
+            "year": 2016,
+            "value": 1.6580651
+          },
+          {
+            "year": 2017,
+            "value": 1.6590124
+          },
+          {
+            "year": 2018,
+            "value": 1.6474197
+          },
+          {
+            "year": 2019,
+            "value": 1.6365073
+          },
+          {
+            "year": 2020,
+            "value": 1.5480703
+          },
+          {
+            "year": 2021,
+            "value": 1.5934764
+          },
+          {
+            "year": 2022,
+            "value": 1.5342425
+          },
+          {
+            "year": 2023,
+            "value": 1.3723805
+          },
+          {
+            "year": 2024,
+            "value": 1.3539442
+          },
+          {
+            "year": 2025,
+            "value": 1.2160052
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
       }
     },
     "BRA": {
@@ -11086,7 +13900,8 @@
             "year": 2025,
             "value": 2.2857464902475
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.MKTP.CD": {
         "indicator": {
@@ -11200,7 +14015,8 @@
             "year": 2025,
             "value": 2279920092492.13
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.PCAP.CD": {
         "indicator": {
@@ -11314,7 +14130,8 @@
             "year": 2025,
             "value": 10713.2856869511
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "FP.CPI.TOTL.ZG": {
         "indicator": {
@@ -11428,7 +14245,8 @@
             "year": 2025,
             "value": 5.01675279604836
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.TOTL.ZS": {
         "indicator": {
@@ -11542,7 +14360,8 @@
             "year": 2025,
             "value": 5.97
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.1524.ZS": {
         "indicator": {
@@ -11656,7 +14475,8 @@
             "year": 2025,
             "value": 13.981
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.EXP.GNFS.ZS": {
         "indicator": {
@@ -11770,7 +14590,8 @@
             "year": 2025,
             "value": 17.8207228961707
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.IMP.GNFS.ZS": {
         "indicator": {
@@ -11884,7 +14705,8 @@
             "year": 2025,
             "value": 17.4707593653367
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "BX.KLT.DINV.WD.GD.ZS": {
         "indicator": {
@@ -11998,7 +14820,8 @@
             "year": 2025,
             "value": 3.40696865505948
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GC.DOD.TOTL.GD.ZS": {
         "indicator": {
@@ -12068,7 +14891,8 @@
             "year": 2024,
             "value": 81.8554431191023
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "DT.DOD.DECT.CD": {
         "indicator": {
@@ -12178,7 +15002,8 @@
             "year": 2024,
             "value": 605463780812.8
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "CM.MKT.LCAP.GD.ZS": {
         "indicator": {
@@ -12292,7 +15117,8 @@
             "year": 2025,
             "value": 38.2222400192741
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.NET.USER.ZS": {
         "indicator": {
@@ -12402,7 +15228,8 @@
             "year": 2024,
             "value": 84.46347227
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.CEL.SETS.P2": {
         "indicator": {
@@ -12512,7 +15339,8 @@
             "year": 2024,
             "value": 101.926846460424
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GB.XPD.RSDV.GD.ZS": {
         "indicator": {
@@ -12618,7 +15446,8 @@
             "year": 2023,
             "value": 1.1938
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IP.PAT.RESD": {
         "indicator": {
@@ -12728,7 +15557,8 @@
             "year": 2024,
             "value": 5752.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.POP.TOTL": {
         "indicator": {
@@ -12842,7 +15672,8 @@
             "year": 2025,
             "value": 212812405.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.DYN.LE00.IN": {
         "indicator": {
@@ -12952,7 +15783,8 @@
             "year": 2024,
             "value": 76.023
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.DYN.MORT": {
         "indicator": {
@@ -13062,7 +15894,8 @@
             "year": 2024,
             "value": 14.2
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.XPD.CHEX.GD.ZS": {
         "indicator": {
@@ -13168,7 +16001,8 @@
             "year": 2023,
             "value": 9.73092747
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.USE.PCAP.KG.OE": {
         "indicator": {
@@ -13278,7 +16112,8 @@
             "year": 2024,
             "value": 1528.21933899585
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.FEC.RNEW.ZS": {
         "indicator": {
@@ -13376,7 +16211,8 @@
             "year": 2021,
             "value": 46.5
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.ELC.ACCS.ZS": {
         "indicator": {
@@ -13486,7 +16322,8 @@
             "year": 2024,
             "value": 99.8
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.IND.TOTL.ZS": {
         "indicator": {
@@ -13600,7 +16437,8 @@
             "year": 2025,
             "value": 20.1499461312909
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.AGR.TOTL.ZS": {
         "indicator": {
@@ -13714,7 +16552,674 @@
             "year": 2025,
             "value": 6.08621695565171
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
+      },
+      "GOV_WGI_VA.EST": {
+        "indicator": {
+          "id": "GOV_WGI_VA.EST",
+          "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.2441917
+          },
+          {
+            "year": 2002,
+            "value": 0.4117245
+          },
+          {
+            "year": 2003,
+            "value": 0.4159082
+          },
+          {
+            "year": 2004,
+            "value": 0.4995826
+          },
+          {
+            "year": 2005,
+            "value": 0.6718742
+          },
+          {
+            "year": 2006,
+            "value": 0.6695413
+          },
+          {
+            "year": 2007,
+            "value": 0.6543369
+          },
+          {
+            "year": 2008,
+            "value": 0.7558684
+          },
+          {
+            "year": 2009,
+            "value": 0.6840381
+          },
+          {
+            "year": 2010,
+            "value": 0.7252045
+          },
+          {
+            "year": 2011,
+            "value": 0.6314093
+          },
+          {
+            "year": 2012,
+            "value": 0.710812
+          },
+          {
+            "year": 2013,
+            "value": 0.591705
+          },
+          {
+            "year": 2014,
+            "value": 0.5655299
+          },
+          {
+            "year": 2015,
+            "value": 0.5837251
+          },
+          {
+            "year": 2016,
+            "value": 0.5425851
+          },
+          {
+            "year": 2017,
+            "value": 0.5214075
+          },
+          {
+            "year": 2018,
+            "value": 0.3952101
+          },
+          {
+            "year": 2019,
+            "value": 0.3209495
+          },
+          {
+            "year": 2020,
+            "value": 0.2862822
+          },
+          {
+            "year": 2021,
+            "value": 0.1629575
+          },
+          {
+            "year": 2022,
+            "value": 0.1158359
+          },
+          {
+            "year": 2023,
+            "value": 0.2848618
+          },
+          {
+            "year": 2024,
+            "value": 0.4018924
+          },
+          {
+            "year": 2025,
+            "value": 0.4223661
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_PV.EST": {
+        "indicator": {
+          "id": "GOV_WGI_PV.EST",
+          "value": "Political Stability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.395335
+          },
+          {
+            "year": 2002,
+            "value": 0.3290256
+          },
+          {
+            "year": 2003,
+            "value": 0.1189511
+          },
+          {
+            "year": 2004,
+            "value": -0.2088347
+          },
+          {
+            "year": 2005,
+            "value": -0.172332
+          },
+          {
+            "year": 2006,
+            "value": -0.2506061
+          },
+          {
+            "year": 2007,
+            "value": -0.2319827
+          },
+          {
+            "year": 2008,
+            "value": -0.1548135
+          },
+          {
+            "year": 2009,
+            "value": 0.1298706
+          },
+          {
+            "year": 2010,
+            "value": -0.1461805
+          },
+          {
+            "year": 2011,
+            "value": -0.1672092
+          },
+          {
+            "year": 2012,
+            "value": -0.0877046
+          },
+          {
+            "year": 2013,
+            "value": -0.3648722
+          },
+          {
+            "year": 2014,
+            "value": -0.2485115
+          },
+          {
+            "year": 2015,
+            "value": -0.4937582
+          },
+          {
+            "year": 2016,
+            "value": -0.523379
+          },
+          {
+            "year": 2017,
+            "value": -0.59497
+          },
+          {
+            "year": 2018,
+            "value": -0.6458562
+          },
+          {
+            "year": 2019,
+            "value": -0.7213691
+          },
+          {
+            "year": 2020,
+            "value": -0.4217731
+          },
+          {
+            "year": 2021,
+            "value": -0.3920731
+          },
+          {
+            "year": 2022,
+            "value": -0.4151116
+          },
+          {
+            "year": 2023,
+            "value": -0.5062568
+          },
+          {
+            "year": 2024,
+            "value": -0.3863786
+          },
+          {
+            "year": 2025,
+            "value": -0.3845996
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_GE.EST": {
+        "indicator": {
+          "id": "GOV_WGI_GE.EST",
+          "value": "Government Effectiveness - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.229614
+          },
+          {
+            "year": 2002,
+            "value": -0.11074
+          },
+          {
+            "year": 2003,
+            "value": -0.1601345
+          },
+          {
+            "year": 2004,
+            "value": -0.2251549
+          },
+          {
+            "year": 2005,
+            "value": -0.3335397
+          },
+          {
+            "year": 2006,
+            "value": -0.3718123
+          },
+          {
+            "year": 2007,
+            "value": -0.3768965
+          },
+          {
+            "year": 2008,
+            "value": 0.1085416
+          },
+          {
+            "year": 2009,
+            "value": 0.1910058
+          },
+          {
+            "year": 2010,
+            "value": 0.193878
+          },
+          {
+            "year": 2011,
+            "value": 0.1699521
+          },
+          {
+            "year": 2012,
+            "value": 0.1938658
+          },
+          {
+            "year": 2013,
+            "value": 0.2797499
+          },
+          {
+            "year": 2014,
+            "value": 0.1380177
+          },
+          {
+            "year": 2015,
+            "value": 0.0397274
+          },
+          {
+            "year": 2016,
+            "value": 0.0251685
+          },
+          {
+            "year": 2017,
+            "value": -0.0418302
+          },
+          {
+            "year": 2018,
+            "value": -0.1412291
+          },
+          {
+            "year": 2019,
+            "value": 0.0853751
+          },
+          {
+            "year": 2020,
+            "value": -0.0212269
+          },
+          {
+            "year": 2021,
+            "value": -0.0104637
+          },
+          {
+            "year": 2022,
+            "value": -0.1979051
+          },
+          {
+            "year": 2023,
+            "value": -0.2500394
+          },
+          {
+            "year": 2024,
+            "value": -0.1860013
+          },
+          {
+            "year": 2025,
+            "value": -0.0356251
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RL.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RL.EST",
+          "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.4469405
+          },
+          {
+            "year": 2002,
+            "value": -0.3418619
+          },
+          {
+            "year": 2003,
+            "value": -0.4369725
+          },
+          {
+            "year": 2004,
+            "value": -0.3323992
+          },
+          {
+            "year": 2005,
+            "value": -0.3803369
+          },
+          {
+            "year": 2006,
+            "value": -0.3388628
+          },
+          {
+            "year": 2007,
+            "value": -0.3322253
+          },
+          {
+            "year": 2008,
+            "value": -0.2715832
+          },
+          {
+            "year": 2009,
+            "value": -0.2274659
+          },
+          {
+            "year": 2010,
+            "value": -0.0534482
+          },
+          {
+            "year": 2011,
+            "value": -0.0665783
+          },
+          {
+            "year": 2012,
+            "value": -0.0605632
+          },
+          {
+            "year": 2013,
+            "value": -0.1517469
+          },
+          {
+            "year": 2014,
+            "value": -0.1434823
+          },
+          {
+            "year": 2015,
+            "value": -0.209435
+          },
+          {
+            "year": 2016,
+            "value": -0.1439962
+          },
+          {
+            "year": 2017,
+            "value": -0.2647692
+          },
+          {
+            "year": 2018,
+            "value": -0.3977081
+          },
+          {
+            "year": 2019,
+            "value": -0.3608038
+          },
+          {
+            "year": 2020,
+            "value": -0.3575123
+          },
+          {
+            "year": 2021,
+            "value": -0.3791836
+          },
+          {
+            "year": 2022,
+            "value": -0.4256888
+          },
+          {
+            "year": 2023,
+            "value": -0.5051317
+          },
+          {
+            "year": 2024,
+            "value": -0.4900423
+          },
+          {
+            "year": 2025,
+            "value": -0.4855083
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_CC.EST": {
+        "indicator": {
+          "id": "GOV_WGI_CC.EST",
+          "value": "Control of Corruption - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.1083783
+          },
+          {
+            "year": 2002,
+            "value": 0.0962031
+          },
+          {
+            "year": 2003,
+            "value": 0.052878
+          },
+          {
+            "year": 2004,
+            "value": -0.1077507
+          },
+          {
+            "year": 2005,
+            "value": -0.2508875
+          },
+          {
+            "year": 2006,
+            "value": -0.2193516
+          },
+          {
+            "year": 2007,
+            "value": -0.2877246
+          },
+          {
+            "year": 2008,
+            "value": -0.0905943
+          },
+          {
+            "year": 2009,
+            "value": -0.0366836
+          },
+          {
+            "year": 2010,
+            "value": -0.0114011
+          },
+          {
+            "year": 2011,
+            "value": 0.2152481
+          },
+          {
+            "year": 2012,
+            "value": -0.0242705
+          },
+          {
+            "year": 2013,
+            "value": -0.0761893
+          },
+          {
+            "year": 2014,
+            "value": -0.2552721
+          },
+          {
+            "year": 2015,
+            "value": -0.3492221
+          },
+          {
+            "year": 2016,
+            "value": -0.3354755
+          },
+          {
+            "year": 2017,
+            "value": -0.4668159
+          },
+          {
+            "year": 2018,
+            "value": -0.4299065
+          },
+          {
+            "year": 2019,
+            "value": -0.3724397
+          },
+          {
+            "year": 2020,
+            "value": -0.3371524
+          },
+          {
+            "year": 2021,
+            "value": -0.4038381
+          },
+          {
+            "year": 2022,
+            "value": -0.4565665
+          },
+          {
+            "year": 2023,
+            "value": -0.4394541
+          },
+          {
+            "year": 2024,
+            "value": -0.3958138
+          },
+          {
+            "year": 2025,
+            "value": -0.3810545
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RQ.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RQ.EST",
+          "value": "Regulatory Quality - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.1204362
+          },
+          {
+            "year": 2002,
+            "value": 0.0925192
+          },
+          {
+            "year": 2003,
+            "value": 0.1988144
+          },
+          {
+            "year": 2004,
+            "value": 0.0641762
+          },
+          {
+            "year": 2005,
+            "value": 0.1208838
+          },
+          {
+            "year": 2006,
+            "value": 0.0245336
+          },
+          {
+            "year": 2007,
+            "value": -0.0191161
+          },
+          {
+            "year": 2008,
+            "value": 0.1744905
+          },
+          {
+            "year": 2009,
+            "value": 0.1723282
+          },
+          {
+            "year": 2010,
+            "value": 0.216413
+          },
+          {
+            "year": 2011,
+            "value": 0.1931333
+          },
+          {
+            "year": 2012,
+            "value": 0.1958017
+          },
+          {
+            "year": 2013,
+            "value": 0.1486036
+          },
+          {
+            "year": 2014,
+            "value": 0.0004755
+          },
+          {
+            "year": 2015,
+            "value": -0.0618638
+          },
+          {
+            "year": 2016,
+            "value": -0.0690733
+          },
+          {
+            "year": 2017,
+            "value": -0.076908
+          },
+          {
+            "year": 2018,
+            "value": -0.2113431
+          },
+          {
+            "year": 2019,
+            "value": -0.0738371
+          },
+          {
+            "year": 2020,
+            "value": -0.1224856
+          },
+          {
+            "year": 2021,
+            "value": -0.1226409
+          },
+          {
+            "year": 2022,
+            "value": -0.1677479
+          },
+          {
+            "year": 2023,
+            "value": -0.3172263
+          },
+          {
+            "year": 2024,
+            "value": -0.3825789
+          },
+          {
+            "year": 2025,
+            "value": -0.44189
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
       }
     },
     "JPN": {
@@ -13830,7 +17335,8 @@
             "year": 2025,
             "value": 4435162999976.94
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.PCAP.CD": {
         "indicator": {
@@ -13944,7 +17450,8 @@
             "year": 2025,
             "value": 35951.0449549304
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "FP.CPI.TOTL.ZG": {
         "indicator": {
@@ -14058,7 +17565,8 @@
             "year": 2025,
             "value": 3.17253034260247
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.TOTL.ZS": {
         "indicator": {
@@ -14172,7 +17680,8 @@
             "year": 2025,
             "value": 2.451
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.1524.ZS": {
         "indicator": {
@@ -14286,7 +17795,8 @@
             "year": 2025,
             "value": 3.898
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.EXP.GNFS.ZS": {
         "indicator": {
@@ -14396,7 +17906,8 @@
             "year": 2024,
             "value": 21.9799093698461
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.IMP.GNFS.ZS": {
         "indicator": {
@@ -14506,7 +18017,8 @@
             "year": 2024,
             "value": 22.8730294879112
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "BX.KLT.DINV.WD.GD.ZS": {
         "indicator": {
@@ -14620,7 +18132,8 @@
             "year": 2025,
             "value": 1.03278551644542
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "CM.MKT.LCAP.GD.ZS": {
         "indicator": {
@@ -14734,7 +18247,8 @@
             "year": 2025,
             "value": 171.595579915317
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.NET.USER.ZS": {
         "indicator": {
@@ -14844,7 +18358,8 @@
             "year": 2024,
             "value": 85.54153081
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.CEL.SETS.P2": {
         "indicator": {
@@ -14950,7 +18465,8 @@
             "year": 2023,
             "value": 178.432441299977
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GB.XPD.RSDV.GD.ZS": {
         "indicator": {
@@ -15056,7 +18572,8 @@
             "year": 2023,
             "value": 3.44125
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IP.PAT.RESD": {
         "indicator": {
@@ -15166,7 +18683,8 @@
             "year": 2024,
             "value": 237169.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.POP.TOTL": {
         "indicator": {
@@ -15280,7 +18798,8 @@
             "year": 2025,
             "value": 123366734.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.DYN.LE00.IN": {
         "indicator": {
@@ -15390,7 +18909,8 @@
             "year": 2024,
             "value": 84.0363414634146
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.DYN.MORT": {
         "indicator": {
@@ -15500,7 +19020,8 @@
             "year": 2024,
             "value": 2.4
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.XPD.CHEX.GD.ZS": {
         "indicator": {
@@ -15606,7 +19127,8 @@
             "year": 2023,
             "value": 10.73979473
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.USE.PCAP.KG.OE": {
         "indicator": {
@@ -15716,7 +19238,8 @@
             "year": 2024,
             "value": 3004.22677482281
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.FEC.RNEW.ZS": {
         "indicator": {
@@ -15814,7 +19337,8 @@
             "year": 2021,
             "value": 8.8
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.ELC.ACCS.ZS": {
         "indicator": {
@@ -15924,7 +19448,8 @@
             "year": 2024,
             "value": 100.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.IND.TOTL.ZS": {
         "indicator": {
@@ -16034,7 +19559,8 @@
             "year": 2024,
             "value": 26.7781043350478
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.AGR.TOTL.ZS": {
         "indicator": {
@@ -16144,7 +19670,8 @@
             "year": 2024,
             "value": 0.958270395726444
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GNS.ICTR.ZS": {
         "indicator": {
@@ -16254,7 +19781,674 @@
             "year": 2024,
             "value": 32.0592419328935
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
+      },
+      "GOV_WGI_VA.EST": {
+        "indicator": {
+          "id": "GOV_WGI_VA.EST",
+          "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.7241862
+          },
+          {
+            "year": 2002,
+            "value": 1.0083391
+          },
+          {
+            "year": 2003,
+            "value": 1.0364162
+          },
+          {
+            "year": 2004,
+            "value": 0.9648473
+          },
+          {
+            "year": 2005,
+            "value": 1.0070463
+          },
+          {
+            "year": 2006,
+            "value": 1.0196662
+          },
+          {
+            "year": 2007,
+            "value": 1.0950662
+          },
+          {
+            "year": 2008,
+            "value": 1.0925362
+          },
+          {
+            "year": 2009,
+            "value": 1.1831341
+          },
+          {
+            "year": 2010,
+            "value": 1.1981793
+          },
+          {
+            "year": 2011,
+            "value": 1.2425577
+          },
+          {
+            "year": 2012,
+            "value": 1.2222969
+          },
+          {
+            "year": 2013,
+            "value": 1.1709884
+          },
+          {
+            "year": 2014,
+            "value": 1.1820314
+          },
+          {
+            "year": 2015,
+            "value": 1.1408509
+          },
+          {
+            "year": 2016,
+            "value": 1.1318337
+          },
+          {
+            "year": 2017,
+            "value": 1.1531911
+          },
+          {
+            "year": 2018,
+            "value": 1.0932142
+          },
+          {
+            "year": 2019,
+            "value": 1.0550565
+          },
+          {
+            "year": 2020,
+            "value": 1.0516518
+          },
+          {
+            "year": 2021,
+            "value": 1.0559285
+          },
+          {
+            "year": 2022,
+            "value": 1.0685701
+          },
+          {
+            "year": 2023,
+            "value": 1.0762648
+          },
+          {
+            "year": 2024,
+            "value": 1.072596
+          },
+          {
+            "year": 2025,
+            "value": 1.1071795
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_PV.EST": {
+        "indicator": {
+          "id": "GOV_WGI_PV.EST",
+          "value": "Political Stability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.3453456
+          },
+          {
+            "year": 2002,
+            "value": 1.1255834
+          },
+          {
+            "year": 2003,
+            "value": 1.0839278
+          },
+          {
+            "year": 2004,
+            "value": 0.9624227
+          },
+          {
+            "year": 2005,
+            "value": 1.156967
+          },
+          {
+            "year": 2006,
+            "value": 1.2038007
+          },
+          {
+            "year": 2007,
+            "value": 1.1399289
+          },
+          {
+            "year": 2008,
+            "value": 1.0378521
+          },
+          {
+            "year": 2009,
+            "value": 1.0903448
+          },
+          {
+            "year": 2010,
+            "value": 0.9836731
+          },
+          {
+            "year": 2011,
+            "value": 0.9725452
+          },
+          {
+            "year": 2012,
+            "value": 0.9508813
+          },
+          {
+            "year": 2013,
+            "value": 1.028308
+          },
+          {
+            "year": 2014,
+            "value": 1.1877402
+          },
+          {
+            "year": 2015,
+            "value": 1.1948946
+          },
+          {
+            "year": 2016,
+            "value": 1.0949871
+          },
+          {
+            "year": 2017,
+            "value": 1.1476607
+          },
+          {
+            "year": 2018,
+            "value": 1.1196218
+          },
+          {
+            "year": 2019,
+            "value": 1.0992879
+          },
+          {
+            "year": 2020,
+            "value": 1.1188629
+          },
+          {
+            "year": 2021,
+            "value": 1.144125
+          },
+          {
+            "year": 2022,
+            "value": 1.2645775
+          },
+          {
+            "year": 2023,
+            "value": 1.2835484
+          },
+          {
+            "year": 2024,
+            "value": 1.2505777
+          },
+          {
+            "year": 2025,
+            "value": 1.258588
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_GE.EST": {
+        "indicator": {
+          "id": "GOV_WGI_GE.EST",
+          "value": "Government Effectiveness - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.3818872
+          },
+          {
+            "year": 2002,
+            "value": 1.3014345
+          },
+          {
+            "year": 2003,
+            "value": 1.2952219
+          },
+          {
+            "year": 2004,
+            "value": 1.3059307
+          },
+          {
+            "year": 2005,
+            "value": 1.3900953
+          },
+          {
+            "year": 2006,
+            "value": 1.4339684
+          },
+          {
+            "year": 2007,
+            "value": 1.2882281
+          },
+          {
+            "year": 2008,
+            "value": 1.3302755
+          },
+          {
+            "year": 2009,
+            "value": 1.3605109
+          },
+          {
+            "year": 2010,
+            "value": 1.365409
+          },
+          {
+            "year": 2011,
+            "value": 1.366392
+          },
+          {
+            "year": 2012,
+            "value": 1.3492642
+          },
+          {
+            "year": 2013,
+            "value": 1.4666622
+          },
+          {
+            "year": 2014,
+            "value": 1.7623418
+          },
+          {
+            "year": 2015,
+            "value": 1.7051712
+          },
+          {
+            "year": 2016,
+            "value": 1.8075054
+          },
+          {
+            "year": 2017,
+            "value": 1.7106234
+          },
+          {
+            "year": 2018,
+            "value": 1.8169671
+          },
+          {
+            "year": 2019,
+            "value": 1.8278155
+          },
+          {
+            "year": 2020,
+            "value": 1.8681544
+          },
+          {
+            "year": 2021,
+            "value": 1.7432849
+          },
+          {
+            "year": 2022,
+            "value": 2.0523594
+          },
+          {
+            "year": 2023,
+            "value": 2.0275797
+          },
+          {
+            "year": 2024,
+            "value": 2.0681175
+          },
+          {
+            "year": 2025,
+            "value": 2.0412225
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RL.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RL.EST",
+          "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.2544064
+          },
+          {
+            "year": 2002,
+            "value": 1.155216
+          },
+          {
+            "year": 2003,
+            "value": 1.1647604
+          },
+          {
+            "year": 2004,
+            "value": 1.1501571
+          },
+          {
+            "year": 2005,
+            "value": 1.2057599
+          },
+          {
+            "year": 2006,
+            "value": 1.2640843
+          },
+          {
+            "year": 2007,
+            "value": 1.246118
+          },
+          {
+            "year": 2008,
+            "value": 1.2171929
+          },
+          {
+            "year": 2009,
+            "value": 1.2971289
+          },
+          {
+            "year": 2010,
+            "value": 1.3193581
+          },
+          {
+            "year": 2011,
+            "value": 1.3770223
+          },
+          {
+            "year": 2012,
+            "value": 1.3353136
+          },
+          {
+            "year": 2013,
+            "value": 1.3711581
+          },
+          {
+            "year": 2014,
+            "value": 1.454648
+          },
+          {
+            "year": 2015,
+            "value": 1.4342083
+          },
+          {
+            "year": 2016,
+            "value": 1.4317807
+          },
+          {
+            "year": 2017,
+            "value": 1.49256
+          },
+          {
+            "year": 2018,
+            "value": 1.4802271
+          },
+          {
+            "year": 2019,
+            "value": 1.5068825
+          },
+          {
+            "year": 2020,
+            "value": 1.5029907
+          },
+          {
+            "year": 2021,
+            "value": 1.5312541
+          },
+          {
+            "year": 2022,
+            "value": 1.5109912
+          },
+          {
+            "year": 2023,
+            "value": 1.511877
+          },
+          {
+            "year": 2024,
+            "value": 1.5183606
+          },
+          {
+            "year": 2025,
+            "value": 1.542334
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_CC.EST": {
+        "indicator": {
+          "id": "GOV_WGI_CC.EST",
+          "value": "Control of Corruption - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.8459992
+          },
+          {
+            "year": 2002,
+            "value": 0.8481748
+          },
+          {
+            "year": 2003,
+            "value": 0.8798649
+          },
+          {
+            "year": 2004,
+            "value": 0.8876196
+          },
+          {
+            "year": 2005,
+            "value": 0.9264372
+          },
+          {
+            "year": 2006,
+            "value": 0.9774082
+          },
+          {
+            "year": 2007,
+            "value": 0.8591039
+          },
+          {
+            "year": 2008,
+            "value": 0.9581055
+          },
+          {
+            "year": 2009,
+            "value": 1.165536
+          },
+          {
+            "year": 2010,
+            "value": 1.3894539
+          },
+          {
+            "year": 2011,
+            "value": 1.5438444
+          },
+          {
+            "year": 2012,
+            "value": 1.4927053
+          },
+          {
+            "year": 2013,
+            "value": 1.4992303
+          },
+          {
+            "year": 2014,
+            "value": 1.5402836
+          },
+          {
+            "year": 2015,
+            "value": 1.4520961
+          },
+          {
+            "year": 2016,
+            "value": 1.4472443
+          },
+          {
+            "year": 2017,
+            "value": 1.4781864
+          },
+          {
+            "year": 2018,
+            "value": 1.392157
+          },
+          {
+            "year": 2019,
+            "value": 1.4344153
+          },
+          {
+            "year": 2020,
+            "value": 1.4311269
+          },
+          {
+            "year": 2021,
+            "value": 1.4567584
+          },
+          {
+            "year": 2022,
+            "value": 1.442643
+          },
+          {
+            "year": 2023,
+            "value": 1.3673969
+          },
+          {
+            "year": 2024,
+            "value": 1.3698119
+          },
+          {
+            "year": 2025,
+            "value": 1.454513
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RQ.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RQ.EST",
+          "value": "Regulatory Quality - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.8022651
+          },
+          {
+            "year": 2002,
+            "value": 0.4899485
+          },
+          {
+            "year": 2003,
+            "value": 0.9887229
+          },
+          {
+            "year": 2004,
+            "value": 1.0265771
+          },
+          {
+            "year": 2005,
+            "value": 1.2300695
+          },
+          {
+            "year": 2006,
+            "value": 1.2933606
+          },
+          {
+            "year": 2007,
+            "value": 1.2523019
+          },
+          {
+            "year": 2008,
+            "value": 1.2611987
+          },
+          {
+            "year": 2009,
+            "value": 1.2284065
+          },
+          {
+            "year": 2010,
+            "value": 1.2057938
+          },
+          {
+            "year": 2011,
+            "value": 1.3255338
+          },
+          {
+            "year": 2012,
+            "value": 1.3934996
+          },
+          {
+            "year": 2013,
+            "value": 1.3409838
+          },
+          {
+            "year": 2014,
+            "value": 1.2867974
+          },
+          {
+            "year": 2015,
+            "value": 1.4041581
+          },
+          {
+            "year": 2016,
+            "value": 1.5258595
+          },
+          {
+            "year": 2017,
+            "value": 1.3959066
+          },
+          {
+            "year": 2018,
+            "value": 1.3742974
+          },
+          {
+            "year": 2019,
+            "value": 1.3946265
+          },
+          {
+            "year": 2020,
+            "value": 1.3760918
+          },
+          {
+            "year": 2021,
+            "value": 1.3996019
+          },
+          {
+            "year": 2022,
+            "value": 1.4117487
+          },
+          {
+            "year": 2023,
+            "value": 1.3494293
+          },
+          {
+            "year": 2024,
+            "value": 1.2446023
+          },
+          {
+            "year": 2025,
+            "value": 1.2213162
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
       }
     },
     "GBR": {
@@ -16370,7 +20564,8 @@
             "year": 2025,
             "value": 1.38844207858726
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.MKTP.CD": {
         "indicator": {
@@ -16484,7 +20679,8 @@
             "year": 2025,
             "value": 4002587541846.01
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.PCAP.CD": {
         "indicator": {
@@ -16598,7 +20794,8 @@
             "year": 2025,
             "value": 57601.9621201954
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "FP.CPI.TOTL.ZG": {
         "indicator": {
@@ -16712,7 +20909,8 @@
             "year": 2025,
             "value": 3.88306881625999
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.TOTL.ZS": {
         "indicator": {
@@ -16826,7 +21024,8 @@
             "year": 2025,
             "value": 4.746
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.1524.ZS": {
         "indicator": {
@@ -16940,7 +21139,8 @@
             "year": 2025,
             "value": 14.647
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.EXP.GNFS.ZS": {
         "indicator": {
@@ -17054,7 +21254,8 @@
             "year": 2025,
             "value": 30.5969582161816
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.IMP.GNFS.ZS": {
         "indicator": {
@@ -17168,7 +21369,8 @@
             "year": 2025,
             "value": 31.8603712472379
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "BX.KLT.DINV.WD.GD.ZS": {
         "indicator": {
@@ -17282,7 +21484,8 @@
             "year": 2025,
             "value": 0.939113289040925
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GC.DOD.TOTL.GD.ZS": {
         "indicator": {
@@ -17392,7 +21595,8 @@
             "year": 2024,
             "value": 130.735888365813
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "CM.MKT.LCAP.GD.ZS": {
         "indicator": {
@@ -17470,7 +21674,8 @@
             "year": 2022,
             "value": 97.3198877208869
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.CEL.SETS.P2": {
         "indicator": {
@@ -17580,7 +21785,8 @@
             "year": 2024,
             "value": 121.643331373201
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GB.XPD.RSDV.GD.ZS": {
         "indicator": {
@@ -17686,7 +21892,8 @@
             "year": 2023,
             "value": 2.67614
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IP.PAT.RESD": {
         "indicator": {
@@ -17796,7 +22003,8 @@
             "year": 2024,
             "value": 11105.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.POP.TOTL": {
         "indicator": {
@@ -17910,7 +22118,8 @@
             "year": 2025,
             "value": 69487000.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.DYN.LE00.IN": {
         "indicator": {
@@ -18020,7 +22229,8 @@
             "year": 2024,
             "value": 81.3868536585366
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.DYN.MORT": {
         "indicator": {
@@ -18130,7 +22340,8 @@
             "year": 2024,
             "value": 4.7
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SH.XPD.CHEX.GD.ZS": {
         "indicator": {
@@ -18240,7 +22451,8 @@
             "year": 2024,
             "value": 11.133358
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.USE.PCAP.KG.OE": {
         "indicator": {
@@ -18350,7 +22562,8 @@
             "year": 2024,
             "value": 2095.41155427132
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.FEC.RNEW.ZS": {
         "indicator": {
@@ -18448,7 +22661,8 @@
             "year": 2021,
             "value": 12.2
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "EG.ELC.ACCS.ZS": {
         "indicator": {
@@ -18558,7 +22772,8 @@
             "year": 2024,
             "value": 100.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.IND.TOTL.ZS": {
         "indicator": {
@@ -18672,7 +22887,8 @@
             "year": 2025,
             "value": 16.4889776210162
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NV.AGR.TOTL.ZS": {
         "indicator": {
@@ -18786,7 +23002,8 @@
             "year": 2025,
             "value": 0.639963472014016
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GNS.ICTR.ZS": {
         "indicator": {
@@ -18900,7 +23117,674 @@
             "year": 2025,
             "value": 17.1675881693391
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
+      },
+      "GOV_WGI_VA.EST": {
+        "indicator": {
+          "id": "GOV_WGI_VA.EST",
+          "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.9935995
+          },
+          {
+            "year": 2002,
+            "value": 1.0974615
+          },
+          {
+            "year": 2003,
+            "value": 1.1010326
+          },
+          {
+            "year": 2004,
+            "value": 1.4110241
+          },
+          {
+            "year": 2005,
+            "value": 1.4349057
+          },
+          {
+            "year": 2006,
+            "value": 1.4273547
+          },
+          {
+            "year": 2007,
+            "value": 1.3850162
+          },
+          {
+            "year": 2008,
+            "value": 1.3484106
+          },
+          {
+            "year": 2009,
+            "value": 1.3624209
+          },
+          {
+            "year": 2010,
+            "value": 1.3599451
+          },
+          {
+            "year": 2011,
+            "value": 1.415481
+          },
+          {
+            "year": 2012,
+            "value": 1.3928806
+          },
+          {
+            "year": 2013,
+            "value": 1.3940341
+          },
+          {
+            "year": 2014,
+            "value": 1.3684553
+          },
+          {
+            "year": 2015,
+            "value": 1.4285291
+          },
+          {
+            "year": 2016,
+            "value": 1.4350571
+          },
+          {
+            "year": 2017,
+            "value": 1.4142514
+          },
+          {
+            "year": 2018,
+            "value": 1.3651898
+          },
+          {
+            "year": 2019,
+            "value": 1.303491
+          },
+          {
+            "year": 2020,
+            "value": 1.3016849
+          },
+          {
+            "year": 2021,
+            "value": 1.2741055
+          },
+          {
+            "year": 2022,
+            "value": 1.2973785
+          },
+          {
+            "year": 2023,
+            "value": 1.2472875
+          },
+          {
+            "year": 2024,
+            "value": 1.285609
+          },
+          {
+            "year": 2025,
+            "value": 1.2841432
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_PV.EST": {
+        "indicator": {
+          "id": "GOV_WGI_PV.EST",
+          "value": "Political Stability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.1125757
+          },
+          {
+            "year": 2002,
+            "value": 0.5436958
+          },
+          {
+            "year": 2003,
+            "value": 0.4267777
+          },
+          {
+            "year": 2004,
+            "value": 0.3578792
+          },
+          {
+            "year": 2005,
+            "value": 0.4005267
+          },
+          {
+            "year": 2006,
+            "value": 0.6461404
+          },
+          {
+            "year": 2007,
+            "value": 0.6876729
+          },
+          {
+            "year": 2008,
+            "value": 0.6339838
+          },
+          {
+            "year": 2009,
+            "value": 0.4951345
+          },
+          {
+            "year": 2010,
+            "value": 0.5922337
+          },
+          {
+            "year": 2011,
+            "value": 0.4395365
+          },
+          {
+            "year": 2012,
+            "value": 0.480213
+          },
+          {
+            "year": 2013,
+            "value": 0.4681837
+          },
+          {
+            "year": 2014,
+            "value": 0.5563433
+          },
+          {
+            "year": 2015,
+            "value": 0.5459215
+          },
+          {
+            "year": 2016,
+            "value": 0.4531318
+          },
+          {
+            "year": 2017,
+            "value": 0.4455823
+          },
+          {
+            "year": 2018,
+            "value": 0.2889661
+          },
+          {
+            "year": 2019,
+            "value": 0.5631084
+          },
+          {
+            "year": 2020,
+            "value": 0.5089818
+          },
+          {
+            "year": 2021,
+            "value": 0.437895
+          },
+          {
+            "year": 2022,
+            "value": 0.3761285
+          },
+          {
+            "year": 2023,
+            "value": 0.3932444
+          },
+          {
+            "year": 2024,
+            "value": 0.3725327
+          },
+          {
+            "year": 2025,
+            "value": 0.2896866
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_GE.EST": {
+        "indicator": {
+          "id": "GOV_WGI_GE.EST",
+          "value": "Government Effectiveness - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.7673949
+          },
+          {
+            "year": 2002,
+            "value": 1.8150312
+          },
+          {
+            "year": 2003,
+            "value": 1.7045541
+          },
+          {
+            "year": 2004,
+            "value": 1.6337661
+          },
+          {
+            "year": 2005,
+            "value": 1.8888466
+          },
+          {
+            "year": 2006,
+            "value": 1.7518971
+          },
+          {
+            "year": 2007,
+            "value": 1.7138269
+          },
+          {
+            "year": 2008,
+            "value": 1.6848
+          },
+          {
+            "year": 2009,
+            "value": 1.5291314
+          },
+          {
+            "year": 2010,
+            "value": 1.4983724
+          },
+          {
+            "year": 2011,
+            "value": 1.4784412
+          },
+          {
+            "year": 2012,
+            "value": 1.4934874
+          },
+          {
+            "year": 2013,
+            "value": 1.4166211
+          },
+          {
+            "year": 2014,
+            "value": 1.6052893
+          },
+          {
+            "year": 2015,
+            "value": 1.5929305
+          },
+          {
+            "year": 2016,
+            "value": 1.6052587
+          },
+          {
+            "year": 2017,
+            "value": 1.5506509
+          },
+          {
+            "year": 2018,
+            "value": 1.5166541
+          },
+          {
+            "year": 2019,
+            "value": 1.3875882
+          },
+          {
+            "year": 2020,
+            "value": 1.3546866
+          },
+          {
+            "year": 2021,
+            "value": 1.3262502
+          },
+          {
+            "year": 2022,
+            "value": 1.2734341
+          },
+          {
+            "year": 2023,
+            "value": 1.123624
+          },
+          {
+            "year": 2024,
+            "value": 1.1998653
+          },
+          {
+            "year": 2025,
+            "value": 1.2331241
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RL.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RL.EST",
+          "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.6846756
+          },
+          {
+            "year": 2002,
+            "value": 1.62094
+          },
+          {
+            "year": 2003,
+            "value": 1.600235
+          },
+          {
+            "year": 2004,
+            "value": 1.5279494
+          },
+          {
+            "year": 2005,
+            "value": 1.5330558
+          },
+          {
+            "year": 2006,
+            "value": 1.5953947
+          },
+          {
+            "year": 2007,
+            "value": 1.5684653
+          },
+          {
+            "year": 2008,
+            "value": 1.4656882
+          },
+          {
+            "year": 2009,
+            "value": 1.4759935
+          },
+          {
+            "year": 2010,
+            "value": 1.6276951
+          },
+          {
+            "year": 2011,
+            "value": 1.4306879
+          },
+          {
+            "year": 2012,
+            "value": 1.4802682
+          },
+          {
+            "year": 2013,
+            "value": 1.4962593
+          },
+          {
+            "year": 2014,
+            "value": 1.582438
+          },
+          {
+            "year": 2015,
+            "value": 1.645835
+          },
+          {
+            "year": 2016,
+            "value": 1.5949293
+          },
+          {
+            "year": 2017,
+            "value": 1.5966655
+          },
+          {
+            "year": 2018,
+            "value": 1.4592065
+          },
+          {
+            "year": 2019,
+            "value": 1.4232665
+          },
+          {
+            "year": 2020,
+            "value": 1.3537471
+          },
+          {
+            "year": 2021,
+            "value": 1.2942621
+          },
+          {
+            "year": 2022,
+            "value": 1.2977328
+          },
+          {
+            "year": 2023,
+            "value": 1.2663933
+          },
+          {
+            "year": 2024,
+            "value": 1.2751712
+          },
+          {
+            "year": 2025,
+            "value": 1.2680565
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_CC.EST": {
+        "indicator": {
+          "id": "GOV_WGI_CC.EST",
+          "value": "Control of Corruption - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 2.0310674
+          },
+          {
+            "year": 2002,
+            "value": 1.9359213
+          },
+          {
+            "year": 2003,
+            "value": 1.955553
+          },
+          {
+            "year": 2004,
+            "value": 1.8357833
+          },
+          {
+            "year": 2005,
+            "value": 1.9026462
+          },
+          {
+            "year": 2006,
+            "value": 1.7304364
+          },
+          {
+            "year": 2007,
+            "value": 1.6279964
+          },
+          {
+            "year": 2008,
+            "value": 1.5733299
+          },
+          {
+            "year": 2009,
+            "value": 1.3675433
+          },
+          {
+            "year": 2010,
+            "value": 1.3852452
+          },
+          {
+            "year": 2011,
+            "value": 1.4545942
+          },
+          {
+            "year": 2012,
+            "value": 1.4886372
+          },
+          {
+            "year": 2013,
+            "value": 1.5094793
+          },
+          {
+            "year": 2014,
+            "value": 1.5257422
+          },
+          {
+            "year": 2015,
+            "value": 1.6572067
+          },
+          {
+            "year": 2016,
+            "value": 1.761319
+          },
+          {
+            "year": 2017,
+            "value": 1.8208702
+          },
+          {
+            "year": 2018,
+            "value": 1.8099661
+          },
+          {
+            "year": 2019,
+            "value": 1.7737889
+          },
+          {
+            "year": 2020,
+            "value": 1.7290139
+          },
+          {
+            "year": 2021,
+            "value": 1.6749661
+          },
+          {
+            "year": 2022,
+            "value": 1.6365644
+          },
+          {
+            "year": 2023,
+            "value": 1.4805907
+          },
+          {
+            "year": 2024,
+            "value": 1.4805913
+          },
+          {
+            "year": 2025,
+            "value": 1.5306459
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RQ.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RQ.EST",
+          "value": "Regulatory Quality - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 1.9176891
+          },
+          {
+            "year": 2002,
+            "value": 1.9364234
+          },
+          {
+            "year": 2003,
+            "value": 1.8957765
+          },
+          {
+            "year": 2004,
+            "value": 1.9386099
+          },
+          {
+            "year": 2005,
+            "value": 1.8902964
+          },
+          {
+            "year": 2006,
+            "value": 2.0549655
+          },
+          {
+            "year": 2007,
+            "value": 1.9585817
+          },
+          {
+            "year": 2008,
+            "value": 1.7926303
+          },
+          {
+            "year": 2009,
+            "value": 1.5904903
+          },
+          {
+            "year": 2010,
+            "value": 1.5972248
+          },
+          {
+            "year": 2011,
+            "value": 1.5936828
+          },
+          {
+            "year": 2012,
+            "value": 1.6550039
+          },
+          {
+            "year": 2013,
+            "value": 1.7288233
+          },
+          {
+            "year": 2014,
+            "value": 1.7328803
+          },
+          {
+            "year": 2015,
+            "value": 1.8379532
+          },
+          {
+            "year": 2016,
+            "value": 1.6753586
+          },
+          {
+            "year": 2017,
+            "value": 1.6515431
+          },
+          {
+            "year": 2018,
+            "value": 1.6766714
+          },
+          {
+            "year": 2019,
+            "value": 1.7154343
+          },
+          {
+            "year": 2020,
+            "value": 1.6158469
+          },
+          {
+            "year": 2021,
+            "value": 1.6321749
+          },
+          {
+            "year": 2022,
+            "value": 1.6604586
+          },
+          {
+            "year": 2023,
+            "value": 1.5985375
+          },
+          {
+            "year": 2024,
+            "value": 1.5276442
+          },
+          {
+            "year": 2025,
+            "value": 1.4606297
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
       }
     },
     "ZAF": {
@@ -19016,7 +23900,8 @@
             "year": 2025,
             "value": 1.11462608103956
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.MKTP.CD": {
         "indicator": {
@@ -19130,7 +24015,8 @@
             "year": 2025,
             "value": 427184325997.307
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NY.GDP.PCAP.CD": {
         "indicator": {
@@ -19244,7 +24130,8 @@
             "year": 2025,
             "value": 6597.71450918774
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "FP.CPI.TOTL.ZG": {
         "indicator": {
@@ -19358,7 +24245,8 @@
             "year": 2025,
             "value": 3.20550474112603
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.TOTL.ZS": {
         "indicator": {
@@ -19472,7 +24360,8 @@
             "year": 2025,
             "value": 32.391
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SL.UEM.1524.ZS": {
         "indicator": {
@@ -19586,7 +24475,8 @@
             "year": 2025,
             "value": 59.93
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.EXP.GNFS.ZS": {
         "indicator": {
@@ -19700,7 +24590,8 @@
             "year": 2025,
             "value": 31.4101947337253
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "NE.IMP.GNFS.ZS": {
         "indicator": {
@@ -19814,7 +24705,8 @@
             "year": 2025,
             "value": 29.5009024056375
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "BX.KLT.DINV.WD.GD.ZS": {
         "indicator": {
@@ -19928,7 +24820,8 @@
             "year": 2025,
             "value": -0.505823116244258
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GC.DOD.TOTL.GD.ZS": {
         "indicator": {
@@ -19982,7 +24875,8 @@
             "year": 2024,
             "value": 82.7627080034486
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "DT.DOD.DECT.CD": {
         "indicator": {
@@ -20092,7 +24986,8 @@
             "year": 2024,
             "value": 175895546993.5
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "CM.MKT.LCAP.GD.ZS": {
         "indicator": {
@@ -20206,7 +25101,8 @@
             "year": 2025,
             "value": 327.242669013285
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.NET.USER.ZS": {
         "indicator": {
@@ -20316,7 +25212,8 @@
             "year": 2024,
             "value": 78.35759735
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IT.CEL.SETS.P2": {
         "indicator": {
@@ -20426,7 +25323,8 @@
             "year": 2024,
             "value": 179.336329840585
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "GB.XPD.RSDV.GD.ZS": {
         "indicator": {
@@ -20520,7 +25418,8 @@
             "year": 2022,
             "value": 0.61479
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "IP.PAT.RESD": {
         "indicator": {
@@ -20630,7 +25529,8 @@
             "year": 2024,
             "value": 350.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.POP.TOTL": {
         "indicator": {
@@ -20744,7 +25644,8 @@
             "year": 2025,
             "value": 64747319.0
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
       },
       "SP.DYN.LE00.IN": {
         "indicator": {
@@ -20854,7 +25755,674 @@
             "year": 2024,
             "value": 66.312
           }
-        ]
+        ],
+        "retrievedAt": "2026-10-22T18:33:27.215677Z"
+      },
+      "GOV_WGI_VA.EST": {
+        "indicator": {
+          "id": "GOV_WGI_VA.EST",
+          "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.6380132
+          },
+          {
+            "year": 2002,
+            "value": 0.5726056
+          },
+          {
+            "year": 2003,
+            "value": 0.6429948
+          },
+          {
+            "year": 2004,
+            "value": 0.6934799
+          },
+          {
+            "year": 2005,
+            "value": 0.7021402
+          },
+          {
+            "year": 2006,
+            "value": 0.7398152
+          },
+          {
+            "year": 2007,
+            "value": 0.6866548
+          },
+          {
+            "year": 2008,
+            "value": 0.644221
+          },
+          {
+            "year": 2009,
+            "value": 0.6622998
+          },
+          {
+            "year": 2010,
+            "value": 0.6739295
+          },
+          {
+            "year": 2011,
+            "value": 0.6176843
+          },
+          {
+            "year": 2012,
+            "value": 0.6323653
+          },
+          {
+            "year": 2013,
+            "value": 0.619325
+          },
+          {
+            "year": 2014,
+            "value": 0.6450193
+          },
+          {
+            "year": 2015,
+            "value": 0.6523122
+          },
+          {
+            "year": 2016,
+            "value": 0.6212155
+          },
+          {
+            "year": 2017,
+            "value": 0.6060996
+          },
+          {
+            "year": 2018,
+            "value": 0.5992038
+          },
+          {
+            "year": 2019,
+            "value": 0.5701338
+          },
+          {
+            "year": 2020,
+            "value": 0.592295
+          },
+          {
+            "year": 2021,
+            "value": 0.6711503
+          },
+          {
+            "year": 2022,
+            "value": 0.6083049
+          },
+          {
+            "year": 2023,
+            "value": 0.606394
+          },
+          {
+            "year": 2024,
+            "value": 0.6675332
+          },
+          {
+            "year": 2025,
+            "value": 0.6809024
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_PV.EST": {
+        "indicator": {
+          "id": "GOV_WGI_PV.EST",
+          "value": "Political Stability - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.3127999
+          },
+          {
+            "year": 2002,
+            "value": -0.3351583
+          },
+          {
+            "year": 2003,
+            "value": -0.2419935
+          },
+          {
+            "year": 2004,
+            "value": -0.0079557
+          },
+          {
+            "year": 2005,
+            "value": -0.0151112
+          },
+          {
+            "year": 2006,
+            "value": -0.008614
+          },
+          {
+            "year": 2007,
+            "value": 0.1798187
+          },
+          {
+            "year": 2008,
+            "value": -0.0080353
+          },
+          {
+            "year": 2009,
+            "value": -0.0519142
+          },
+          {
+            "year": 2010,
+            "value": -0.038921
+          },
+          {
+            "year": 2011,
+            "value": -0.0316238
+          },
+          {
+            "year": 2012,
+            "value": -0.1072603
+          },
+          {
+            "year": 2013,
+            "value": -0.2516669
+          },
+          {
+            "year": 2014,
+            "value": -0.2242523
+          },
+          {
+            "year": 2015,
+            "value": -0.3113609
+          },
+          {
+            "year": 2016,
+            "value": -0.3387461
+          },
+          {
+            "year": 2017,
+            "value": -0.388104
+          },
+          {
+            "year": 2018,
+            "value": -0.3015662
+          },
+          {
+            "year": 2019,
+            "value": -0.339427
+          },
+          {
+            "year": 2020,
+            "value": -0.2549405
+          },
+          {
+            "year": 2021,
+            "value": -0.7676344
+          },
+          {
+            "year": 2022,
+            "value": -0.6767641
+          },
+          {
+            "year": 2023,
+            "value": -0.6307956
+          },
+          {
+            "year": 2024,
+            "value": -0.4826863
+          },
+          {
+            "year": 2025,
+            "value": -0.3816822
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_GE.EST": {
+        "indicator": {
+          "id": "GOV_WGI_GE.EST",
+          "value": "Government Effectiveness - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.4255401
+          },
+          {
+            "year": 2002,
+            "value": 0.3932711
+          },
+          {
+            "year": 2003,
+            "value": 0.4192295
+          },
+          {
+            "year": 2004,
+            "value": 0.4436304
+          },
+          {
+            "year": 2005,
+            "value": 0.4591732
+          },
+          {
+            "year": 2006,
+            "value": 0.3612106
+          },
+          {
+            "year": 2007,
+            "value": 0.3193377
+          },
+          {
+            "year": 2008,
+            "value": 0.4180627
+          },
+          {
+            "year": 2009,
+            "value": 0.4860134
+          },
+          {
+            "year": 2010,
+            "value": 0.4125257
+          },
+          {
+            "year": 2011,
+            "value": 0.4259423
+          },
+          {
+            "year": 2012,
+            "value": 0.4237347
+          },
+          {
+            "year": 2013,
+            "value": 0.4412131
+          },
+          {
+            "year": 2014,
+            "value": 0.4424873
+          },
+          {
+            "year": 2015,
+            "value": 0.3841004
+          },
+          {
+            "year": 2016,
+            "value": 0.3264101
+          },
+          {
+            "year": 2017,
+            "value": 0.3444004
+          },
+          {
+            "year": 2018,
+            "value": 0.2515039
+          },
+          {
+            "year": 2019,
+            "value": 0.2893485
+          },
+          {
+            "year": 2020,
+            "value": 0.1938322
+          },
+          {
+            "year": 2021,
+            "value": 0.1309068
+          },
+          {
+            "year": 2022,
+            "value": 0.0755406
+          },
+          {
+            "year": 2023,
+            "value": -0.1046157
+          },
+          {
+            "year": 2024,
+            "value": -0.1559159
+          },
+          {
+            "year": 2025,
+            "value": -0.0230339
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RL.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RL.EST",
+          "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": -0.0927388
+          },
+          {
+            "year": 2002,
+            "value": 0.0206211
+          },
+          {
+            "year": 2003,
+            "value": 0.0553934
+          },
+          {
+            "year": 2004,
+            "value": 0.0897744
+          },
+          {
+            "year": 2005,
+            "value": 0.1368442
+          },
+          {
+            "year": 2006,
+            "value": 0.2844708
+          },
+          {
+            "year": 2007,
+            "value": 0.1381117
+          },
+          {
+            "year": 2008,
+            "value": 0.0614799
+          },
+          {
+            "year": 2009,
+            "value": 0.0141832
+          },
+          {
+            "year": 2010,
+            "value": 0.0429894
+          },
+          {
+            "year": 2011,
+            "value": 0.0109032
+          },
+          {
+            "year": 2012,
+            "value": -0.0061411
+          },
+          {
+            "year": 2013,
+            "value": 0.000249
+          },
+          {
+            "year": 2014,
+            "value": 0.0406305
+          },
+          {
+            "year": 2015,
+            "value": 0.0243404
+          },
+          {
+            "year": 2016,
+            "value": 0.0449363
+          },
+          {
+            "year": 2017,
+            "value": 0.0158355
+          },
+          {
+            "year": 2018,
+            "value": -0.0857459
+          },
+          {
+            "year": 2019,
+            "value": -0.0792966
+          },
+          {
+            "year": 2020,
+            "value": -0.0427723
+          },
+          {
+            "year": 2021,
+            "value": 0.1404507
+          },
+          {
+            "year": 2022,
+            "value": 0.0340185
+          },
+          {
+            "year": 2023,
+            "value": 0.0621842
+          },
+          {
+            "year": 2024,
+            "value": 0.0357268
+          },
+          {
+            "year": 2025,
+            "value": 0.0407744
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_CC.EST": {
+        "indicator": {
+          "id": "GOV_WGI_CC.EST",
+          "value": "Control of Corruption - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.4709404
+          },
+          {
+            "year": 2002,
+            "value": 0.2293389
+          },
+          {
+            "year": 2003,
+            "value": 0.1636761
+          },
+          {
+            "year": 2004,
+            "value": 0.2424074
+          },
+          {
+            "year": 2005,
+            "value": 0.3628934
+          },
+          {
+            "year": 2006,
+            "value": 0.4890511
+          },
+          {
+            "year": 2007,
+            "value": 0.3372971
+          },
+          {
+            "year": 2008,
+            "value": 0.1789186
+          },
+          {
+            "year": 2009,
+            "value": 0.1249601
+          },
+          {
+            "year": 2010,
+            "value": 0.1133099
+          },
+          {
+            "year": 2011,
+            "value": 0.1213888
+          },
+          {
+            "year": 2012,
+            "value": -0.0401074
+          },
+          {
+            "year": 2013,
+            "value": -0.0303743
+          },
+          {
+            "year": 2014,
+            "value": -0.0108736
+          },
+          {
+            "year": 2015,
+            "value": 0.0235218
+          },
+          {
+            "year": 2016,
+            "value": 0.0429536
+          },
+          {
+            "year": 2017,
+            "value": -0.063436
+          },
+          {
+            "year": 2018,
+            "value": -0.0408398
+          },
+          {
+            "year": 2019,
+            "value": 0.0522945
+          },
+          {
+            "year": 2020,
+            "value": 0.0428832
+          },
+          {
+            "year": 2021,
+            "value": 0.0753075
+          },
+          {
+            "year": 2022,
+            "value": -0.1493557
+          },
+          {
+            "year": 2023,
+            "value": -0.1842437
+          },
+          {
+            "year": 2024,
+            "value": -0.1632967
+          },
+          {
+            "year": 2025,
+            "value": -0.1334379
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
+      },
+      "GOV_WGI_RQ.EST": {
+        "indicator": {
+          "id": "GOV_WGI_RQ.EST",
+          "value": "Regulatory Quality - Governance estimate (approx. -2.5 to +2.5)"
+        },
+        "source": 3,
+        "lastUpdated": "2026-09-25",
+        "points": [
+          {
+            "year": 2000,
+            "value": 0.4794945
+          },
+          {
+            "year": 2002,
+            "value": 0.7962743
+          },
+          {
+            "year": 2003,
+            "value": 0.8188292
+          },
+          {
+            "year": 2004,
+            "value": 0.598783
+          },
+          {
+            "year": 2005,
+            "value": 0.6150825
+          },
+          {
+            "year": 2006,
+            "value": 0.6751801
+          },
+          {
+            "year": 2007,
+            "value": 0.6238429
+          },
+          {
+            "year": 2008,
+            "value": 0.6222985
+          },
+          {
+            "year": 2009,
+            "value": 0.6584625
+          },
+          {
+            "year": 2010,
+            "value": 0.6817266
+          },
+          {
+            "year": 2011,
+            "value": 0.6467972
+          },
+          {
+            "year": 2012,
+            "value": 0.629243
+          },
+          {
+            "year": 2013,
+            "value": 0.6217765
+          },
+          {
+            "year": 2014,
+            "value": 0.4219429
+          },
+          {
+            "year": 2015,
+            "value": 0.3242011
+          },
+          {
+            "year": 2016,
+            "value": 0.2780186
+          },
+          {
+            "year": 2017,
+            "value": 0.250417
+          },
+          {
+            "year": 2018,
+            "value": 0.0953946
+          },
+          {
+            "year": 2019,
+            "value": 0.1445492
+          },
+          {
+            "year": 2020,
+            "value": 0.1302661
+          },
+          {
+            "year": 2021,
+            "value": 0.05637
+          },
+          {
+            "year": 2022,
+            "value": -0.0246849
+          },
+          {
+            "year": 2023,
+            "value": -0.0687678
+          },
+          {
+            "year": 2024,
+            "value": -0.0679269
+          },
+          {
+            "year": 2025,
+            "value": -0.0682228
+          }
+        ],
+        "retrievedAt": "2026-10-22T18:45:32.920617Z"
       }
     }
   }
