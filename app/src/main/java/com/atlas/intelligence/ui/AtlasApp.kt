@@ -57,7 +57,7 @@ fun AtlasApp(viewModel: AtlasViewModel) {
         ) { padding ->
             Column(Modifier.fillMaxSize().padding(padding)) {
                 TopBar(state.selected, state.loading, { picker = true }, { trust = true }, viewModel::refresh)
-                state.error?.let { ErrorBanner(it, state.dashboard != null, viewModel::refresh) }
+                state.error?.let { ErrorBanner(it, state.dashboard?.series?.any { series -> series.cached } == true, viewModel::refresh) }
                 when (tab) {
                     "Indicators" -> IndicatorsScreen(state, { detail = it })
                     "Briefing" -> BriefingScreen(state, viewModel)
@@ -67,7 +67,7 @@ fun AtlasApp(viewModel: AtlasViewModel) {
             }
         }
         if (picker) CountryPicker(state, viewModel) { picker = false }
-        detail?.let { MetricDetail(it) { detail = null } }
+        detail?.let { MetricDetail(it, state.selected) { detail = null } }
         if (trust) TrustSheet { trust = false }
     }
 }
@@ -163,7 +163,7 @@ private fun GlobeGraphic(modifier: Modifier) {
 private fun MetricCard(s: MetricSeries, open: (MetricSeries) -> Unit, modifier: Modifier = Modifier) {
     Surface(onClick = { open(s) }, color = Panel, shape = RoundedCornerShape(18.dp), modifier = modifier) {
         Column(Modifier.padding(14.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) { Text(s.definition.title, Modifier.weight(1f), color = Color.White, fontWeight = FontWeight.SemiBold, maxLines = 2, overflow = TextOverflow.Ellipsis); Icon(Icons.AutoMirrored.Filled.ArrowForward, "Open metric", tint = Cyan, Modifier.size(18.dp)) }
+            Row(verticalAlignment = Alignment.CenterVertically) { Text(s.definition.title, Modifier.weight(1f), color = Color.White, fontWeight = FontWeight.SemiBold, maxLines = 2, overflow = TextOverflow.Ellipsis); Icon(Icons.AutoMirrored.Filled.ArrowForward, "Open metric", tint = Cyan, modifier = Modifier.size(18.dp)) }
             Spacer(Modifier.height(10.dp))
             Text(s.points.lastOrNull()?.value?.displayValue() ?: "No observation", color = Cyan, fontSize = 20.sp, fontWeight = FontWeight.Bold)
             Text("${s.definition.unit} · ${s.points.lastOrNull()?.year ?: "—"}", color = Muted, fontSize = 11.sp)
@@ -185,7 +185,7 @@ private fun SourceLine(source: String, updated: String = "", retrieved: String =
     Column(Modifier.padding(top = 8.dp)) {
         Text("Source: $source", color = Muted, fontSize = 10.sp)
         val timing = buildString {
-            if (updated.isNotBlank()) append("Observed/publication: $updated")
+            if (updated.isNotBlank()) append("Dataset updated: $updated")
             if (retrieved.isNotBlank()) { if (isNotEmpty()) append(" · "); append("Retrieved: $retrieved") }
             if (cached) { if (isNotEmpty()) append(" · "); append("cached snapshot") }
         }
@@ -209,11 +209,72 @@ private fun WatchlistScreen(state: AtlasState, vm: AtlasViewModel, add: () -> Un
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun CountryPicker(state: AtlasState, vm: AtlasViewModel, close: () -> Unit) { var query by remember { mutableStateOf(state.query) }; ModalBottomSheet(onDismissRequest = close, containerColor = Panel) { Column(Modifier.fillMaxWidth().padding(horizontal = 20.dp)) { Text("Choose country", color = Color.White, fontSize = 22.sp, fontWeight = FontWeight.Bold); Spacer(Modifier.height(12.dp)); OutlinedTextField(query, { query = it; vm.setQuery(it) }, Modifier.fillMaxWidth(), placeholder = { Text("Search countries", color = Muted) }, leadingIcon = { Icon(Icons.Default.Search, null) }, singleLine = true); Spacer(Modifier.height(12.dp)); LazyColumn(Modifier.heightIn(max = 460.dp), contentPadding = PaddingValues(bottom = 24.dp)) { val list = state.countries.filter { it.name.contains(query, true) || it.iso3.contains(query, true) }; items(list) { c -> ListItem(headlineContent = { Text(c.name, color = Color.White) }, supportingContent = { Text("${c.iso3} · ${c.region}", color = Muted) }, trailingContent = { IconButton(onClick = { vm.toggleWatchlist(c) }) { Icon(if (c.iso3 in state.watchlist) Icons.Default.Star else Icons.Default.StarBorder, if (c.iso3 in state.watchlist) "Remove from watchlist" else "Add to watchlist", tint = if (c.iso3 in state.watchlist) Cyan else Muted) } }, modifier = Modifier.clip(RoundedCornerShape(12.dp)).clickable { vm.selectCountry(c); close() }) } } } }
+private fun CountryPicker(state: AtlasState, vm: AtlasViewModel, close: () -> Unit) {
+    var query by remember { mutableStateOf(state.query) }
+    val countries = state.countries.filter { it.name.contains(query, true) || it.iso3.contains(query, true) }
+    ModalBottomSheet(onDismissRequest = close, containerColor = Panel) {
+        Column(Modifier.fillMaxWidth().padding(horizontal = 20.dp)) {
+            Text("Choose country", color = Color.White, fontSize = 22.sp, fontWeight = FontWeight.Bold)
+            Spacer(Modifier.height(12.dp))
+            OutlinedTextField(query, { query = it; vm.setQuery(it) }, Modifier.fillMaxWidth(), placeholder = { Text("Search countries", color = Muted) }, leadingIcon = { Icon(Icons.Default.Search, null) }, singleLine = true)
+            Spacer(Modifier.height(12.dp))
+            LazyColumn(Modifier.heightIn(max = 460.dp), contentPadding = PaddingValues(bottom = 24.dp)) {
+                if (countries.isEmpty()) item { Text("No matching countries", color = Muted, modifier = Modifier.padding(16.dp)) }
+                items(countries, key = { it.iso3 }) { country ->
+                    ListItem(
+                        headlineContent = { Text(country.name, color = Color.White) },
+                        supportingContent = { Text("${country.iso3} · ${country.region}", color = Muted) },
+                        trailingContent = {
+                            IconButton(onClick = { vm.toggleWatchlist(country) }) {
+                                Icon(if (country.iso3 in state.watchlist) Icons.Default.Star else Icons.Default.StarBorder, if (country.iso3 in state.watchlist) "Remove from watchlist" else "Add to watchlist", tint = if (country.iso3 in state.watchlist) Cyan else Muted)
+                            }
+                        },
+                        colors = ListItemDefaults.colors(containerColor = Panel),
+                        modifier = Modifier.clip(RoundedCornerShape(12.dp)).clickable { vm.selectCountry(country); close() }
+                    )
+                }
+            }
+        }
+    }
+}
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun MetricDetail(s: MetricSeries, close: () -> Unit) { val uri = LocalUriHandler.current; var range by remember { mutableStateOf("ALL") }; val shown = filtered(s.points, range); ModalBottomSheet(onDismissRequest = close, containerColor = Panel) { LazyColumn(Modifier.fillMaxWidth(), contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) { item { Text(s.definition.title, color = Color.White, fontSize = 23.sp, fontWeight = FontWeight.Bold); Text(s.definition.description, color = Muted, fontSize = 13.sp); Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) { listOf("5Y", "10Y", "ALL").forEach { FilterChip(selected = range == it, onClick = { range = it }, label = { Text(it) }) } } }; item { LineChart(shown, Modifier.fillMaxWidth().height(210.dp), Violet, axes = true, showLabels = true) }; item { Text("Exact annual values", color = Color.White, fontWeight = FontWeight.Bold) }; items(shown.asReversed()) { p -> Row(Modifier.fillMaxWidth().padding(vertical = 5.dp)) { Text(p.year.toString(), Modifier.weight(1f), color = Muted); Text(p.value.exactValue(), color = Color.White, fontWeight = FontWeight.SemiBold); Text(" ${s.definition.unit}", color = Muted, fontSize = 12.sp) } }; item { Divider(color = Color.White.copy(.1f)); Text("Source: ${s.definition.sourceName}", color = Color.White, fontSize = 12.sp); Text(s.definition.sourceUrl, color = Cyan, fontSize = 11.sp, modifier = Modifier.padding(top = 5.dp)) } } } }
+private fun MetricDetail(s: MetricSeries, country: Country?, close: () -> Unit) {
+    val uri = LocalUriHandler.current
+    var range by remember { mutableStateOf("ALL") }
+    val shown = filtered(s.points, range)
+    ModalBottomSheet(onDismissRequest = close, containerColor = Panel) {
+        LazyColumn(Modifier.fillMaxWidth(), contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+            item {
+                Text(s.definition.title, color = Color.White, fontSize = 23.sp, fontWeight = FontWeight.Bold)
+                Text(s.definition.description, color = Muted, fontSize = 13.sp)
+                SourceLine(s.definition.sourceName, s.lastUpdated, s.retrievedAt, s.cached)
+                Text("Indicator: ${s.definition.id} · ${s.definition.unit}", color = Muted, fontSize = 12.sp)
+                TextButton(onClick = { runCatching { uri.openUri(s.definition.sourceUrl) } }) { Text("Open official source ↗", color = Cyan) }
+                country?.let { c ->
+                    val source = if (s.definition.sourceName.contains("WGI")) 3 else 2
+                    val apiUrl = "https://api.worldbank.org/v2/country/${c.iso3}/indicator/${s.definition.id}?format=json&source=$source&date=2000:${java.time.Year.now().value}&per_page=100"
+                    TextButton(onClick = { runCatching { uri.openUri(apiUrl) } }) { Text("Inspect source API data ↗", color = Cyan) }
+                }
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    listOf("5Y", "10Y", "ALL").forEach { FilterChip(selected = range == it, onClick = { range = it }, label = { Text(it) }) }
+                }
+            }
+            item { LineChart(shown, Modifier.fillMaxWidth().height(210.dp), Violet, axes = true, showLabels = true) }
+            item {
+                Text("Annual observations", color = Color.White, fontWeight = FontWeight.Bold)
+                Text("${s.definition.unit} · as supplied by the source; missing years are not filled", color = Muted, fontSize = 12.sp)
+            }
+            items(shown.asReversed()) { p ->
+                Row(Modifier.fillMaxWidth().padding(vertical = 5.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Text(p.year.toString(), color = Muted)
+                    Text(p.value.exactValue(), Modifier.weight(1f), color = Color.White, fontWeight = FontWeight.SemiBold, textAlign = androidx.compose.ui.text.style.TextAlign.End)
+                }
+            }
+        }
+    }
+}
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable private fun TrustSheet(close: () -> Unit) { ModalBottomSheet(onDismissRequest = close, containerColor = Panel) { Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) { Text("How to read ATLAS", color = Color.White, fontSize = 22.sp, fontWeight = FontWeight.Bold); Text("Official annual metrics can lag publication cycles. Missing years remain missing; ATLAS does not interpolate or forecast.", color = Muted); Text("Briefing items are reported by their publishers and are not independently verified here.", color = Muted); TextButton(onClick = close) { Text("Understood", color = Cyan) } } } }
@@ -227,19 +288,64 @@ private fun MetricDetail(s: MetricSeries, close: () -> Unit) { val uri = LocalUr
 @Composable
 private fun LineChart(points: List<Observation>, modifier: Modifier, color: Color, axes: Boolean = true, showLabels: Boolean = false) {
     Canvas(modifier.semantics { contentDescription = "Annual observation line chart" }) {
-        if (points.isEmpty()) return@Canvas
-        val sorted = points.sortedBy { it.year }
-        val minValue = sorted.minOf { it.value }; val maxValue = sorted.maxOf { it.value }; val span = max(maxValue - minValue, 1e-12)
-        val minYear = sorted.first().year; val maxYear = max(sorted.last().year, minYear + 1); val yearSpan = (maxYear - minYear).toFloat()
-        val left = if (showLabels) 42f else 0f; val right = size.width; val top = 8f; val bottom = if (showLabels) size.height - 24f else size.height - 4f
-        fun point(p: Observation) = Offset(left + (p.year - minYear) / yearSpan * (right - left), bottom - ((p.value - minValue) / span).toFloat() * (bottom - top))
-        if (axes) { drawLine(Muted.copy(.3f), Offset(left, bottom), Offset(right, bottom)); drawLine(Muted.copy(.2f), Offset(left, top), Offset(left, bottom)) }
-        val path = Path(); sorted.forEachIndexed { i, p -> val pt = point(p); val gap = i > 0 && p.year - sorted[i - 1].year > 1; if (i == 0 || gap) path.moveTo(pt.x, pt.y) else path.lineTo(pt.x, pt.y) }; drawPath(path, color, style = Stroke(width = 3f))
-        if (sorted.size == 1 || !axes) sorted.forEach { drawCircle(color = color, radius = 3f, center = point(it)) }
-        if (showLabels) { drawContext.canvas.nativeCanvas.apply { val paint = android.graphics.Paint().apply { this.color = android.graphics.Color.LTGRAY; textSize = 10f; isAntiAlias = true }; drawText(minValue.exactValue(), 2f, top + 10f, paint); drawText(maxValue.exactValue(), 2f, bottom, paint); drawText(minYear.toString(), left, size.height - 4f, paint); drawText(maxYear.toString(), right - 34f, size.height - 4f, paint) } }
+        val sorted = points.filter { it.value.isFinite() }.sortedBy { it.year }
+        if (sorted.isEmpty()) return@Canvas
+        val rawMin = sorted.minOf { it.value }
+        val rawMax = sorted.maxOf { it.value }
+        val padding = if (rawMin == rawMax) max(kotlin.math.abs(rawMin) * .05, 1.0) else (rawMax - rawMin) * .08
+        val minValue = rawMin - padding
+        val maxValue = rawMax + padding
+        val span = maxValue - minValue
+        val minYear = sorted.first().year
+        val maxYear = sorted.last().year
+        val yearSpan = max(maxYear - minYear, 1).toFloat()
+        val textPaint = android.graphics.Paint(android.graphics.Paint.ANTI_ALIAS_FLAG).apply {
+            this.color = android.graphics.Color.rgb(142, 165, 191)
+            textSize = 10.sp.toPx()
+        }
+        val upper = maxValue.displayValue()
+        val lower = minValue.displayValue()
+        val left = if (showLabels) max(textPaint.measureText(upper), textPaint.measureText(lower)) + 10.dp.toPx() else 3.dp.toPx()
+        val right = size.width - 8.dp.toPx()
+        val top = 10.dp.toPx()
+        val bottom = size.height - if (showLabels) 24.dp.toPx() else 4.dp.toPx()
+        fun point(p: Observation): Offset {
+            val x = if (minYear == maxYear) (left + right) / 2 else left + (p.year - minYear) / yearSpan * (right - left)
+            return Offset(x, bottom - ((p.value - minValue) / span).toFloat() * (bottom - top))
+        }
+        if (axes) {
+            listOf(0f, .5f, 1f).forEach { fraction ->
+                val y = top + (bottom - top) * fraction
+                drawLine(Muted.copy(.16f), Offset(left, y), Offset(right, y), strokeWidth = 1.dp.toPx())
+            }
+        }
+        val path = Path()
+        sorted.forEachIndexed { i, p ->
+            val pt = point(p)
+            if (i == 0 || p.year - sorted[i - 1].year > 1) path.moveTo(pt.x, pt.y) else path.lineTo(pt.x, pt.y)
+        }
+        drawPath(path, color, style = Stroke(width = 2.dp.toPx(), cap = StrokeCap.Round))
+        sorted.forEach { drawCircle(color = color, radius = if (axes) 2.5.dp.toPx() else 1.5.dp.toPx(), center = point(it)) }
+        if (showLabels) {
+            drawContext.canvas.nativeCanvas.apply {
+                drawText(upper, 0f, top + textPaint.textSize / 2, textPaint)
+                drawText(lower, 0f, bottom, textPaint)
+                drawText(minYear.toString(), left, size.height - 4.dp.toPx(), textPaint)
+                if (maxYear != minYear) drawText(maxYear.toString(), right - textPaint.measureText(maxYear.toString()), size.height - 4.dp.toPx(), textPaint)
+            }
+        }
     }
 }
 
 private fun filtered(points: List<Observation>, range: String): List<Observation> { if (range == "ALL" || points.isEmpty()) return points; val last = points.maxOf { it.year }; val years = if (range == "5Y") 5 else 10; return points.filter { it.year >= last - years + 1 } }
 private fun Double.exactValue(): String = BigDecimal.valueOf(this).stripTrailingZeros().toPlainString()
-private fun Double.displayValue(): String = exactValue()
+private fun Double.displayValue(): String {
+    val magnitude = kotlin.math.abs(this)
+    return when {
+        magnitude >= 1e12 -> String.format(Locale.US, "%.2fT", this / 1e12)
+        magnitude >= 1e9 -> String.format(Locale.US, "%.2fB", this / 1e9)
+        magnitude >= 1e6 -> String.format(Locale.US, "%.2fM", this / 1e6)
+        magnitude >= 1e3 -> String.format(Locale.US, "%.1fK", this / 1e3)
+        else -> String.format(Locale.US, "%.2f", this)
+    }
+}
