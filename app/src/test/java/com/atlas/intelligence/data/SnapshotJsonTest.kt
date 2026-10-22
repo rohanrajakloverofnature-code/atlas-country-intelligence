@@ -5,18 +5,28 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class SnapshotJsonTest {
-    @Test fun bundledSnapshotHasEightCountriesAndUsefulSeries() {
+    @Test fun bundledSnapshotHasGlobalCountriesAndUsefulSeries() {
         val asset = java.io.File("app/src/main/assets/snapshot.json").let { if (it.isFile) it else java.io.File("src/main/assets/snapshot.json") }
         val text = asset.readText()
         val root = JSONObject(text)
         val series = root.getJSONObject("series")
-        assertTrue(series.length() >= 8)
+        assertTrue(series.length() == 217)
         listOf("IND", "USA", "CHN").forEach { iso ->
             val country = series.getJSONObject(iso)
             assertTrue(country.length() >= 15)
             val gdp = country.getJSONObject("NY.GDP.MKTP.CD").getJSONArray("points")
             assertTrue(gdp.length() > 0)
             for (i in 0 until gdp.length()) assertTrue(gdp.getJSONObject(i).has("value"))
+        }
+    }
+
+    @Test fun eachSelectableCountryHasASmallPopulatedOfflineAsset() {
+        val assets = java.io.File("app/src/main/assets").let { if (it.isDirectory) it else java.io.File("src/main/assets") }
+        val countries = JSONObject(java.io.File(assets, "countries.json").readText()).getJSONArray("countries")
+        for (i in 0 until countries.length()) {
+            val iso = countries.getJSONObject(i).getString("iso3")
+            val country = JSONObject(java.io.File(assets, "snapshots/$iso.json").readText()).getJSONObject("series").getJSONObject(iso)
+            assertTrue("No offline observations for $iso", country.length() > 0)
         }
     }
 

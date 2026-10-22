@@ -12,7 +12,7 @@ Atlas brings official annual statistics, historical charts, source provenance an
 - Filter history to 5 years, 10 years or all available observations. Missing years are not invented.
 - Save countries in an on-device watchlist.
 - Read country-matched publisher headlines and open original articles externally.
-- Use bundled official-data snapshots and the last successful device cache when the API is unavailable.
+- Use bundled official-data histories for all 217 countries/economies, including India, and the last successful device cache when the API is unavailable. The initial global bundle contains 6,095 indicator-country series and 144,396 observations; individual indicators still have coverage gaps.
 
 ## Run it
 
@@ -47,6 +47,8 @@ Opening a country or returning to the app checks its cached statistics. If obser
 New official observations do **not** require an app-store update while the provider’s indicator/API schema remains compatible. Each metric shows its actual observation year, dataset update date and retrieval timestamp. A newly retrieved dataset can still contain older annual observations. Failed requests preserve valid cached history, with a visible note. Missing values remain missing.
 
 Publisher briefings load on country selection and can refresh on app resume after 15 minutes, or immediately through Refresh. This is on-use updating, not continuous background monitoring or a push-alert service. The app cannot show data before its source publishes it; source corrections and revised estimates can change historical values.
+
+To rebuild the bundled data for a future app release, run `python3 tools/refresh_global_snapshot.py`, `python3 tools/refresh_metadata.py`, and then `python3 tools/split_snapshot.py`. The app reads a small country-specific asset rather than parsing the entire global history on each country switch.
 
 ## This is a first release, not an exhaustive intelligence terminal
 
