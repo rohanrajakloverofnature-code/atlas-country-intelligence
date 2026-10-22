@@ -1,5 +1,6 @@
 package com.atlas.intelligence
 
+import androidx.compose.ui.graphics.asAndroidBitmap
 import androidx.compose.ui.test.*
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import org.junit.Rule
@@ -21,15 +22,21 @@ class AtlasUiSmokeTest {
             compose.onAllNodesWithText("India").fetchSemanticsNodes().isNotEmpty()
         }
         compose.onNodeWithText("India").assertIsDisplayed()
-        compose.onNodeWithContentDescription("Indicators").performClick()
+        runCatching {
+            val image = compose.onRoot().captureToImage().asAndroidBitmap()
+            val output = java.io.File("build/outputs/previews/atlas-overview.png")
+            output.parentFile.mkdirs()
+            output.outputStream().use { image.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, it) }
+        }
+        compose.onNodeWithContentDescription("Indicators", useUnmergedTree = true).performClick()
         compose.onNodeWithText("Explore sourced annual measures").assertIsDisplayed()
-        compose.onNodeWithContentDescription("Watchlist").performClick()
+        compose.onNodeWithContentDescription("Watchlist", useUnmergedTree = true).performClick()
         compose.onNodeWithText("Your saved country lens").assertIsDisplayed()
-        compose.onNodeWithContentDescription("Overview").performClick()
+        compose.onNodeWithContentDescription("Overview", useUnmergedTree = true).performClick()
         compose.onNodeWithContentDescription("About data").performClick()
         compose.onNodeWithText("How to read ATLAS").assertIsDisplayed()
         compose.onNodeWithText("Understood").performClick()
-        compose.onNodeWithContentDescription("Choose country").performClick()
+        compose.onNodeWithContentDescription("Choose country", useUnmergedTree = true).performClick()
         compose.onNodeWithText("Search countries").assertExists()
     }
 }

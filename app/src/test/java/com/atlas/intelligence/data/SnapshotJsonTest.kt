@@ -6,7 +6,8 @@ import org.junit.Test
 
 class SnapshotJsonTest {
     @Test fun bundledSnapshotHasEightCountriesAndUsefulSeries() {
-        val text = java.io.File("app/src/main/assets/snapshot.json").readText()
+        val asset = java.io.File("app/src/main/assets/snapshot.json").let { if (it.isFile) it else java.io.File("src/main/assets/snapshot.json") }
+        val text = asset.readText()
         val root = JSONObject(text)
         val series = root.getJSONObject("series")
         assertTrue(series.length() >= 8)
