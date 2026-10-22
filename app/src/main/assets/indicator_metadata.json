@@ -1,0 +1,639 @@
+{
+  "provenance": {
+    "source": "World Bank Indicators API v2 indicator metadata",
+    "fetchedAt": "2026-10-22T18:45:37.908692+00:00",
+    "note": "Original providers and methodology reproduced from official metadata; absent fields remain unavailable."
+  },
+  "indicators": {
+    "NY.GDP.MKTP.KD.ZG": {
+      "id": "NY.GDP.MKTP.KD.ZG",
+      "name": "GDP growth (annual %)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. This indicator denotes the percentage change over each previous year of the constant price (base year 2015) series in United States dollars.",
+      "sourceOrganization": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+      "topics": [
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.KD.ZG?format=json&source=2"
+    },
+    "NY.GDP.MKTP.CD": {
+      "id": "NY.GDP.MKTP.CD",
+      "name": "GDP (current US$)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States dollars.",
+      "sourceOrganization": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+      "topics": [
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD?format=json&source=2"
+    },
+    "NY.GDP.PCAP.CD": {
+      "id": "NY.GDP.PCAP.CD",
+      "name": "GDP per capita (current US$)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. The core indicator has been divided by the general population to achieve a per capita estimate.This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States dollars.",
+      "sourceOrganization": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+      "topics": [
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/NY.GDP.PCAP.CD?format=json&source=2"
+    },
+    "FP.CPI.TOTL.ZG": {
+      "id": "FP.CPI.TOTL.ZG",
+      "name": "Inflation, consumer prices (annual %)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Inflation as measured by the consumer price index reflects the annual percentage change in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly.",
+      "sourceOrganization": "International Financial Statistics database, International Monetary Fund (IMF)",
+      "topics": [
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        },
+        {
+          "id": "7",
+          "value": "Financial Sector "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/FP.CPI.TOTL.ZG?format=json&source=2"
+    },
+    "SL.UEM.TOTL.ZS": {
+      "id": "SL.UEM.TOTL.ZS",
+      "name": "Unemployment, total (% of total labor force) (modeled ILO estimate)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Unemployment refers to the share of the labor force that is without work but available for and seeking employment.",
+      "sourceOrganization": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+      "topics": [
+        {
+          "id": "4",
+          "value": "Education "
+        },
+        {
+          "id": "10",
+          "value": "Social Protection & Labor"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/SL.UEM.TOTL.ZS?format=json&source=2"
+    },
+    "SL.UEM.1524.ZS": {
+      "id": "SL.UEM.1524.ZS",
+      "name": "Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment.",
+      "sourceOrganization": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+      "topics": [
+        {
+          "id": "10",
+          "value": "Social Protection & Labor"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/SL.UEM.1524.ZS?format=json&source=2"
+    },
+    "NE.EXP.GNFS.ZS": {
+      "id": "NE.EXP.GNFS.ZS",
+      "name": "Exports of goods and services (% of GDP)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Exports of goods includes changes in the economic ownership of goods from residents of the compiling economy to non-residents, irrespective of physical movement of goods across national borders. Exports of services includes services provided by residents to non-residents. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory during an accounting period.",
+      "sourceOrganization": "Country official statistics, National Statistical Offices (NSOs);\nNational Accounts data files, Central Banks;\nStaff estimates, World Bank (WB)",
+      "topics": [
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        },
+        {
+          "id": "21",
+          "value": "Trade"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/NE.EXP.GNFS.ZS?format=json&source=2"
+    },
+    "NE.IMP.GNFS.ZS": {
+      "id": "NE.IMP.GNFS.ZS",
+      "name": "Imports of goods and services (% of GDP)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Imports of goods includes change in the economic ownership of goods from non-residents to\n\n\n\n\nresidents of the compiling economy, irrespective of physical movement of goods across national borders. Imports of services includes services provided by non-residents to residents. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory during an accounting period.",
+      "sourceOrganization": "Country official statistics, National Statistical Offices (NSOs);\nNational Accounts data files, Central Banks;\nStaff estimates, World Bank (WB)",
+      "topics": [
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        },
+        {
+          "id": "21",
+          "value": "Trade"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/NE.IMP.GNFS.ZS?format=json&source=2"
+    },
+    "BX.KLT.DINV.WD.GD.ZS": {
+      "id": "BX.KLT.DINV.WD.GD.ZS",
+      "name": "Foreign direct investment, net inflows (% of GDP)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Foreign direct investment is the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital, reinvestment of earnings, other long-term capital, and short-term capital as shown in the balance of payments. This series shows net inflows (new investment inflows less disinvestment) in the reporting economy from foreign investors, and is divided by GDP.",
+      "sourceOrganization": "International Financial Statistics and Balance of Payments databases, International Monetary Fund (IMF);\nInternational Debt Statistics, World Bank (WB);\nWorld Bank GDP estimates, World Bank (WB);\nOECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)",
+      "topics": [
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        },
+        {
+          "id": "7",
+          "value": "Financial Sector "
+        },
+        {
+          "id": "19",
+          "value": "Climate Change"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/BX.KLT.DINV.WD.GD.ZS?format=json&source=2"
+    },
+    "GC.DOD.TOTL.GD.ZS": {
+      "id": "GC.DOD.TOTL.GD.ZS",
+      "name": "Central government debt, total (% of GDP)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding on a particular date. It includes domestic and foreign liabilities such as currency and money deposits, securities other than shares, and loans. It is the gross amount of government liabilities reduced by the amount of equity and financial derivatives held by the government. Because debt is a stock rather than a flow, it is measured as of a given date, usually the last day of the fiscal year. Central government is the part of general government that includes all administrative departments of the national executive, legislative, and judicial functions, other central agencies and those non-market producers controlled by the central government, whose competence extends normally over the whole economic territory. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory during an accounting period.",
+      "sourceOrganization": "Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF)",
+      "topics": [
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        },
+        {
+          "id": "13",
+          "value": "Public Sector "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/GC.DOD.TOTL.GD.ZS?format=json&source=2"
+    },
+    "DT.DOD.DECT.CD": {
+      "id": "DT.DOD.DECT.CD",
+      "name": "External debt stocks, total (DOD, current US$)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Total external debt is debt owed to nonresidents repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Data are in current U.S. dollars.",
+      "sourceOrganization": "International Debt Statistics, World Bank (WB)",
+      "topics": [
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        },
+        {
+          "id": "20",
+          "value": "External Debt"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/DT.DOD.DECT.CD?format=json&source=2"
+    },
+    "CM.MKT.LCAP.GD.ZS": {
+      "id": "CM.MKT.LCAP.GD.ZS",
+      "name": "Market capitalization of listed domestic companies (% of GDP)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Market capitalization (also known as market value) is the share price times the number of shares outstanding (including their several classes) for listed domestic companies. Investment funds, unit trusts, and companies whose only business goal is to hold shares of other listed companies are excluded. Data are end of year values.",
+      "sourceOrganization": "World Federation of Exchanges database, World Federation of Exchanges (WFE)",
+      "topics": [
+        {
+          "id": "7",
+          "value": "Financial Sector "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/CM.MKT.LCAP.GD.ZS?format=json&source=2"
+    },
+    "IT.NET.USER.ZS": {
+      "id": "IT.NET.USER.ZS",
+      "name": "Individuals using the Internet (% of population)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Internet users are individuals who have used the Internet (from any location) in the last 3 months. The Internet can be used via a computer, mobile phone, personal digital assistant, games machine, digital TV etc.",
+      "sourceOrganization": "World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU), uri: https://datahub.itu.int/",
+      "topics": [
+        {
+          "id": "9",
+          "value": "Infrastructure "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/IT.NET.USER.ZS?format=json&source=2"
+    },
+    "IT.CEL.SETS.P2": {
+      "id": "IT.CEL.SETS.P2",
+      "name": "Mobile cellular subscriptions (per 100 people)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service that provide access to the PSTN using cellular technology. The indicator includes (and is split into) the number of postpaid subscriptions, and the number of active prepaid accounts (i.e. that have been used during the last three months). The indicator applies to all mobile cellular subscriptions that offer voice communications. It excludes subscriptions via data cards or USB modems, subscriptions to public mobile data services, private trunked mobile radio, telepoint, radio paging and telemetry services.",
+      "sourceOrganization": "World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU)",
+      "topics": [
+        {
+          "id": "9",
+          "value": "Infrastructure "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/IT.CEL.SETS.P2?format=json&source=2"
+    },
+    "GB.XPD.RSDV.GD.ZS": {
+      "id": "GB.XPD.RSDV.GD.ZS",
+      "name": "Research and development expenditure (% of GDP)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Gross domestic expenditures on research and development (R&D), expressed as a percent of GDP. They include both capital and current expenditures in the four main sectors: Business enterprise, Government, Higher education and Private non-profit. R&D covers basic research, applied research, and experimental development.",
+      "sourceOrganization": "Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources/bulk, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2025-03-26, date published: 2025-02",
+      "topics": [
+        {
+          "id": "14",
+          "value": "Science & Technology "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/GB.XPD.RSDV.GD.ZS?format=json&source=2"
+    },
+    "IP.PAT.RESD": {
+      "id": "IP.PAT.RESD",
+      "name": "Patent applications, residents",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Patent applications are worldwide patent applications filed through the Patent Cooperation Treaty procedure or with a national patent office for exclusive rights for an invention--a product or process that provides a new way of doing something or offers a new technical solution to a problem. A patent provides protection for the invention to the owner of the patent for a limited period, generally 20 years.",
+      "sourceOrganization": "WIPO Patent Report: Statistics on Worldwide Patent Activity, World Intellectual Property Organization (WIPO), note: The International Bureau of WIPO assumes no responsibility with respect to the transformation of these data.",
+      "topics": [
+        {
+          "id": "14",
+          "value": "Science & Technology "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/IP.PAT.RESD?format=json&source=2"
+    },
+    "SP.POP.TOTL": {
+      "id": "SP.POP.TOTL",
+      "name": "Population, total",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.",
+      "sourceOrganization": "World Population Prospects, United Nations (UN), uri: https://population.un.org/wpp/, publisher: UN Population Division;\nStatistical databases and publications from national statistical offices, National Statistical Offices (NSOs), uri: https://unstats.un.org/home/nso_sites/, publisher: National Statistical Offices;\nEurostat: Demographic Statistics, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/data/database?node_code=earn_ses_monthly, publisher: Eurostat;\nPopulation and Vital Statistics Report (various years), United Nations (UN), uri: https://unstats.un.org, publisher: UN Statistics Division",
+      "topics": [
+        {
+          "id": "19",
+          "value": "Climate Change"
+        },
+        {
+          "id": "8",
+          "value": "Health "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL?format=json&source=2"
+    },
+    "SP.DYN.LE00.IN": {
+      "id": "SP.DYN.LE00.IN",
+      "name": "Life expectancy at birth, total (years)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.",
+      "sourceOrganization": "World Population Prospects, United Nations (UN), uri: UN Population Division;\nStatistical databases and publications from national statistical offices, National Statistical Offices (NSOs), note: Derived from male and female life expectancy at birth from sources such as statistical databases and publications from national statistical offices.;\nDemographic Statistics, Eurostat (ESTAT), note: Derived from male and female life expectancy at birth from sources such as Eurostat: Demographic Statistics.",
+      "topics": [
+        {
+          "id": "8",
+          "value": "Health "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/SP.DYN.LE00.IN?format=json&source=2"
+    },
+    "SH.DYN.MORT": {
+      "id": "SH.DYN.MORT",
+      "name": "Mortality rate, under-5 (per 1,000 live births)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.",
+      "sourceOrganization": "UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: www.childmortality.org, publisher: UNICEF, WHO, World Bank, United Nations Population Division;\nWorld Health Organization (WHO), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;\nWorld Bank (WB), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;\nUnited Nations (UN), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation, publisher: UN Population Division",
+      "topics": [
+        {
+          "id": "8",
+          "value": "Health "
+        },
+        {
+          "id": "2",
+          "value": "Aid Effectiveness "
+        },
+        {
+          "id": "19",
+          "value": "Climate Change"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/SH.DYN.MORT?format=json&source=2"
+    },
+    "SH.XPD.CHEX.GD.ZS": {
+      "id": "SH.XPD.CHEX.GD.ZS",
+      "name": "Current health expenditure (% of GDP)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Level of current health expenditure expressed as a percentage of GDP.  Estimates of current health expenditures include healthcare goods and services consumed during each year. This indicator does not include capital health expenditures such as buildings, machinery, IT and stocks of vaccines for emergency or outbreaks.",
+      "sourceOrganization": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
+      "topics": [
+        {
+          "id": "8",
+          "value": "Health "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/SH.XPD.CHEX.GD.ZS?format=json&source=2"
+    },
+    "EG.USE.PCAP.KG.OE": {
+      "id": "EG.USE.PCAP.KG.OE",
+      "name": "Energy use (kg of oil equivalent per capita)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
+      "sourceOrganization": "IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser, publisher: International Energy Agency (IEA), date accessed: 2025-03-25",
+      "topics": [
+        {
+          "id": "5",
+          "value": "Energy & Mining "
+        },
+        {
+          "id": "19",
+          "value": "Climate Change"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/EG.USE.PCAP.KG.OE?format=json&source=2"
+    },
+    "EG.FEC.RNEW.ZS": {
+      "id": "EG.FEC.RNEW.ZS",
+      "name": "Renewable energy consumption (% of total final energy consumption)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Renewable energy consumption is the share of renewable energy in total final energy consumption.",
+      "sourceOrganization": "IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser, publisher: International Energy Agency (IEA), date accessed: 2025-03-25",
+      "topics": [
+        {
+          "id": "5",
+          "value": "Energy & Mining "
+        },
+        {
+          "id": "19",
+          "value": "Climate Change"
+        },
+        {
+          "id": "6",
+          "value": "Environment "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/EG.FEC.RNEW.ZS?format=json&source=2"
+    },
+    "EG.ELC.ACCS.ZS": {
+      "id": "EG.ELC.ACCS.ZS",
+      "name": "Access to electricity (% of population)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.",
+      "sourceOrganization": "SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: https://trackingsdg7.esmap.org/downloads, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date accessed: 2024-05-16, date published: 2023",
+      "topics": [
+        {
+          "id": "5",
+          "value": "Energy & Mining "
+        },
+        {
+          "id": "19",
+          "value": "Climate Change"
+        },
+        {
+          "id": "6",
+          "value": "Environment "
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/EG.ELC.ACCS.ZS?format=json&source=2"
+    },
+    "NV.IND.TOTL.ZS": {
+      "id": "NV.IND.TOTL.ZS",
+      "name": "Industry (including construction), value added (% of GDP)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Industry (including construction) corresponds to ISIC (Rev.4) divisions 05-43. It is comprised of mining, manufacturing, construction, electricity, water, and gas industries. Value added is the contribution to the economy by a producer or an industry or an institutional sector, which is estimated by the total value of output produced and deducting the total value of intermediate consumption of goods and services used to produce that output. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory during an accounting period.",
+      "sourceOrganization": "Country official statistics, National Statistical Offices (NSOs);\nNational Accounts data files, Central Banks;\nStaff estimates, World Bank (WB)",
+      "topics": [
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/NV.IND.TOTL.ZS?format=json&source=2"
+    },
+    "NV.AGR.TOTL.ZS": {
+      "id": "NV.AGR.TOTL.ZS",
+      "name": "Agriculture, forestry, and fishing, value added (% of GDP)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting of timber and other plants, animals or animal products from a farm or their natural habitats.Value added is the contribution to the economy by a producer or an industry or an institutional sector, which is estimated by the total value of output produced and deducting the total value of intermediate consumption of goods and services used to produce that output. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory during an accounting period. Note: For VAB countries, gross value added at factor cost is used as the denominator.",
+      "sourceOrganization": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+      "topics": [
+        {
+          "id": "1",
+          "value": "Agriculture & Rural Development  "
+        },
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        },
+        {
+          "id": "19",
+          "value": "Climate Change"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/NV.AGR.TOTL.ZS?format=json&source=2"
+    },
+    "NY.GNS.ICTR.ZS": {
+      "id": "NY.GNS.ICTR.ZS",
+      "name": "Gross savings (% of GDP)",
+      "unit": "",
+      "source": {
+        "id": "2",
+        "value": "World Development Indicators"
+      },
+      "sourceNote": "Savings is an amount that represents the part of disposable income (adjusted for the\n\n\n\n\n\n\n\n\nchange in pension entitlements) that is not spent on final consumption. Gross savings are calculated as gross national income less total consumption, plus net transfers. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory during an accounting period.",
+      "sourceOrganization": "Country official statistics, National Statistical Offices (NSOs);\nNational Accounts data files, Central Banks;\nStaff estimates, World Bank (WB)",
+      "topics": [
+        {
+          "id": "3",
+          "value": "Economy & Growth"
+        }
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/NY.GNS.ICTR.ZS?format=json&source=2"
+    },
+    "GOV_WGI_VA.EST": {
+      "id": "GOV_WGI_VA.EST",
+      "name": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)",
+      "unit": "",
+      "source": {
+        "id": "3",
+        "value": "Worldwide Governance Indicators"
+      },
+      "sourceNote": "",
+      "sourceOrganization": "",
+      "topics": [
+        {}
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/GOV_WGI_VA.EST?format=json&source=3"
+    },
+    "GOV_WGI_PV.EST": {
+      "id": "GOV_WGI_PV.EST",
+      "name": "Political Stability - Governance estimate (approx. -2.5 to +2.5)",
+      "unit": "",
+      "source": {
+        "id": "3",
+        "value": "Worldwide Governance Indicators"
+      },
+      "sourceNote": "",
+      "sourceOrganization": "",
+      "topics": [
+        {}
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/GOV_WGI_PV.EST?format=json&source=3"
+    },
+    "GOV_WGI_GE.EST": {
+      "id": "GOV_WGI_GE.EST",
+      "name": "Government Effectiveness - Governance estimate (approx. -2.5 to +2.5)",
+      "unit": "",
+      "source": {
+        "id": "3",
+        "value": "Worldwide Governance Indicators"
+      },
+      "sourceNote": "",
+      "sourceOrganization": "",
+      "topics": [
+        {}
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/GOV_WGI_GE.EST?format=json&source=3"
+    },
+    "GOV_WGI_RL.EST": {
+      "id": "GOV_WGI_RL.EST",
+      "name": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)",
+      "unit": "",
+      "source": {
+        "id": "3",
+        "value": "Worldwide Governance Indicators"
+      },
+      "sourceNote": "",
+      "sourceOrganization": "",
+      "topics": [
+        {}
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/GOV_WGI_RL.EST?format=json&source=3"
+    },
+    "GOV_WGI_CC.EST": {
+      "id": "GOV_WGI_CC.EST",
+      "name": "Control of Corruption - Governance estimate (approx. -2.5 to +2.5)",
+      "unit": "",
+      "source": {
+        "id": "3",
+        "value": "Worldwide Governance Indicators"
+      },
+      "sourceNote": "",
+      "sourceOrganization": "",
+      "topics": [
+        {}
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/GOV_WGI_CC.EST?format=json&source=3"
+    },
+    "GOV_WGI_RQ.EST": {
+      "id": "GOV_WGI_RQ.EST",
+      "name": "Regulatory Quality - Governance estimate (approx. -2.5 to +2.5)",
+      "unit": "",
+      "source": {
+        "id": "3",
+        "value": "Worldwide Governance Indicators"
+      },
+      "sourceNote": "",
+      "sourceOrganization": "",
+      "topics": [
+        {}
+      ],
+      "requestUrl": "https://api.worldbank.org/v2/indicator/GOV_WGI_RQ.EST?format=json&source=3"
+    }
+  }
+}
