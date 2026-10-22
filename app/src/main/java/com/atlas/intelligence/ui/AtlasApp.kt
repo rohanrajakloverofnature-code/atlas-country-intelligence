@@ -110,14 +110,15 @@ private fun OverviewScreen(state: AtlasState, open: (MetricSeries) -> Unit, vm: 
         EmptyState(if (state.loading) "Loading country intelligence" else "Country data unavailable", if (state.loading) "Fetching sourced annual observations" else "No dashboard was returned. Retry to try again.", state.loading, if (!state.loading) vm::refresh else null)
         return
     }
-    val gdp = dashboard.series.firstOrNull { it.definition.id.contains("NY.GDP.MKTP.CD") || it.definition.title.contains("GDP", true) }
+    val gdp = dashboard.series.firstOrNull { it.definition.id == "NY.GDP.MKTP.CD" }
     LazyColumn(contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
         item { Hero(dashboard.country) }
         dashboard.warnings.forEach { warning -> item { WarningText(warning) } }
         item { SectionTitle("Signal overview", "Annual observations · not live") }
         gdp?.let { item { GdpCard(it, open) } }
         item { Text("Key indicators", color = Color.White, fontSize = 16.sp, fontWeight = FontWeight.Bold) }
-        val key = dashboard.series.filter { it !== gdp }.take(4)
+        val keyIds = listOf("NY.GDP.MKTP.KD.ZG", "FP.CPI.TOTL.ZG", "BX.KLT.DINV.WD.GD.ZS", "SP.POP.TOTL")
+        val key = keyIds.mapNotNull { id -> dashboard.series.firstOrNull { it.definition.id == id } }
         items(key.chunked(2)) { row -> Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) { row.forEach { MetricCard(it, open, Modifier.weight(1f)) }; if (row.size == 1) Spacer(Modifier.weight(1f)) } }
         item { TextButton(onClick = { vm.selectTab("Indicators") }) { Text("Explore full indicator catalog  →", color = Cyan) } }
     }
@@ -195,10 +196,37 @@ private fun SourceLine(source: String, updated: String = "", retrieved: String =
 
 @Composable
 private fun IndicatorsScreen(state: AtlasState, open: (MetricSeries) -> Unit) {
-    val categories = remember(state.selected?.iso3, state.dashboard) { state.dashboard?.series?.map { it.definition.category }?.distinct().orEmpty() }
+    val categories = remember { MetricCatalog.all.map { it.category }.distinct() }
     var category by remember(state.selected?.iso3) { mutableStateOf("All") }
     val series = state.dashboard?.series.orEmpty().filter { category == "All" || it.definition.category == category }
-    LazyColumn(contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) { item { Text("Indicators", color = Color.White, fontSize = 28.sp, fontWeight = FontWeight.Bold); Text("Explore sourced annual measures", color = Muted) }; item { Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) { (listOf("All") + categories).forEach { FilterChip(selected = category == it, onClick = { category = it }, label = { Text(it.replaceFirstChar { c -> c.uppercase() }) }) } } }; if (series.isEmpty()) item { EmptyState("No indicators available", "This country has no matching observations in the current snapshot", false) }; items(series) { MetricCard(it, open, Modifier.fillMaxWidth()) } }
+    val availableIds = state.dashboard?.series.orEmpty().map { it.definition.id }.toSet()
+    val missing = MetricCatalog.all.filter { (category == "All" || it.category == category) && it.id !in availableIds }
+    LazyColumn(contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        item {
+            Text("Indicators", color = Color.White, fontSize = 28.sp, fontWeight = FontWeight.Bold)
+            Text("Explore sourced annual measures", color = Muted)
+            Text("${availableIds.size} of ${MetricCatalog.all.size} catalog indicators have observations", color = Cyan, fontSize = 12.sp, modifier = Modifier.padding(top = 8.dp))
+        }
+        item {
+            Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                (listOf("All") + categories).forEach { name -> FilterChip(selected = category == name, onClick = { category = name }, label = { Text(name) }) }
+            }
+        }
+        if (state.loading) item { LinearProgressIndicator(Modifier.fillMaxWidth(), color = Cyan) }
+        items(series, key = { it.definition.id }) { MetricCard(it, open, Modifier.fillMaxWidth()) }
+        if (missing.isNotEmpty() && !state.loading) {
+            item { SectionTitle("Coverage gaps", "Unavailable is not zero · try Refresh for newer coverage") }
+            items(missing, key = { "missing_${it.id}" }) { definition ->
+                Surface(color = Panel, shape = RoundedCornerShape(14.dp), modifier = Modifier.fillMaxWidth()) {
+                    Column(Modifier.padding(16.dp)) {
+                        Text(definition.title, color = Color.White, fontWeight = FontWeight.SemiBold)
+                        Text("No sourced observations in the current dataset/cache", color = Muted, fontSize = 12.sp)
+                        Text("${definition.id} · ${definition.sourceName}", color = Muted, fontSize = 10.sp)
+                    }
+                }
+            }
+        }
+    }
 }
 
 @Composable
@@ -250,6 +278,8 @@ private fun MetricDetail(s: MetricSeries, country: Country?, close: () -> Unit) 
                 Text(s.definition.title, color = Color.White, fontSize = 23.sp, fontWeight = FontWeight.Bold)
                 Text(s.definition.description, color = Muted, fontSize = 13.sp)
                 SourceLine(s.definition.sourceName, s.lastUpdated, s.retrievedAt, s.cached)
+                if (s.definition.sourceOrganization.isNotBlank()) Text("Original providers: ${s.definition.sourceOrganization}", color = Muted, fontSize = 12.sp)
+                if (s.definition.sourceNote.isNotBlank()) Text(s.definition.sourceNote, color = Muted, fontSize = 12.sp)
                 Text("Indicator: ${s.definition.id} · ${s.definition.unit}", color = Muted, fontSize = 12.sp)
                 TextButton(onClick = { runCatching { uri.openUri(s.definition.sourceUrl) } }) { Text("Open official source ↗", color = Cyan) }
                 country?.let { c ->

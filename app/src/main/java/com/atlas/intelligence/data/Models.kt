@@ -1,7 +1,7 @@
 package com.atlas.intelligence.data
 
 data class Country(val iso3: String, val iso2: String, val name: String, val region: String, val capital: String, val income: String)
-data class MetricDefinition(val id: String, val title: String, val category: String, val unit: String, val description: String, val sourceName: String = "World Bank", val sourceUrl: String = "https://data.worldbank.org/indicator/$id")
+data class MetricDefinition(val id: String, val title: String, val category: String, val unit: String, val description: String, val sourceName: String = "World Bank", val sourceUrl: String = "https://data.worldbank.org/indicator/$id", val sourceOrganization: String = "", val sourceNote: String = "")
 data class Observation(val year: Int, val value: Double)
 data class MetricSeries(val definition: MetricDefinition, val points: List<Observation>, val lastUpdated: String = "", val retrievedAt: String = "", val cached: Boolean = false)
 data class NewsItem(val title: String, val url: String, val publisher: String, val publishedAt: String)
