@@ -1,0 +1,1745 @@
+{
+  "provenance": {
+    "source": "World Bank Countries API",
+    "requestUrl": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "fetchedAt": "2026-10-22T18:24:27.084052Z"
+  },
+  "countries": [
+    {
+      "iso3": "AFG",
+      "iso2": "AF",
+      "name": "Afghanistan",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Kabul",
+      "income": ""
+    },
+    {
+      "iso3": "ALB",
+      "iso2": "AL",
+      "name": "Albania",
+      "region": "Europe & Central Asia",
+      "capital": "Tirane",
+      "income": ""
+    },
+    {
+      "iso3": "DZA",
+      "iso2": "DZ",
+      "name": "Algeria",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Algiers",
+      "income": ""
+    },
+    {
+      "iso3": "ASM",
+      "iso2": "AS",
+      "name": "American Samoa",
+      "region": "East Asia & Pacific",
+      "capital": "Pago Pago",
+      "income": ""
+    },
+    {
+      "iso3": "AND",
+      "iso2": "AD",
+      "name": "Andorra",
+      "region": "Europe & Central Asia",
+      "capital": "Andorra la Vella",
+      "income": ""
+    },
+    {
+      "iso3": "AGO",
+      "iso2": "AO",
+      "name": "Angola",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Luanda",
+      "income": ""
+    },
+    {
+      "iso3": "ATG",
+      "iso2": "AG",
+      "name": "Antigua and Barbuda",
+      "region": "Latin America & Caribbean ",
+      "capital": "Saint John's",
+      "income": ""
+    },
+    {
+      "iso3": "ARG",
+      "iso2": "AR",
+      "name": "Argentina",
+      "region": "Latin America & Caribbean ",
+      "capital": "Buenos Aires",
+      "income": ""
+    },
+    {
+      "iso3": "ARM",
+      "iso2": "AM",
+      "name": "Armenia",
+      "region": "Europe & Central Asia",
+      "capital": "Yerevan",
+      "income": ""
+    },
+    {
+      "iso3": "ABW",
+      "iso2": "AW",
+      "name": "Aruba",
+      "region": "Latin America & Caribbean ",
+      "capital": "Oranjestad",
+      "income": ""
+    },
+    {
+      "iso3": "AUS",
+      "iso2": "AU",
+      "name": "Australia",
+      "region": "East Asia & Pacific",
+      "capital": "Canberra",
+      "income": ""
+    },
+    {
+      "iso3": "AUT",
+      "iso2": "AT",
+      "name": "Austria",
+      "region": "Europe & Central Asia",
+      "capital": "Vienna",
+      "income": ""
+    },
+    {
+      "iso3": "AZE",
+      "iso2": "AZ",
+      "name": "Azerbaijan",
+      "region": "Europe & Central Asia",
+      "capital": "Baku",
+      "income": ""
+    },
+    {
+      "iso3": "BHS",
+      "iso2": "BS",
+      "name": "Bahamas, The",
+      "region": "Latin America & Caribbean ",
+      "capital": "Nassau",
+      "income": ""
+    },
+    {
+      "iso3": "BHR",
+      "iso2": "BH",
+      "name": "Bahrain",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Manama",
+      "income": ""
+    },
+    {
+      "iso3": "BGD",
+      "iso2": "BD",
+      "name": "Bangladesh",
+      "region": "South Asia",
+      "capital": "Dhaka",
+      "income": ""
+    },
+    {
+      "iso3": "BRB",
+      "iso2": "BB",
+      "name": "Barbados",
+      "region": "Latin America & Caribbean ",
+      "capital": "Bridgetown",
+      "income": ""
+    },
+    {
+      "iso3": "BLR",
+      "iso2": "BY",
+      "name": "Belarus",
+      "region": "Europe & Central Asia",
+      "capital": "Minsk",
+      "income": ""
+    },
+    {
+      "iso3": "BEL",
+      "iso2": "BE",
+      "name": "Belgium",
+      "region": "Europe & Central Asia",
+      "capital": "Brussels",
+      "income": ""
+    },
+    {
+      "iso3": "BLZ",
+      "iso2": "BZ",
+      "name": "Belize",
+      "region": "Latin America & Caribbean ",
+      "capital": "Belmopan",
+      "income": ""
+    },
+    {
+      "iso3": "BEN",
+      "iso2": "BJ",
+      "name": "Benin",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Porto-Novo",
+      "income": ""
+    },
+    {
+      "iso3": "BMU",
+      "iso2": "BM",
+      "name": "Bermuda",
+      "region": "North America",
+      "capital": "Hamilton",
+      "income": ""
+    },
+    {
+      "iso3": "BTN",
+      "iso2": "BT",
+      "name": "Bhutan",
+      "region": "South Asia",
+      "capital": "Thimphu",
+      "income": ""
+    },
+    {
+      "iso3": "BOL",
+      "iso2": "BO",
+      "name": "Bolivia",
+      "region": "Latin America & Caribbean ",
+      "capital": "La Paz",
+      "income": ""
+    },
+    {
+      "iso3": "BIH",
+      "iso2": "BA",
+      "name": "Bosnia and Herzegovina",
+      "region": "Europe & Central Asia",
+      "capital": "Sarajevo",
+      "income": ""
+    },
+    {
+      "iso3": "BWA",
+      "iso2": "BW",
+      "name": "Botswana",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Gaborone",
+      "income": ""
+    },
+    {
+      "iso3": "BRA",
+      "iso2": "BR",
+      "name": "Brazil",
+      "region": "Latin America & Caribbean ",
+      "capital": "Brasilia",
+      "income": ""
+    },
+    {
+      "iso3": "VGB",
+      "iso2": "VG",
+      "name": "British Virgin Islands",
+      "region": "Latin America & Caribbean ",
+      "capital": "Road Town",
+      "income": ""
+    },
+    {
+      "iso3": "BRN",
+      "iso2": "BN",
+      "name": "Brunei Darussalam",
+      "region": "East Asia & Pacific",
+      "capital": "Bandar Seri Begawan",
+      "income": ""
+    },
+    {
+      "iso3": "BGR",
+      "iso2": "BG",
+      "name": "Bulgaria",
+      "region": "Europe & Central Asia",
+      "capital": "Sofia",
+      "income": ""
+    },
+    {
+      "iso3": "BFA",
+      "iso2": "BF",
+      "name": "Burkina Faso",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Ouagadougou",
+      "income": ""
+    },
+    {
+      "iso3": "BDI",
+      "iso2": "BI",
+      "name": "Burundi",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Bujumbura",
+      "income": ""
+    },
+    {
+      "iso3": "CPV",
+      "iso2": "CV",
+      "name": "Cabo Verde",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Praia",
+      "income": ""
+    },
+    {
+      "iso3": "KHM",
+      "iso2": "KH",
+      "name": "Cambodia",
+      "region": "East Asia & Pacific",
+      "capital": "Phnom Penh",
+      "income": ""
+    },
+    {
+      "iso3": "CMR",
+      "iso2": "CM",
+      "name": "Cameroon",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Yaounde",
+      "income": ""
+    },
+    {
+      "iso3": "CAN",
+      "iso2": "CA",
+      "name": "Canada",
+      "region": "North America",
+      "capital": "Ottawa",
+      "income": ""
+    },
+    {
+      "iso3": "CYM",
+      "iso2": "KY",
+      "name": "Cayman Islands",
+      "region": "Latin America & Caribbean ",
+      "capital": "George Town",
+      "income": ""
+    },
+    {
+      "iso3": "CAF",
+      "iso2": "CF",
+      "name": "Central African Republic",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Bangui",
+      "income": ""
+    },
+    {
+      "iso3": "TCD",
+      "iso2": "TD",
+      "name": "Chad",
+      "region": "Sub-Saharan Africa ",
+      "capital": "N'Djamena",
+      "income": ""
+    },
+    {
+      "iso3": "CHI",
+      "iso2": "JG",
+      "name": "Channel Islands",
+      "region": "Europe & Central Asia",
+      "capital": "",
+      "income": ""
+    },
+    {
+      "iso3": "CHL",
+      "iso2": "CL",
+      "name": "Chile",
+      "region": "Latin America & Caribbean ",
+      "capital": "Santiago",
+      "income": ""
+    },
+    {
+      "iso3": "CHN",
+      "iso2": "CN",
+      "name": "China",
+      "region": "East Asia & Pacific",
+      "capital": "Beijing",
+      "income": ""
+    },
+    {
+      "iso3": "COL",
+      "iso2": "CO",
+      "name": "Colombia",
+      "region": "Latin America & Caribbean ",
+      "capital": "Bogota",
+      "income": ""
+    },
+    {
+      "iso3": "COM",
+      "iso2": "KM",
+      "name": "Comoros",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Moroni",
+      "income": ""
+    },
+    {
+      "iso3": "COD",
+      "iso2": "CD",
+      "name": "Congo, Dem. Rep.",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Kinshasa",
+      "income": ""
+    },
+    {
+      "iso3": "COG",
+      "iso2": "CG",
+      "name": "Congo, Rep.",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Brazzaville",
+      "income": ""
+    },
+    {
+      "iso3": "CRI",
+      "iso2": "CR",
+      "name": "Costa Rica",
+      "region": "Latin America & Caribbean ",
+      "capital": "San Jose",
+      "income": ""
+    },
+    {
+      "iso3": "CIV",
+      "iso2": "CI",
+      "name": "Cote d'Ivoire",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Yamoussoukro",
+      "income": ""
+    },
+    {
+      "iso3": "HRV",
+      "iso2": "HR",
+      "name": "Croatia",
+      "region": "Europe & Central Asia",
+      "capital": "Zagreb",
+      "income": ""
+    },
+    {
+      "iso3": "CUB",
+      "iso2": "CU",
+      "name": "Cuba",
+      "region": "Latin America & Caribbean ",
+      "capital": "Havana",
+      "income": ""
+    },
+    {
+      "iso3": "CUW",
+      "iso2": "CW",
+      "name": "Curacao",
+      "region": "Latin America & Caribbean ",
+      "capital": "Willemstad",
+      "income": ""
+    },
+    {
+      "iso3": "CYP",
+      "iso2": "CY",
+      "name": "Cyprus",
+      "region": "Europe & Central Asia",
+      "capital": "Nicosia",
+      "income": ""
+    },
+    {
+      "iso3": "CZE",
+      "iso2": "CZ",
+      "name": "Czechia",
+      "region": "Europe & Central Asia",
+      "capital": "Prague",
+      "income": ""
+    },
+    {
+      "iso3": "DNK",
+      "iso2": "DK",
+      "name": "Denmark",
+      "region": "Europe & Central Asia",
+      "capital": "Copenhagen",
+      "income": ""
+    },
+    {
+      "iso3": "DJI",
+      "iso2": "DJ",
+      "name": "Djibouti",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Djibouti",
+      "income": ""
+    },
+    {
+      "iso3": "DMA",
+      "iso2": "DM",
+      "name": "Dominica",
+      "region": "Latin America & Caribbean ",
+      "capital": "Roseau",
+      "income": ""
+    },
+    {
+      "iso3": "DOM",
+      "iso2": "DO",
+      "name": "Dominican Republic",
+      "region": "Latin America & Caribbean ",
+      "capital": "Santo Domingo",
+      "income": ""
+    },
+    {
+      "iso3": "ECU",
+      "iso2": "EC",
+      "name": "Ecuador",
+      "region": "Latin America & Caribbean ",
+      "capital": "Quito",
+      "income": ""
+    },
+    {
+      "iso3": "EGY",
+      "iso2": "EG",
+      "name": "Egypt, Arab Rep.",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Cairo",
+      "income": ""
+    },
+    {
+      "iso3": "SLV",
+      "iso2": "SV",
+      "name": "El Salvador",
+      "region": "Latin America & Caribbean ",
+      "capital": "San Salvador",
+      "income": ""
+    },
+    {
+      "iso3": "GNQ",
+      "iso2": "GQ",
+      "name": "Equatorial Guinea",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Malabo",
+      "income": ""
+    },
+    {
+      "iso3": "ERI",
+      "iso2": "ER",
+      "name": "Eritrea",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Asmara",
+      "income": ""
+    },
+    {
+      "iso3": "EST",
+      "iso2": "EE",
+      "name": "Estonia",
+      "region": "Europe & Central Asia",
+      "capital": "Tallinn",
+      "income": ""
+    },
+    {
+      "iso3": "SWZ",
+      "iso2": "SZ",
+      "name": "Eswatini",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Mbabane",
+      "income": ""
+    },
+    {
+      "iso3": "ETH",
+      "iso2": "ET",
+      "name": "Ethiopia",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Addis Ababa",
+      "income": ""
+    },
+    {
+      "iso3": "FRO",
+      "iso2": "FO",
+      "name": "Faroe Islands",
+      "region": "Europe & Central Asia",
+      "capital": "Torshavn",
+      "income": ""
+    },
+    {
+      "iso3": "FJI",
+      "iso2": "FJ",
+      "name": "Fiji",
+      "region": "East Asia & Pacific",
+      "capital": "Suva",
+      "income": ""
+    },
+    {
+      "iso3": "FIN",
+      "iso2": "FI",
+      "name": "Finland",
+      "region": "Europe & Central Asia",
+      "capital": "Helsinki",
+      "income": ""
+    },
+    {
+      "iso3": "FRA",
+      "iso2": "FR",
+      "name": "France",
+      "region": "Europe & Central Asia",
+      "capital": "Paris",
+      "income": ""
+    },
+    {
+      "iso3": "PYF",
+      "iso2": "PF",
+      "name": "French Polynesia",
+      "region": "East Asia & Pacific",
+      "capital": "Papeete",
+      "income": ""
+    },
+    {
+      "iso3": "GAB",
+      "iso2": "GA",
+      "name": "Gabon",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Libreville",
+      "income": ""
+    },
+    {
+      "iso3": "GMB",
+      "iso2": "GM",
+      "name": "Gambia, The",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Banjul",
+      "income": ""
+    },
+    {
+      "iso3": "GEO",
+      "iso2": "GE",
+      "name": "Georgia",
+      "region": "Europe & Central Asia",
+      "capital": "Tbilisi",
+      "income": ""
+    },
+    {
+      "iso3": "DEU",
+      "iso2": "DE",
+      "name": "Germany",
+      "region": "Europe & Central Asia",
+      "capital": "Berlin",
+      "income": ""
+    },
+    {
+      "iso3": "GHA",
+      "iso2": "GH",
+      "name": "Ghana",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Accra",
+      "income": ""
+    },
+    {
+      "iso3": "GIB",
+      "iso2": "GI",
+      "name": "Gibraltar",
+      "region": "Europe & Central Asia",
+      "capital": "",
+      "income": ""
+    },
+    {
+      "iso3": "GRC",
+      "iso2": "GR",
+      "name": "Greece",
+      "region": "Europe & Central Asia",
+      "capital": "Athens",
+      "income": ""
+    },
+    {
+      "iso3": "GRL",
+      "iso2": "GL",
+      "name": "Greenland",
+      "region": "Europe & Central Asia",
+      "capital": "Nuuk",
+      "income": ""
+    },
+    {
+      "iso3": "GRD",
+      "iso2": "GD",
+      "name": "Grenada",
+      "region": "Latin America & Caribbean ",
+      "capital": "Saint George's",
+      "income": ""
+    },
+    {
+      "iso3": "GUM",
+      "iso2": "GU",
+      "name": "Guam",
+      "region": "East Asia & Pacific",
+      "capital": "Agana",
+      "income": ""
+    },
+    {
+      "iso3": "GTM",
+      "iso2": "GT",
+      "name": "Guatemala",
+      "region": "Latin America & Caribbean ",
+      "capital": "Guatemala City",
+      "income": ""
+    },
+    {
+      "iso3": "GIN",
+      "iso2": "GN",
+      "name": "Guinea",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Conakry",
+      "income": ""
+    },
+    {
+      "iso3": "GNB",
+      "iso2": "GW",
+      "name": "Guinea-Bissau",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Bissau",
+      "income": ""
+    },
+    {
+      "iso3": "GUY",
+      "iso2": "GY",
+      "name": "Guyana",
+      "region": "Latin America & Caribbean ",
+      "capital": "Georgetown",
+      "income": ""
+    },
+    {
+      "iso3": "HTI",
+      "iso2": "HT",
+      "name": "Haiti",
+      "region": "Latin America & Caribbean ",
+      "capital": "Port-au-Prince",
+      "income": ""
+    },
+    {
+      "iso3": "HND",
+      "iso2": "HN",
+      "name": "Honduras",
+      "region": "Latin America & Caribbean ",
+      "capital": "Tegucigalpa",
+      "income": ""
+    },
+    {
+      "iso3": "HKG",
+      "iso2": "HK",
+      "name": "Hong Kong SAR, China",
+      "region": "East Asia & Pacific",
+      "capital": "",
+      "income": ""
+    },
+    {
+      "iso3": "HUN",
+      "iso2": "HU",
+      "name": "Hungary",
+      "region": "Europe & Central Asia",
+      "capital": "Budapest",
+      "income": ""
+    },
+    {
+      "iso3": "ISL",
+      "iso2": "IS",
+      "name": "Iceland",
+      "region": "Europe & Central Asia",
+      "capital": "Reykjavik",
+      "income": ""
+    },
+    {
+      "iso3": "IND",
+      "iso2": "IN",
+      "name": "India",
+      "region": "South Asia",
+      "capital": "New Delhi",
+      "income": ""
+    },
+    {
+      "iso3": "IDN",
+      "iso2": "ID",
+      "name": "Indonesia",
+      "region": "East Asia & Pacific",
+      "capital": "Jakarta",
+      "income": ""
+    },
+    {
+      "iso3": "IRN",
+      "iso2": "IR",
+      "name": "Iran, Islamic Rep.",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Tehran",
+      "income": ""
+    },
+    {
+      "iso3": "IRQ",
+      "iso2": "IQ",
+      "name": "Iraq",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Baghdad",
+      "income": ""
+    },
+    {
+      "iso3": "IRL",
+      "iso2": "IE",
+      "name": "Ireland",
+      "region": "Europe & Central Asia",
+      "capital": "Dublin",
+      "income": ""
+    },
+    {
+      "iso3": "IMN",
+      "iso2": "IM",
+      "name": "Isle of Man",
+      "region": "Europe & Central Asia",
+      "capital": "Douglas",
+      "income": ""
+    },
+    {
+      "iso3": "ISR",
+      "iso2": "IL",
+      "name": "Israel",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "",
+      "income": ""
+    },
+    {
+      "iso3": "ITA",
+      "iso2": "IT",
+      "name": "Italy",
+      "region": "Europe & Central Asia",
+      "capital": "Rome",
+      "income": ""
+    },
+    {
+      "iso3": "JAM",
+      "iso2": "JM",
+      "name": "Jamaica",
+      "region": "Latin America & Caribbean ",
+      "capital": "Kingston",
+      "income": ""
+    },
+    {
+      "iso3": "JPN",
+      "iso2": "JP",
+      "name": "Japan",
+      "region": "East Asia & Pacific",
+      "capital": "Tokyo",
+      "income": ""
+    },
+    {
+      "iso3": "JOR",
+      "iso2": "JO",
+      "name": "Jordan",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Amman",
+      "income": ""
+    },
+    {
+      "iso3": "KAZ",
+      "iso2": "KZ",
+      "name": "Kazakhstan",
+      "region": "Europe & Central Asia",
+      "capital": "Astana",
+      "income": ""
+    },
+    {
+      "iso3": "KEN",
+      "iso2": "KE",
+      "name": "Kenya",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Nairobi",
+      "income": ""
+    },
+    {
+      "iso3": "KIR",
+      "iso2": "KI",
+      "name": "Kiribati",
+      "region": "East Asia & Pacific",
+      "capital": "Tarawa",
+      "income": ""
+    },
+    {
+      "iso3": "PRK",
+      "iso2": "KP",
+      "name": "Korea, Dem. People's Rep.",
+      "region": "East Asia & Pacific",
+      "capital": "Pyongyang",
+      "income": ""
+    },
+    {
+      "iso3": "KOR",
+      "iso2": "KR",
+      "name": "Korea, Rep.",
+      "region": "East Asia & Pacific",
+      "capital": "Seoul",
+      "income": ""
+    },
+    {
+      "iso3": "XKX",
+      "iso2": "XK",
+      "name": "Kosovo",
+      "region": "Europe & Central Asia",
+      "capital": "Pristina",
+      "income": ""
+    },
+    {
+      "iso3": "KWT",
+      "iso2": "KW",
+      "name": "Kuwait",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Kuwait City",
+      "income": ""
+    },
+    {
+      "iso3": "KGZ",
+      "iso2": "KG",
+      "name": "Kyrgyz Republic",
+      "region": "Europe & Central Asia",
+      "capital": "Bishkek",
+      "income": ""
+    },
+    {
+      "iso3": "LAO",
+      "iso2": "LA",
+      "name": "Lao PDR",
+      "region": "East Asia & Pacific",
+      "capital": "Vientiane",
+      "income": ""
+    },
+    {
+      "iso3": "LVA",
+      "iso2": "LV",
+      "name": "Latvia",
+      "region": "Europe & Central Asia",
+      "capital": "Riga",
+      "income": ""
+    },
+    {
+      "iso3": "LBN",
+      "iso2": "LB",
+      "name": "Lebanon",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Beirut",
+      "income": ""
+    },
+    {
+      "iso3": "LSO",
+      "iso2": "LS",
+      "name": "Lesotho",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Maseru",
+      "income": ""
+    },
+    {
+      "iso3": "LBR",
+      "iso2": "LR",
+      "name": "Liberia",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Monrovia",
+      "income": ""
+    },
+    {
+      "iso3": "LBY",
+      "iso2": "LY",
+      "name": "Libya",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Tripoli",
+      "income": ""
+    },
+    {
+      "iso3": "LIE",
+      "iso2": "LI",
+      "name": "Liechtenstein",
+      "region": "Europe & Central Asia",
+      "capital": "Vaduz",
+      "income": ""
+    },
+    {
+      "iso3": "LTU",
+      "iso2": "LT",
+      "name": "Lithuania",
+      "region": "Europe & Central Asia",
+      "capital": "Vilnius",
+      "income": ""
+    },
+    {
+      "iso3": "LUX",
+      "iso2": "LU",
+      "name": "Luxembourg",
+      "region": "Europe & Central Asia",
+      "capital": "Luxembourg",
+      "income": ""
+    },
+    {
+      "iso3": "MAC",
+      "iso2": "MO",
+      "name": "Macao SAR, China",
+      "region": "East Asia & Pacific",
+      "capital": "",
+      "income": ""
+    },
+    {
+      "iso3": "MDG",
+      "iso2": "MG",
+      "name": "Madagascar",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Antananarivo",
+      "income": ""
+    },
+    {
+      "iso3": "MWI",
+      "iso2": "MW",
+      "name": "Malawi",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Lilongwe",
+      "income": ""
+    },
+    {
+      "iso3": "MYS",
+      "iso2": "MY",
+      "name": "Malaysia",
+      "region": "East Asia & Pacific",
+      "capital": "Kuala Lumpur",
+      "income": ""
+    },
+    {
+      "iso3": "MDV",
+      "iso2": "MV",
+      "name": "Maldives",
+      "region": "South Asia",
+      "capital": "Male",
+      "income": ""
+    },
+    {
+      "iso3": "MLI",
+      "iso2": "ML",
+      "name": "Mali",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Bamako",
+      "income": ""
+    },
+    {
+      "iso3": "MLT",
+      "iso2": "MT",
+      "name": "Malta",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Valletta",
+      "income": ""
+    },
+    {
+      "iso3": "MHL",
+      "iso2": "MH",
+      "name": "Marshall Islands",
+      "region": "East Asia & Pacific",
+      "capital": "Majuro",
+      "income": ""
+    },
+    {
+      "iso3": "MRT",
+      "iso2": "MR",
+      "name": "Mauritania",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Nouakchott",
+      "income": ""
+    },
+    {
+      "iso3": "MUS",
+      "iso2": "MU",
+      "name": "Mauritius",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Port Louis",
+      "income": ""
+    },
+    {
+      "iso3": "MEX",
+      "iso2": "MX",
+      "name": "Mexico",
+      "region": "Latin America & Caribbean ",
+      "capital": "Mexico City",
+      "income": ""
+    },
+    {
+      "iso3": "FSM",
+      "iso2": "FM",
+      "name": "Micronesia, Fed. Sts.",
+      "region": "East Asia & Pacific",
+      "capital": "Palikir",
+      "income": ""
+    },
+    {
+      "iso3": "MDA",
+      "iso2": "MD",
+      "name": "Moldova",
+      "region": "Europe & Central Asia",
+      "capital": "Chisinau",
+      "income": ""
+    },
+    {
+      "iso3": "MCO",
+      "iso2": "MC",
+      "name": "Monaco",
+      "region": "Europe & Central Asia",
+      "capital": "Monaco",
+      "income": ""
+    },
+    {
+      "iso3": "MNG",
+      "iso2": "MN",
+      "name": "Mongolia",
+      "region": "East Asia & Pacific",
+      "capital": "Ulaanbaatar",
+      "income": ""
+    },
+    {
+      "iso3": "MNE",
+      "iso2": "ME",
+      "name": "Montenegro",
+      "region": "Europe & Central Asia",
+      "capital": "Podgorica",
+      "income": ""
+    },
+    {
+      "iso3": "MAR",
+      "iso2": "MA",
+      "name": "Morocco",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Rabat",
+      "income": ""
+    },
+    {
+      "iso3": "MOZ",
+      "iso2": "MZ",
+      "name": "Mozambique",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Maputo",
+      "income": ""
+    },
+    {
+      "iso3": "MMR",
+      "iso2": "MM",
+      "name": "Myanmar",
+      "region": "East Asia & Pacific",
+      "capital": "Naypyidaw",
+      "income": ""
+    },
+    {
+      "iso3": "NAM",
+      "iso2": "NA",
+      "name": "Namibia",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Windhoek",
+      "income": ""
+    },
+    {
+      "iso3": "NRU",
+      "iso2": "NR",
+      "name": "Naoero",
+      "region": "East Asia & Pacific",
+      "capital": "Yaren District",
+      "income": ""
+    },
+    {
+      "iso3": "NPL",
+      "iso2": "NP",
+      "name": "Nepal",
+      "region": "South Asia",
+      "capital": "Kathmandu",
+      "income": ""
+    },
+    {
+      "iso3": "NLD",
+      "iso2": "NL",
+      "name": "Netherlands",
+      "region": "Europe & Central Asia",
+      "capital": "Amsterdam",
+      "income": ""
+    },
+    {
+      "iso3": "NCL",
+      "iso2": "NC",
+      "name": "New Caledonia",
+      "region": "East Asia & Pacific",
+      "capital": "Noum'ea",
+      "income": ""
+    },
+    {
+      "iso3": "NZL",
+      "iso2": "NZ",
+      "name": "New Zealand",
+      "region": "East Asia & Pacific",
+      "capital": "Wellington",
+      "income": ""
+    },
+    {
+      "iso3": "NIC",
+      "iso2": "NI",
+      "name": "Nicaragua",
+      "region": "Latin America & Caribbean ",
+      "capital": "Managua",
+      "income": ""
+    },
+    {
+      "iso3": "NER",
+      "iso2": "NE",
+      "name": "Niger",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Niamey",
+      "income": ""
+    },
+    {
+      "iso3": "NGA",
+      "iso2": "NG",
+      "name": "Nigeria",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Abuja",
+      "income": ""
+    },
+    {
+      "iso3": "MKD",
+      "iso2": "MK",
+      "name": "North Macedonia",
+      "region": "Europe & Central Asia",
+      "capital": "Skopje",
+      "income": ""
+    },
+    {
+      "iso3": "MNP",
+      "iso2": "MP",
+      "name": "Northern Mariana Islands",
+      "region": "East Asia & Pacific",
+      "capital": "Saipan",
+      "income": ""
+    },
+    {
+      "iso3": "NOR",
+      "iso2": "NO",
+      "name": "Norway",
+      "region": "Europe & Central Asia",
+      "capital": "Oslo",
+      "income": ""
+    },
+    {
+      "iso3": "OMN",
+      "iso2": "OM",
+      "name": "Oman",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Muscat",
+      "income": ""
+    },
+    {
+      "iso3": "PAK",
+      "iso2": "PK",
+      "name": "Pakistan",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Islamabad",
+      "income": ""
+    },
+    {
+      "iso3": "PLW",
+      "iso2": "PW",
+      "name": "Palau",
+      "region": "East Asia & Pacific",
+      "capital": "Koror",
+      "income": ""
+    },
+    {
+      "iso3": "PAN",
+      "iso2": "PA",
+      "name": "Panama",
+      "region": "Latin America & Caribbean ",
+      "capital": "Panama City",
+      "income": ""
+    },
+    {
+      "iso3": "PNG",
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "region": "East Asia & Pacific",
+      "capital": "Port Moresby",
+      "income": ""
+    },
+    {
+      "iso3": "PRY",
+      "iso2": "PY",
+      "name": "Paraguay",
+      "region": "Latin America & Caribbean ",
+      "capital": "Asuncion",
+      "income": ""
+    },
+    {
+      "iso3": "PER",
+      "iso2": "PE",
+      "name": "Peru",
+      "region": "Latin America & Caribbean ",
+      "capital": "Lima",
+      "income": ""
+    },
+    {
+      "iso3": "PHL",
+      "iso2": "PH",
+      "name": "Philippines",
+      "region": "East Asia & Pacific",
+      "capital": "Manila",
+      "income": ""
+    },
+    {
+      "iso3": "POL",
+      "iso2": "PL",
+      "name": "Poland",
+      "region": "Europe & Central Asia",
+      "capital": "Warsaw",
+      "income": ""
+    },
+    {
+      "iso3": "PRT",
+      "iso2": "PT",
+      "name": "Portugal",
+      "region": "Europe & Central Asia",
+      "capital": "Lisbon",
+      "income": ""
+    },
+    {
+      "iso3": "PRI",
+      "iso2": "PR",
+      "name": "Puerto Rico (US)",
+      "region": "Latin America & Caribbean ",
+      "capital": "San Juan",
+      "income": ""
+    },
+    {
+      "iso3": "QAT",
+      "iso2": "QA",
+      "name": "Qatar",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Doha",
+      "income": ""
+    },
+    {
+      "iso3": "ROU",
+      "iso2": "RO",
+      "name": "Romania",
+      "region": "Europe & Central Asia",
+      "capital": "Bucharest",
+      "income": ""
+    },
+    {
+      "iso3": "RUS",
+      "iso2": "RU",
+      "name": "Russian Federation",
+      "region": "Europe & Central Asia",
+      "capital": "Moscow",
+      "income": ""
+    },
+    {
+      "iso3": "RWA",
+      "iso2": "RW",
+      "name": "Rwanda",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Kigali",
+      "income": ""
+    },
+    {
+      "iso3": "WSM",
+      "iso2": "WS",
+      "name": "Samoa",
+      "region": "East Asia & Pacific",
+      "capital": "Apia",
+      "income": ""
+    },
+    {
+      "iso3": "SMR",
+      "iso2": "SM",
+      "name": "San Marino",
+      "region": "Europe & Central Asia",
+      "capital": "San Marino",
+      "income": ""
+    },
+    {
+      "iso3": "STP",
+      "iso2": "ST",
+      "name": "Sao Tome and Principe",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Sao Tome",
+      "income": ""
+    },
+    {
+      "iso3": "SAU",
+      "iso2": "SA",
+      "name": "Saudi Arabia",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Riyadh",
+      "income": ""
+    },
+    {
+      "iso3": "SEN",
+      "iso2": "SN",
+      "name": "Senegal",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Dakar",
+      "income": ""
+    },
+    {
+      "iso3": "SRB",
+      "iso2": "RS",
+      "name": "Serbia",
+      "region": "Europe & Central Asia",
+      "capital": "Belgrade",
+      "income": ""
+    },
+    {
+      "iso3": "SYC",
+      "iso2": "SC",
+      "name": "Seychelles",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Victoria",
+      "income": ""
+    },
+    {
+      "iso3": "SLE",
+      "iso2": "SL",
+      "name": "Sierra Leone",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Freetown",
+      "income": ""
+    },
+    {
+      "iso3": "SGP",
+      "iso2": "SG",
+      "name": "Singapore",
+      "region": "East Asia & Pacific",
+      "capital": "Singapore",
+      "income": ""
+    },
+    {
+      "iso3": "SXM",
+      "iso2": "SX",
+      "name": "Sint Maarten (Dutch part)",
+      "region": "Latin America & Caribbean ",
+      "capital": "Philipsburg",
+      "income": ""
+    },
+    {
+      "iso3": "SVK",
+      "iso2": "SK",
+      "name": "Slovak Republic",
+      "region": "Europe & Central Asia",
+      "capital": "Bratislava",
+      "income": ""
+    },
+    {
+      "iso3": "SVN",
+      "iso2": "SI",
+      "name": "Slovenia",
+      "region": "Europe & Central Asia",
+      "capital": "Ljubljana",
+      "income": ""
+    },
+    {
+      "iso3": "SLB",
+      "iso2": "SB",
+      "name": "Solomon Islands",
+      "region": "East Asia & Pacific",
+      "capital": "Honiara",
+      "income": ""
+    },
+    {
+      "iso3": "SOM",
+      "iso2": "SO",
+      "name": "Somalia, Fed. Rep.",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Mogadishu",
+      "income": ""
+    },
+    {
+      "iso3": "ZAF",
+      "iso2": "ZA",
+      "name": "South Africa",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Pretoria",
+      "income": ""
+    },
+    {
+      "iso3": "SSD",
+      "iso2": "SS",
+      "name": "South Sudan",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Juba",
+      "income": ""
+    },
+    {
+      "iso3": "ESP",
+      "iso2": "ES",
+      "name": "Spain",
+      "region": "Europe & Central Asia",
+      "capital": "Madrid",
+      "income": ""
+    },
+    {
+      "iso3": "LKA",
+      "iso2": "LK",
+      "name": "Sri Lanka",
+      "region": "South Asia",
+      "capital": "Colombo",
+      "income": ""
+    },
+    {
+      "iso3": "KNA",
+      "iso2": "KN",
+      "name": "St. Kitts and Nevis",
+      "region": "Latin America & Caribbean ",
+      "capital": "Basseterre",
+      "income": ""
+    },
+    {
+      "iso3": "LCA",
+      "iso2": "LC",
+      "name": "St. Lucia",
+      "region": "Latin America & Caribbean ",
+      "capital": "Castries",
+      "income": ""
+    },
+    {
+      "iso3": "MAF",
+      "iso2": "MF",
+      "name": "St. Martin (French part)",
+      "region": "Latin America & Caribbean ",
+      "capital": "Marigot",
+      "income": ""
+    },
+    {
+      "iso3": "VCT",
+      "iso2": "VC",
+      "name": "St. Vincent and the Grenadines",
+      "region": "Latin America & Caribbean ",
+      "capital": "Kingstown",
+      "income": ""
+    },
+    {
+      "iso3": "SDN",
+      "iso2": "SD",
+      "name": "Sudan",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Khartoum",
+      "income": ""
+    },
+    {
+      "iso3": "SUR",
+      "iso2": "SR",
+      "name": "Suriname",
+      "region": "Latin America & Caribbean ",
+      "capital": "Paramaribo",
+      "income": ""
+    },
+    {
+      "iso3": "SWE",
+      "iso2": "SE",
+      "name": "Sweden",
+      "region": "Europe & Central Asia",
+      "capital": "Stockholm",
+      "income": ""
+    },
+    {
+      "iso3": "CHE",
+      "iso2": "CH",
+      "name": "Switzerland",
+      "region": "Europe & Central Asia",
+      "capital": "Bern",
+      "income": ""
+    },
+    {
+      "iso3": "SYR",
+      "iso2": "SY",
+      "name": "Syrian Arab Republic",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Damascus",
+      "income": ""
+    },
+    {
+      "iso3": "TJK",
+      "iso2": "TJ",
+      "name": "Tajikistan",
+      "region": "Europe & Central Asia",
+      "capital": "Dushanbe",
+      "income": ""
+    },
+    {
+      "iso3": "TZA",
+      "iso2": "TZ",
+      "name": "Tanzania",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Dodoma",
+      "income": ""
+    },
+    {
+      "iso3": "THA",
+      "iso2": "TH",
+      "name": "Thailand",
+      "region": "East Asia & Pacific",
+      "capital": "Bangkok",
+      "income": ""
+    },
+    {
+      "iso3": "TLS",
+      "iso2": "TL",
+      "name": "Timor-Leste",
+      "region": "East Asia & Pacific",
+      "capital": "Dili",
+      "income": ""
+    },
+    {
+      "iso3": "TGO",
+      "iso2": "TG",
+      "name": "Togo",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Lome",
+      "income": ""
+    },
+    {
+      "iso3": "TON",
+      "iso2": "TO",
+      "name": "Tonga",
+      "region": "East Asia & Pacific",
+      "capital": "Nuku'alofa",
+      "income": ""
+    },
+    {
+      "iso3": "TTO",
+      "iso2": "TT",
+      "name": "Trinidad and Tobago",
+      "region": "Latin America & Caribbean ",
+      "capital": "Port-of-Spain",
+      "income": ""
+    },
+    {
+      "iso3": "TUN",
+      "iso2": "TN",
+      "name": "Tunisia",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Tunis",
+      "income": ""
+    },
+    {
+      "iso3": "TUR",
+      "iso2": "TR",
+      "name": "Turkiye",
+      "region": "Europe & Central Asia",
+      "capital": "Ankara",
+      "income": ""
+    },
+    {
+      "iso3": "TKM",
+      "iso2": "TM",
+      "name": "Turkmenistan",
+      "region": "Europe & Central Asia",
+      "capital": "Ashgabat",
+      "income": ""
+    },
+    {
+      "iso3": "TCA",
+      "iso2": "TC",
+      "name": "Turks and Caicos Islands",
+      "region": "Latin America & Caribbean ",
+      "capital": "Grand Turk",
+      "income": ""
+    },
+    {
+      "iso3": "TUV",
+      "iso2": "TV",
+      "name": "Tuvalu",
+      "region": "East Asia & Pacific",
+      "capital": "Funafuti",
+      "income": ""
+    },
+    {
+      "iso3": "UGA",
+      "iso2": "UG",
+      "name": "Uganda",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Kampala",
+      "income": ""
+    },
+    {
+      "iso3": "UKR",
+      "iso2": "UA",
+      "name": "Ukraine",
+      "region": "Europe & Central Asia",
+      "capital": "Kiev",
+      "income": ""
+    },
+    {
+      "iso3": "ARE",
+      "iso2": "AE",
+      "name": "United Arab Emirates",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Abu Dhabi",
+      "income": ""
+    },
+    {
+      "iso3": "GBR",
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "region": "Europe & Central Asia",
+      "capital": "London",
+      "income": ""
+    },
+    {
+      "iso3": "USA",
+      "iso2": "US",
+      "name": "United States",
+      "region": "North America",
+      "capital": "Washington D.C.",
+      "income": ""
+    },
+    {
+      "iso3": "URY",
+      "iso2": "UY",
+      "name": "Uruguay",
+      "region": "Latin America & Caribbean ",
+      "capital": "Montevideo",
+      "income": ""
+    },
+    {
+      "iso3": "UZB",
+      "iso2": "UZ",
+      "name": "Uzbekistan",
+      "region": "Europe & Central Asia",
+      "capital": "Tashkent",
+      "income": ""
+    },
+    {
+      "iso3": "VUT",
+      "iso2": "VU",
+      "name": "Vanuatu",
+      "region": "East Asia & Pacific",
+      "capital": "Port-Vila",
+      "income": ""
+    },
+    {
+      "iso3": "VEN",
+      "iso2": "VE",
+      "name": "Venezuela, RB",
+      "region": "Latin America & Caribbean ",
+      "capital": "Caracas",
+      "income": ""
+    },
+    {
+      "iso3": "VNM",
+      "iso2": "VN",
+      "name": "Viet Nam",
+      "region": "East Asia & Pacific",
+      "capital": "Hanoi",
+      "income": ""
+    },
+    {
+      "iso3": "VIR",
+      "iso2": "VI",
+      "name": "Virgin Islands (U.S.)",
+      "region": "Latin America & Caribbean ",
+      "capital": "Charlotte Amalie",
+      "income": ""
+    },
+    {
+      "iso3": "PSE",
+      "iso2": "PS",
+      "name": "West Bank and Gaza",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "",
+      "income": ""
+    },
+    {
+      "iso3": "YEM",
+      "iso2": "YE",
+      "name": "Yemen, Rep.",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "capital": "Sana'a",
+      "income": ""
+    },
+    {
+      "iso3": "ZMB",
+      "iso2": "ZM",
+      "name": "Zambia",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Lusaka",
+      "income": ""
+    },
+    {
+      "iso3": "ZWE",
+      "iso2": "ZW",
+      "name": "Zimbabwe",
+      "region": "Sub-Saharan Africa ",
+      "capital": "Harare",
+      "income": ""
+    }
+  ]
+}

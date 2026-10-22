@@ -1,0 +1,16 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+*.jks
+*.keystore
+keystore.properties
+.env
+.env.*
+!.env.example
+captures/
+*.log
+__pycache__/
+CONTRACT.md
