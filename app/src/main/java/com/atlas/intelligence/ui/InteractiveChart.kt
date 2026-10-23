@@ -83,10 +83,10 @@ fun InteractiveChart(
                 // These allocations occur only on data/size changes, never on pointer movement.
                 val paths = prepared.map { s -> Path().apply { s.points.forEachIndexed { i, p -> val xy = point(p); if (i == 0 || p.year - s.points[i - 1].year > 1) moveTo(xy.x, xy.y) else lineTo(xy.x, xy.y) } } }
                 val positions = prepared.map { s -> s.points.associate { it.year to point(it) } }
-                val paint = android.graphics.Paint(android.graphics.Paint.ANTI_ALIAS_FLAG).apply { color = android.graphics.Color.rgb(142, 165, 191); textSize = 10.sp.toPx() }
+                val paint = android.graphics.Paint(android.graphics.Paint.ANTI_ALIAS_FLAG).apply { color = android.graphics.Color.rgb(173, 165, 187); textSize = 10.sp.toPx() }
                 onDrawBehind {
                     if (years.isNotEmpty()) {
-                        if (axes) for (f in listOf(0f, .5f, 1f)) drawLine(Color(0x298EA5BF), Offset(left, top + (bottom - top) * f), Offset(right, top + (bottom - top) * f), 1.dp.toPx())
+                        if (axes) for (f in listOf(0f, .5f, 1f)) drawLine(Color(0x29342C45), Offset(left, top + (bottom - top) * f), Offset(right, top + (bottom - top) * f), 1.dp.toPx())
                         prepared.forEachIndexed { i, s ->
                             drawPath(paths[i], s.color, style = Stroke(2.dp.toPx(), cap = StrokeCap.Round))
                             if (axes || s.points.size == 1) positions[i].values.forEach { drawCircle(s.color, 2.5.dp.toPx(), it) }
@@ -105,7 +105,7 @@ fun InteractiveChart(
                     }
                 }
             })
-        Text(selectionText, color = if (selectedYear == null) Color(0xFF8EA5BF) else Color.White,
+        Text(selectionText, color = if (selectedYear == null) Color(0xFFADA5BB) else Color.White,
             fontSize = 11.sp, maxLines = if (axes) max(3, prepared.size) else 1, overflow = TextOverflow.Ellipsis,
             modifier = Modifier.padding(top = 4.dp))
     }

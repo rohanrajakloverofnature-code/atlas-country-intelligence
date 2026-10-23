@@ -4,8 +4,8 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:allowBackup="false"
-        android:icon="@drawable/ic_atlas"
-        android:roundIcon="@drawable/ic_atlas"
+        android:icon="@mipmap/ic_atlas"
+        android:roundIcon="@mipmap/ic_atlas"
         android:label="Atlas"
         android:supportsRtl="true"
         android:usesCleartextTraffic="false"

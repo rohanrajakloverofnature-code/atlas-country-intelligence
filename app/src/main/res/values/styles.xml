@@ -3,10 +3,10 @@
     <style name="Theme.Atlas" parent="android:style/Theme.Material.NoActionBar">
         <item name="android:fontFamily">sans</item>
         <item name="android:windowLightStatusBar">false</item>
-        <item name="android:statusBarColor">#080D1A</item>
-        <item name="android:navigationBarColor">#080D1A</item>
+        <item name="android:statusBarColor">@color/atlas_ink</item>
+        <item name="android:navigationBarColor">@color/atlas_ink</item>
         <item name="android:windowActionModeOverlay">true</item>
-        <item name="android:windowBackground">#080D1A</item>
-        <item name="android:colorAccent">#65E3DA</item>
+        <item name="android:windowBackground">@color/atlas_ink</item>
+        <item name="android:colorAccent">@color/atlas_violet</item>
     </style>
 </resources>

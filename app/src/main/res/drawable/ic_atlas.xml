@@ -1,5 +1,30 @@
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
-    <path android:fillColor="#080D1A" android:pathData="M0,0h108v108h-108z" />
-    <path android:fillColor="@android:color/transparent" android:strokeColor="#65E3DA" android:strokeWidth="2.4" android:pathData="M54,22a32,32 0,1 0,0.1 0M22,54h64M54,22c-19,16 -19,48 0,64M54,22c19,16 19,48 0,64M28,37h52M28,71h52" />
-    <path android:fillColor="#080D1A" android:pathData="M39,65L54,33L69,65L62,65L54,47L46,65Z" />
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Dark ink tile keeps the legacy drawable legible on pre-26 launchers. -->
+    <path
+        android:fillColor="@color/atlas_ink"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Orbital compass ring. -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/atlas_lavender"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:pathData="M54,19a35,35 0,1 0,0.1 0M19,54h70M54,19c-20,17 -20,52 0,70M54,19c20,17 20,52 0,70" />
+
+    <!-- Faceted A / north-pointing compass needle. -->
+    <path
+        android:fillColor="@color/atlas_violet"
+        android:pathData="M54,29L76,73L66,73L60.2,61H47.8L42,73H32L54,29ZM54,43L50.8,54H57.2L54,43Z" />
+
+    <!-- Small orbital node adds a distinctive signal accent. -->
+    <path
+        android:fillColor="@color/atlas_lavender"
+        android:pathData="M83,25a4,4 0,1 0,0.1 0" />
 </vector>

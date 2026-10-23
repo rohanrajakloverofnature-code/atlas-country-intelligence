@@ -4,7 +4,20 @@
 
 Atlas brings official annual statistics, historical charts, source provenance and publisher-attributed country briefings into a dark, focused interface. No WebView. No fabricated numbers. No account or API key required.
 
-## Version 0.2.0
+## Version 0.2.1 — Violet edition
+
+A visual refinement of v0.2.0, with its country data, source transparency, comparison tools, charts, briefings, watchlist and refresh behavior preserved.
+
+- Premium violet and lavender accents on warm ink surfaces, with quieter borders and clearer contrast throughout the app.
+- A new geometric Atlas A/compass mark with an orbital motif, including adaptive launcher and Android 13 themed-icon assets.
+- A two-row header gives the brand, country picker, refresh and comparison controls room on compact screens; controls retain accessible descriptions and generous touch targets.
+- Concise, single-line bottom labels (Home, Explore, News, Saved, Compare) replace the previous awkward wrapping; all five destinations are unchanged.
+- A more compact country profile, refined globe artwork and bordered metric cards make the dashboard easier to scan. Blank income labels no longer produce empty chips.
+- Source and freshness notes are grouped under an expandable **Data notes** card. Tap it to read the complete original disclosures; they have not been removed.
+
+The evaluation APK is still development-signed, not a production-signed Play Store release.
+
+### Features carried forward from 0.2.0
 
 The original World Bank catalog, country directory and all 217 bundled country histories are unchanged. India's 2025 annual CPI inflation was checked against the official WDI API: `2.39884954182294%`, displayed rounded as `2.40%` (dataset updated 2026-10-08). Metric details expose the source API, units, original precision and observation year.
 

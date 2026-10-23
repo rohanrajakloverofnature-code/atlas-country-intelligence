@@ -29,8 +29,8 @@ fun RankLine(series: MetricSeries, countryIso: String?) {
     rank?.let { result ->
         Column {
             Text("Calculated rank ${result.rank} of ${result.denominator} · ${result.year}", color = Color(0xFFB6ABFF), fontSize = 11.sp)
-            Text("Reporting economies · ${if (result.direction == RankDirection.HIGHER) "highest" else "lowest"} first", color = Color(0xFF8EA5BF), fontSize = 10.sp)
-            Text("Bundled World Bank snapshot · not an official published rank", color = Color(0xFF8EA5BF), fontSize = 9.sp)
+            Text("Reporting economies · ${if (result.direction == RankDirection.HIGHER) "highest" else "lowest"} first", color = Color(0xFFADA5BB), fontSize = 10.sp)
+            Text("Bundled World Bank snapshot · not an official published rank", color = Color(0xFFADA5BB), fontSize = 9.sp)
         }
     }
 }
