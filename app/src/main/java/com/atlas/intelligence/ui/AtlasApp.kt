@@ -444,7 +444,7 @@ private fun BottomNav(tab: String, select: (String) -> Unit) {
                 NavigationBarItem(
                     selected = tab == name, onClick = { select(name) },
                     icon = { Icon(icon, name, Modifier.size(22.dp)) },
-                    label = { Text(when (name) { "Overview" -> "Home"; "Indicators" -> "Explore"; "Briefing" -> "News"; "Watchlist" -> "Saved"; else -> "Compare" }, fontSize = 9.sp, lineHeight = 12.sp, maxLines = 1, softWrap = false, overflow = TextOverflow.Ellipsis, fontWeight = if (tab == name) FontWeight.SemiBold else FontWeight.Normal) },
+                    label = { Text(when (name) { "Overview" -> "Home"; "Indicators" -> "Explore"; "Briefing" -> "News"; "Watchlist" -> "Saved"; else -> "Compare" }, modifier = Modifier.requiredWidth(60.dp), textAlign = androidx.compose.ui.text.style.TextAlign.Center, letterSpacing = 0.sp, fontSize = 10.sp, lineHeight = 12.sp, maxLines = 1, softWrap = false, overflow = TextOverflow.Ellipsis, fontWeight = if (tab == name) FontWeight.SemiBold else FontWeight.Normal) },
                     colors = NavigationBarItemDefaults.colors(selectedIconColor = Accent, selectedTextColor = Accent, indicatorColor = Color(0xFF35264D), unselectedIconColor = Muted, unselectedTextColor = Muted)
                 )
             }

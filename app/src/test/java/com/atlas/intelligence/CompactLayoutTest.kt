@@ -72,6 +72,13 @@ class CompactLayoutTest {
             compose.onNodeWithContentDescription(destination, useUnmergedTree = true).assertExists()
         }
         compose.onNodeWithText("Compare").assertIsDisplayed()
+        listOf("Home", "Explore", "News", "Saved", "Compare").forEach { label ->
+            compose.onNodeWithText(label).performSemanticsAction(androidx.compose.ui.semantics.SemanticsActions.GetTextLayoutResult) { action ->
+                val layouts = mutableListOf<androidx.compose.ui.text.TextLayoutResult>()
+                assertTrue(action(layouts))
+                assertTrue("$label must not be clipped", layouts.none { it.hasVisualOverflow })
+            }
+        }
 
         compose.onNodeWithContentDescription("Comparison", useUnmergedTree = true).performClick()
         compose.waitUntil(timeoutMillis = 5_000) {
